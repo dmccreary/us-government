@@ -8,12 +8,6 @@ site_description: 'An interactive intelligent textbook on the structure, functio
 site_author: 'Dan McCreary'
 site_url: 'https://dmccreary.github.io/us-government/'
 
-# Hooks — runs local Python before/after page processing
-# social_override.py lets per-page `image:` frontmatter override the auto-
-# generated social card URL for og:image and twitter:image meta tags.
-hooks:
-  - plugins/social_override.py
-
 # Repository
 repo_name: 'GitHub Repo'
 repo_url: 'https://github.com/dmccreary/us-government'
@@ -32,8 +26,18 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      # Add chapter entries here as content is generated, e.g.:
-      # - 1. Introduction: chapters/01-introduction/index.md
+      - 1. Foundations of Democracy: chapters/01-foundations-of-democracy/index.md
+      - 2. Constitution and Bill of Rights: chapters/02-constitution-and-bill-of-rights/index.md
+      - 3. Federalism and Federal Powers: chapters/03-federalism-and-federal-powers/index.md
+      - 4. Congress Structure and Processes: chapters/04-congress-structure-and-processes/index.md
+      - 5. The Presidency: chapters/05-the-presidency/index.md
+      - 6. The Federal Bureaucracy: chapters/06-the-federal-bureaucracy/index.md
+      - 7. The Federal Judiciary: chapters/07-the-federal-judiciary/index.md
+      - 8. Civil Liberties and Civil Rights: chapters/08-civil-liberties-and-civil-rights/index.md
+      - 9. Political Opinion and Media: chapters/09-political-opinion-media-and-civic-reasoning/index.md
+      - 10. Voting and Political Parties: chapters/10-voting-political-parties-and-participation/index.md
+      - 11. Interest Groups and Elections: chapters/11-interest-groups-campaigns-and-elections/index.md
+      - 12. AI and Government: chapters/12-impact-of-ai-on-government/index.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -78,21 +82,21 @@ theme:
 plugins:
   - search
   # Uncomment after running `pip install "mkdocs-material[imaging]"`:
-  # - social
+  - social
   # Uncomment after running `pip install mkdocs-glightbox`:
-  # - glightbox:
-  #     touchNavigation: true
-  #     loop: false
-  #     effect: zoom
-  #     slide_effect: slide
-  #     width: 100%
-  #     height: auto
-  #     zoomable: true
-  #     draggable: true
-  #     auto_caption: false
-  #     caption_position: bottom
-  #     skip_classes:
-  #       - mascot-admonition-img   # keep mascot poses out of the lightbox gallery
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      skip_classes:
+        - mascot-admonition-img   # keep mascot poses out of the lightbox gallery
 
 # Markdown extensions
 markdown_extensions:
@@ -134,6 +138,12 @@ exclude_docs: |
 watch:
   - docs
   - mkdocs.yml
+
+# Hooks — runs local Python before/after page processing
+# social_override.py lets per-page `image:` frontmatter override the auto-
+# generated social card URL for og:image and twitter:image meta tags.
+hooks:
+  - plugins/social_override.py
 
 # Extra
 extra:
