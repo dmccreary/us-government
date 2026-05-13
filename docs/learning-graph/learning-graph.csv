@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Enlightenment Philosophy,,FOUND
+2,Natural Rights Theory,1,FOUND
+3,Social Contract Theory,1,FOUND
+4,Popular Sovereignty,2|3,FOUND
+5,Limited Government,2|3,FOUND
+6,Declaration of Independence,1|2|3,FOUND
+7,Articles of Confederation,,FOUND
+8,Shays' Rebellion,7,FOUND
+9,Constitutional Convention of 1787,7|8,FOUND
+10,Virginia Plan vs New Jersey Plan,9,FOUND
+11,Great Compromise,9|10,FOUND
+12,Three-Fifths Compromise,9,FOUND
+13,Federalists and Antifederalists,9|4,FOUND
+14,Bicameral Legislature,11,FOUND
+15,Republican Government,4|5,FOUND
+16,Constitutional Structure,14|15|17|18|11|12,CONST
+17,Separation of Powers,5|15,CONST
+18,Checks and Balances,17,CONST
+19,Supremacy Clause,16|38,CONST
+20,Necessary and Proper Clause,16|39,CONST
+21,Commerce Clause,16|39,CONST
+22,Full Faith and Credit Clause,16,CONST
+23,Constitutional Amendment Process,16,CONST
+24,Bill of Rights,23|13,CONST
+25,First Amendment,24,CONST
+26,Second Amendment,24,CONST
+27,Fourth Amendment,24,CONST
+28,Fifth Amendment,24,CONST
+29,Sixth Amendment,24,CONST
+30,Eighth Amendment,24,CONST
+31,Fourteenth Amendment,24,CONST
+32,Fifteenth Amendment,31,CONST
+33,Nineteenth Amendment,31,CONST
+34,Twenty-Sixth Amendment,31,CONST
+35,Constitutional Interpretation,16|104,CONST
+36,Originalism,35,CONST
+37,Living Constitution Theory,35,CONST
+38,Federalism,16|17|4,FED
+39,Enumerated Powers,38|16,FED
+40,Reserved Powers,38|16,FED
+41,Concurrent Powers,38|39|40,FED
+42,Dual Federalism,38|39|40,FED
+43,Cooperative Federalism,42,FED
+44,New Federalism,43,FED
+45,Fiscal Federalism,43,FED
+46,Categorical Grants,45,FED
+47,Block Grants,45|46,FED
+48,Unfunded Mandates,46,FED
+49,Nullification Doctrine,38|40,FED
+50,Preemption Doctrine,19|38,FED
+51,Devolution,44,FED
+52,House of Representatives,14|16,CONG
+53,Senate Structure,14|16|11,CONG
+54,Congressional Committees,52|53,CONG
+55,Conference Committees,54|60,CONG
+56,Congressional Leadership,52|53,CONG
+57,Speaker of the House,52|56,CONG
+58,Filibuster,53,CONG
+59,Cloture,58,CONG
+60,Legislative Process,52|53|54,CONG
+61,Committee Markup,54|60,CONG
+62,Presidential Veto,60|70,CONG
+63,Pocket Veto,62,CONG
+64,Veto Override,62|52|53,CONG
+65,Congressional Oversight,52|53|18,CONG
+66,Appropriations Process,60|65,CONG
+67,Gerrymandering,52|68,CONG
+68,Reapportionment and Redistricting,52,CONG
+69,Congressional Caucuses,52|53|161,CONG
+70,Enumerated Presidential Powers,16|17,PRES
+71,Informal Presidential Powers,70,PRES
+72,Executive Orders,70|71,PRES
+73,Treaty-Making Power,70|53,PRES
+74,Commander in Chief Role,70,PRES
+75,War Powers Resolution,74|52|53,PRES
+76,Cabinet,70|91,PRES
+77,Executive Office of the President,70|76,PRES
+78,National Security Council,77,PRES
+79,Office of Management and Budget,77|66,PRES
+80,Presidential Appointments,70,PRES
+81,Executive Privilege,71|18,PRES
+82,Impeachment Process,52|53|18,PRES
+83,Presidential Succession,70,PRES
+84,Going Public Strategy,71|149|150,PRES
+85,Signing Statements,72|70,PRES
+86,Federal Bureaucracy Structure,70|16,BURO
+87,Civil Service System,86,BURO
+88,Merit vs Spoils System,87,BURO
+89,Independent Regulatory Agencies,86,BURO
+90,Government Corporations,86,BURO
+91,Cabinet Departments,86,BURO
+92,Federal Rulemaking Process,89|94,BURO
+93,Notice and Comment Rulemaking,92,BURO
+94,Administrative Law,86|100,BURO
+95,Bureaucratic Accountability,86|65|18,BURO
+96,Iron Triangle,86|54|165,BURO
+97,Issue Networks,96,BURO
+98,Regulatory Capture,96|89,BURO
+99,Administrative Discretion,92|86,BURO
+100,Federal Court Structure,16|17,JUDI
+101,District Courts,100,JUDI
+102,Circuit Courts of Appeals,100|101,JUDI
+103,Supreme Court,100|102,JUDI
+104,Judicial Review,103|16,JUDI
+105,Marbury v Madison,104,JUDI
+106,Judicial Appointment Process,103|80,JUDI
+107,Senate Confirmation of Judges,106|53,JUDI
+108,Judicial Philosophy,35,JUDI
+109,Precedent and Stare Decisis,104|103,JUDI
+110,Writ of Certiorari,103,JUDI
+111,Amicus Curiae Briefs,103|110,JUDI
+112,Majority and Dissenting Opinions,103,JUDI
+113,Judicial Restraint vs Activism,108,JUDI
+114,Standing to Sue,100,JUDI
+115,Political Question Doctrine,104|114,JUDI
+116,Civil Liberties,5|24,CLIB
+117,Civil Rights,5|31,CLIB
+118,Selective Incorporation,31|116,CLIB
+119,Due Process Clause,28|31,CLIB
+120,Equal Protection Clause,31,CLIB
+121,Freedom of Speech,25|116,CLIB
+122,Freedom of Press,25|116,CLIB
+123,Freedom of Religion,25,CLIB
+124,Establishment Clause,123|25,CLIB
+125,Free Exercise Clause,123|25,CLIB
+126,Freedom of Assembly,25|116,CLIB
+127,Fourth Amendment Protections,27|116,CLIB
+128,Exclusionary Rule,127,CLIB
+129,Miranda Rights,28|119,CLIB
+130,Right to Counsel,29|119,CLIB
+131,Eighth Amendment Protections,30|116,CLIB
+132,Civil Rights Movement History,117,CLIB
+133,Brown v Board of Education,120|132,CLIB
+134,Desegregation,133|120,CLIB
+135,Affirmative Action,120|134,CLIB
+136,Voting Rights Act 1965,32|117|132,CLIB
+137,Civil Rights Act 1964,120|117|132,CLIB
+138,LGBTQ Rights,120|31,CLIB
+139,Americans with Disabilities Act,117|120,CLIB
+140,Political Socialization,4,OPIN
+141,Political Ideology,140,OPIN
+142,Liberal-Conservative Spectrum,141,OPIN
+143,Libertarianism,141|5,OPIN
+144,Political Polarization,141|142|161,OPIN
+145,Public Opinion Polling,140|4,OPIN
+146,Sampling and Margin of Error,145,OPIN
+147,Media Framing Effects,149|145,OPIN
+148,Agenda Setting Theory,149|147,OPIN
+149,Traditional Media,140,OPIN
+150,Social Media and Politics,149,OPIN
+151,Filter Bubbles,150|144,OPIN
+152,Political Knowledge,140|191,OPIN
+153,Ideological Sorting,144|142,OPIN
+154,Types of Political Participation,4|140,ELEC
+155,Voting Behavior,140|154,ELEC
+156,Voter Turnout,155,ELEC
+157,Voter Registration,156,ELEC
+158,Voter Suppression,136|157,ELEC
+159,Electoral College,16|161|4,ELEC
+160,Winner-Take-All Electoral System,159|161,ELEC
+161,Political Parties,140|4,ELEC
+162,Two-Party System,161|160,ELEC
+163,Party Platforms,161|141,ELEC
+164,Party Realignment,161|142,ELEC
+165,Interest Groups,140|4|154,ELEC
+166,Political Action Committees,165|167,ELEC
+167,Campaign Finance Law,165,ELEC
+168,Super PACs,166|169,ELEC
+169,Citizens United v FEC,121|167|166,ELEC
+170,Bipartisan Campaign Reform Act,167,ELEC
+171,Primary Elections,161|159,ELEC
+172,General Elections,159|171,ELEC
+173,Midterm Elections,172|52,ELEC
+174,Initiative and Referendum,4|154,ELEC
+175,AI in Federal Agencies,86,AIGOV
+176,Algorithmic Decision-Making,175,AIGOV
+177,Algorithmic Bias,176|120|117,AIGOV
+178,AI-Generated Disinformation,150|176,AIGOV
+179,AI and Election Integrity,175|178,AIGOV
+180,Deepfakes in Politics,179|178|150,AIGOV
+181,Government AI Surveillance,175|127|182,AIGOV
+182,Facial Recognition Technology,127|176,AIGOV
+183,Autonomous Weapons Policy,74|175|184,AIGOV
+184,AI Regulatory Frameworks,175|89,AIGOV
+185,EU AI Act,184,AIGOV
+186,AI Bill of Rights Blueprint,184|116,AIGOV
+187,Congressional AI Oversight,184|65|175,AIGOV
+188,AI and Fourth Amendment,127|181|27,AIGOV
+189,Predictive Policing,175|176,AIGOV
+190,AI in Criminal Justice,189|177|129,AIGOV
+191,Critical Thinking in Civics,,CRIT
+192,Systems Thinking in Government,191|38|18,CRIT
+193,Cognitive Bias in Politics,191|140,CRIT
+194,Confirmation Bias,193|152,CRIT
+195,Motivated Reasoning,193|141,CRIT
+196,Misinformation Detection,191|150,CRIT
+197,Lateral Reading Technique,196,CRIT
+198,Fact-Checking Methods,196|197,CRIT
+199,Democratic Participation,4|154|156,FOUND
+200,Constitutional Democracy,16|4|5|116|117,FOUND

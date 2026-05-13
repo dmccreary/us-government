@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/danmccreary/Documents/ws/claude-skills/skills/init-textbook/assets/templates/**)",
+      "Read(//Users/danmccreary/Documents/ws/claude-skills/skills/init-textbook/assets/templates/docs/**)",
+      "Bash(cp /Users/danmccreary/.claude/skills/init-textbook/assets/templates/docs/css/extra.css /Users/danmccreary/Documents/ws/english-language-arts/docs/css/extra.css)",
+      "Bash(cp /Users/danmccreary/.claude/skills/init-textbook/assets/templates/docs/img/license.png /Users/danmccreary/Documents/ws/english-language-arts/docs/img/license.png)",
+      "Read(//Users/danmccreary/Documents/ws/claude-skills/**)",
+      "Read(//Users/danmccreary/.claude/skills/**)",
+      "Bash(python3 __TRACKED_VAR__/generate-sim-scaffold.py --spec-file /tmp/ch-specs.json --sim-id student-media-consumption --project-dir /Users/danmccreary/Documents/ws/english-language-arts --verbose)",
+      "Bash(bk-capture-screenshot /Users/danmccreary/Documents/ws/english-language-arts/docs/sims/student-media-consumption 3 532)",
+      "Bash(find ~/.claude -name \"book-installer*\" -type f 2>/dev/null; find ~/.claude/skills -type f 2>/dev/null | head -30)",
+      "Bash(~/.claude/skills/claude-skills/src/image-generation/generate-cover.sh --local-prompt)",
+      "Bash(python3 -c \"import json; data=json.load\\(open\\('docs/learning-graph/learning-graph.json'\\)\\); nodes=[n for n in data if 'id' in n or 'group' not in n]; print\\(len\\(data\\)\\)\")",
+      "Bash(curl -s https://dmccreary.github.io/dmccreary/img/dan-headshot-small.png --output docs/img/dan-headshot-small.png)",
+      "Bash(python3 -c ' *)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

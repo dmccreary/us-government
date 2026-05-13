@@ -1,0 +1,10 @@
+{
+  "title": "US Government",
+  "description": "An interactive intelligent textbook on the structure, function, and history of the United States government. Aligned with the College Board AP US Government and Politics curriculum framework for high school students in grades 9-12 seeking college credit.",
+  "creator": "Dan McCreary",
+  "date": "2026-05-13",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

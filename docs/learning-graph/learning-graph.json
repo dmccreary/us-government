@@ -1,0 +1,2553 @@
+{
+  "metadata": {
+    "title": "US Government",
+    "description": "An interactive intelligent textbook on the structure, function, and history of the United States government. Aligned with the College Board AP US Government and Politics curriculum framework for high school students in grades 9-12 seeking college credit.",
+    "creator": "Dan McCreary",
+    "date": "2026-05-13",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundations of American Democracy",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CONST": {
+      "classifierName": "The Constitution",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "FED": {
+      "classifierName": "Federalism",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CONG": {
+      "classifierName": "Congress",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PRES": {
+      "classifierName": "The Presidency",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "BURO": {
+      "classifierName": "The Federal Bureaucracy",
+      "color": "OliveDrab",
+      "font": {
+        "color": "white"
+      }
+    },
+    "JUDI": {
+      "classifierName": "The Federal Judiciary",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CLIB": {
+      "classifierName": "Civil Liberties and Civil Rights",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "OPIN": {
+      "classifierName": "Political Opinion and Media",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ELEC": {
+      "classifierName": "Elections and Political Participation",
+      "color": "DarkGoldenrod",
+      "font": {
+        "color": "white"
+      }
+    },
+    "AIGOV": {
+      "classifierName": "AI and Government",
+      "color": "Orange",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CRIT": {
+      "classifierName": "Critical Thinking and Civic Skills",
+      "color": "DeepPink",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Enlightenment Philosophy",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Natural Rights Theory",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Social Contract Theory",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Popular Sovereignty",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Limited Government",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Declaration of Independence",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Articles of Confederation",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 8,
+      "label": "Shays' Rebellion",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Constitutional Convention of 1787",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Virginia Plan vs New Jersey Plan",
+      "group": "FOUND"
+    },
+    {
+      "id": 11,
+      "label": "Great Compromise",
+      "group": "FOUND"
+    },
+    {
+      "id": 12,
+      "label": "Three-Fifths Compromise",
+      "group": "FOUND"
+    },
+    {
+      "id": 13,
+      "label": "Federalists and Antifederalists",
+      "group": "FOUND"
+    },
+    {
+      "id": 14,
+      "label": "Bicameral Legislature",
+      "group": "FOUND"
+    },
+    {
+      "id": 15,
+      "label": "Republican Government",
+      "group": "FOUND"
+    },
+    {
+      "id": 16,
+      "label": "Constitutional Structure",
+      "group": "CONST"
+    },
+    {
+      "id": 17,
+      "label": "Separation of Powers",
+      "group": "CONST"
+    },
+    {
+      "id": 18,
+      "label": "Checks and Balances",
+      "group": "CONST"
+    },
+    {
+      "id": 19,
+      "label": "Supremacy Clause",
+      "group": "CONST"
+    },
+    {
+      "id": 20,
+      "label": "Necessary and Proper Clause",
+      "group": "CONST"
+    },
+    {
+      "id": 21,
+      "label": "Commerce Clause",
+      "group": "CONST"
+    },
+    {
+      "id": 22,
+      "label": "Full Faith and Credit Clause",
+      "group": "CONST"
+    },
+    {
+      "id": 23,
+      "label": "Constitutional Amendment Process",
+      "group": "CONST"
+    },
+    {
+      "id": 24,
+      "label": "Bill of Rights",
+      "group": "CONST"
+    },
+    {
+      "id": 25,
+      "label": "First Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 26,
+      "label": "Second Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 27,
+      "label": "Fourth Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 28,
+      "label": "Fifth Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 29,
+      "label": "Sixth Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 30,
+      "label": "Eighth Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 31,
+      "label": "Fourteenth Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 32,
+      "label": "Fifteenth Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 33,
+      "label": "Nineteenth Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 34,
+      "label": "Twenty-Sixth Amendment",
+      "group": "CONST"
+    },
+    {
+      "id": 35,
+      "label": "Constitutional Interpretation",
+      "group": "CONST"
+    },
+    {
+      "id": 36,
+      "label": "Originalism",
+      "group": "CONST"
+    },
+    {
+      "id": 37,
+      "label": "Living Constitution Theory",
+      "group": "CONST"
+    },
+    {
+      "id": 38,
+      "label": "Federalism",
+      "group": "FED"
+    },
+    {
+      "id": 39,
+      "label": "Enumerated Powers",
+      "group": "FED"
+    },
+    {
+      "id": 40,
+      "label": "Reserved Powers",
+      "group": "FED"
+    },
+    {
+      "id": 41,
+      "label": "Concurrent Powers",
+      "group": "FED"
+    },
+    {
+      "id": 42,
+      "label": "Dual Federalism",
+      "group": "FED"
+    },
+    {
+      "id": 43,
+      "label": "Cooperative Federalism",
+      "group": "FED"
+    },
+    {
+      "id": 44,
+      "label": "New Federalism",
+      "group": "FED"
+    },
+    {
+      "id": 45,
+      "label": "Fiscal Federalism",
+      "group": "FED"
+    },
+    {
+      "id": 46,
+      "label": "Categorical Grants",
+      "group": "FED"
+    },
+    {
+      "id": 47,
+      "label": "Block Grants",
+      "group": "FED"
+    },
+    {
+      "id": 48,
+      "label": "Unfunded Mandates",
+      "group": "FED"
+    },
+    {
+      "id": 49,
+      "label": "Nullification Doctrine",
+      "group": "FED"
+    },
+    {
+      "id": 50,
+      "label": "Preemption Doctrine",
+      "group": "FED"
+    },
+    {
+      "id": 51,
+      "label": "Devolution",
+      "group": "FED"
+    },
+    {
+      "id": 52,
+      "label": "House of Representatives",
+      "group": "CONG"
+    },
+    {
+      "id": 53,
+      "label": "Senate Structure",
+      "group": "CONG"
+    },
+    {
+      "id": 54,
+      "label": "Congressional Committees",
+      "group": "CONG"
+    },
+    {
+      "id": 55,
+      "label": "Conference Committees",
+      "group": "CONG"
+    },
+    {
+      "id": 56,
+      "label": "Congressional Leadership",
+      "group": "CONG"
+    },
+    {
+      "id": 57,
+      "label": "Speaker of the House",
+      "group": "CONG"
+    },
+    {
+      "id": 58,
+      "label": "Filibuster",
+      "group": "CONG"
+    },
+    {
+      "id": 59,
+      "label": "Cloture",
+      "group": "CONG"
+    },
+    {
+      "id": 60,
+      "label": "Legislative Process",
+      "group": "CONG"
+    },
+    {
+      "id": 61,
+      "label": "Committee Markup",
+      "group": "CONG"
+    },
+    {
+      "id": 62,
+      "label": "Presidential Veto",
+      "group": "CONG"
+    },
+    {
+      "id": 63,
+      "label": "Pocket Veto",
+      "group": "CONG"
+    },
+    {
+      "id": 64,
+      "label": "Veto Override",
+      "group": "CONG"
+    },
+    {
+      "id": 65,
+      "label": "Congressional Oversight",
+      "group": "CONG"
+    },
+    {
+      "id": 66,
+      "label": "Appropriations Process",
+      "group": "CONG"
+    },
+    {
+      "id": 67,
+      "label": "Gerrymandering",
+      "group": "CONG"
+    },
+    {
+      "id": 68,
+      "label": "Reapportionment and Redistricting",
+      "group": "CONG"
+    },
+    {
+      "id": 69,
+      "label": "Congressional Caucuses",
+      "group": "CONG"
+    },
+    {
+      "id": 70,
+      "label": "Enumerated Presidential Powers",
+      "group": "PRES"
+    },
+    {
+      "id": 71,
+      "label": "Informal Presidential Powers",
+      "group": "PRES"
+    },
+    {
+      "id": 72,
+      "label": "Executive Orders",
+      "group": "PRES"
+    },
+    {
+      "id": 73,
+      "label": "Treaty-Making Power",
+      "group": "PRES"
+    },
+    {
+      "id": 74,
+      "label": "Commander in Chief Role",
+      "group": "PRES"
+    },
+    {
+      "id": 75,
+      "label": "War Powers Resolution",
+      "group": "PRES"
+    },
+    {
+      "id": 76,
+      "label": "Cabinet",
+      "group": "PRES"
+    },
+    {
+      "id": 77,
+      "label": "Executive Office of the President",
+      "group": "PRES"
+    },
+    {
+      "id": 78,
+      "label": "National Security Council",
+      "group": "PRES"
+    },
+    {
+      "id": 79,
+      "label": "Office of Management and Budget",
+      "group": "PRES"
+    },
+    {
+      "id": 80,
+      "label": "Presidential Appointments",
+      "group": "PRES"
+    },
+    {
+      "id": 81,
+      "label": "Executive Privilege",
+      "group": "PRES"
+    },
+    {
+      "id": 82,
+      "label": "Impeachment Process",
+      "group": "PRES"
+    },
+    {
+      "id": 83,
+      "label": "Presidential Succession",
+      "group": "PRES"
+    },
+    {
+      "id": 84,
+      "label": "Going Public Strategy",
+      "group": "PRES"
+    },
+    {
+      "id": 85,
+      "label": "Signing Statements",
+      "group": "PRES"
+    },
+    {
+      "id": 86,
+      "label": "Federal Bureaucracy Structure",
+      "group": "BURO"
+    },
+    {
+      "id": 87,
+      "label": "Civil Service System",
+      "group": "BURO"
+    },
+    {
+      "id": 88,
+      "label": "Merit vs Spoils System",
+      "group": "BURO"
+    },
+    {
+      "id": 89,
+      "label": "Independent Regulatory Agencies",
+      "group": "BURO"
+    },
+    {
+      "id": 90,
+      "label": "Government Corporations",
+      "group": "BURO"
+    },
+    {
+      "id": 91,
+      "label": "Cabinet Departments",
+      "group": "BURO"
+    },
+    {
+      "id": 92,
+      "label": "Federal Rulemaking Process",
+      "group": "BURO"
+    },
+    {
+      "id": 93,
+      "label": "Notice and Comment Rulemaking",
+      "group": "BURO"
+    },
+    {
+      "id": 94,
+      "label": "Administrative Law",
+      "group": "BURO"
+    },
+    {
+      "id": 95,
+      "label": "Bureaucratic Accountability",
+      "group": "BURO"
+    },
+    {
+      "id": 96,
+      "label": "Iron Triangle",
+      "group": "BURO"
+    },
+    {
+      "id": 97,
+      "label": "Issue Networks",
+      "group": "BURO"
+    },
+    {
+      "id": 98,
+      "label": "Regulatory Capture",
+      "group": "BURO"
+    },
+    {
+      "id": 99,
+      "label": "Administrative Discretion",
+      "group": "BURO"
+    },
+    {
+      "id": 100,
+      "label": "Federal Court Structure",
+      "group": "JUDI"
+    },
+    {
+      "id": 101,
+      "label": "District Courts",
+      "group": "JUDI"
+    },
+    {
+      "id": 102,
+      "label": "Circuit Courts of Appeals",
+      "group": "JUDI"
+    },
+    {
+      "id": 103,
+      "label": "Supreme Court",
+      "group": "JUDI"
+    },
+    {
+      "id": 104,
+      "label": "Judicial Review",
+      "group": "JUDI"
+    },
+    {
+      "id": 105,
+      "label": "Marbury v Madison",
+      "group": "JUDI"
+    },
+    {
+      "id": 106,
+      "label": "Judicial Appointment Process",
+      "group": "JUDI"
+    },
+    {
+      "id": 107,
+      "label": "Senate Confirmation of Judges",
+      "group": "JUDI"
+    },
+    {
+      "id": 108,
+      "label": "Judicial Philosophy",
+      "group": "JUDI"
+    },
+    {
+      "id": 109,
+      "label": "Precedent and Stare Decisis",
+      "group": "JUDI"
+    },
+    {
+      "id": 110,
+      "label": "Writ of Certiorari",
+      "group": "JUDI"
+    },
+    {
+      "id": 111,
+      "label": "Amicus Curiae Briefs",
+      "group": "JUDI"
+    },
+    {
+      "id": 112,
+      "label": "Majority and Dissenting Opinions",
+      "group": "JUDI"
+    },
+    {
+      "id": 113,
+      "label": "Judicial Restraint vs Activism",
+      "group": "JUDI"
+    },
+    {
+      "id": 114,
+      "label": "Standing to Sue",
+      "group": "JUDI"
+    },
+    {
+      "id": 115,
+      "label": "Political Question Doctrine",
+      "group": "JUDI"
+    },
+    {
+      "id": 116,
+      "label": "Civil Liberties",
+      "group": "CLIB"
+    },
+    {
+      "id": 117,
+      "label": "Civil Rights",
+      "group": "CLIB"
+    },
+    {
+      "id": 118,
+      "label": "Selective Incorporation",
+      "group": "CLIB"
+    },
+    {
+      "id": 119,
+      "label": "Due Process Clause",
+      "group": "CLIB"
+    },
+    {
+      "id": 120,
+      "label": "Equal Protection Clause",
+      "group": "CLIB"
+    },
+    {
+      "id": 121,
+      "label": "Freedom of Speech",
+      "group": "CLIB"
+    },
+    {
+      "id": 122,
+      "label": "Freedom of Press",
+      "group": "CLIB"
+    },
+    {
+      "id": 123,
+      "label": "Freedom of Religion",
+      "group": "CLIB"
+    },
+    {
+      "id": 124,
+      "label": "Establishment Clause",
+      "group": "CLIB"
+    },
+    {
+      "id": 125,
+      "label": "Free Exercise Clause",
+      "group": "CLIB"
+    },
+    {
+      "id": 126,
+      "label": "Freedom of Assembly",
+      "group": "CLIB"
+    },
+    {
+      "id": 127,
+      "label": "Fourth Amendment Protections",
+      "group": "CLIB"
+    },
+    {
+      "id": 128,
+      "label": "Exclusionary Rule",
+      "group": "CLIB"
+    },
+    {
+      "id": 129,
+      "label": "Miranda Rights",
+      "group": "CLIB"
+    },
+    {
+      "id": 130,
+      "label": "Right to Counsel",
+      "group": "CLIB"
+    },
+    {
+      "id": 131,
+      "label": "Eighth Amendment Protections",
+      "group": "CLIB"
+    },
+    {
+      "id": 132,
+      "label": "Civil Rights Movement History",
+      "group": "CLIB"
+    },
+    {
+      "id": 133,
+      "label": "Brown v Board of Education",
+      "group": "CLIB"
+    },
+    {
+      "id": 134,
+      "label": "Desegregation",
+      "group": "CLIB"
+    },
+    {
+      "id": 135,
+      "label": "Affirmative Action",
+      "group": "CLIB"
+    },
+    {
+      "id": 136,
+      "label": "Voting Rights Act 1965",
+      "group": "CLIB"
+    },
+    {
+      "id": 137,
+      "label": "Civil Rights Act 1964",
+      "group": "CLIB"
+    },
+    {
+      "id": 138,
+      "label": "LGBTQ Rights",
+      "group": "CLIB"
+    },
+    {
+      "id": 139,
+      "label": "Americans with Disabilities Act",
+      "group": "CLIB"
+    },
+    {
+      "id": 140,
+      "label": "Political Socialization",
+      "group": "OPIN"
+    },
+    {
+      "id": 141,
+      "label": "Political Ideology",
+      "group": "OPIN"
+    },
+    {
+      "id": 142,
+      "label": "Liberal-Conservative Spectrum",
+      "group": "OPIN"
+    },
+    {
+      "id": 143,
+      "label": "Libertarianism",
+      "group": "OPIN"
+    },
+    {
+      "id": 144,
+      "label": "Political Polarization",
+      "group": "OPIN"
+    },
+    {
+      "id": 145,
+      "label": "Public Opinion Polling",
+      "group": "OPIN"
+    },
+    {
+      "id": 146,
+      "label": "Sampling and Margin of Error",
+      "group": "OPIN"
+    },
+    {
+      "id": 147,
+      "label": "Media Framing Effects",
+      "group": "OPIN"
+    },
+    {
+      "id": 148,
+      "label": "Agenda Setting Theory",
+      "group": "OPIN"
+    },
+    {
+      "id": 149,
+      "label": "Traditional Media",
+      "group": "OPIN"
+    },
+    {
+      "id": 150,
+      "label": "Social Media and Politics",
+      "group": "OPIN"
+    },
+    {
+      "id": 151,
+      "label": "Filter Bubbles",
+      "group": "OPIN"
+    },
+    {
+      "id": 152,
+      "label": "Political Knowledge",
+      "group": "OPIN"
+    },
+    {
+      "id": 153,
+      "label": "Ideological Sorting",
+      "group": "OPIN"
+    },
+    {
+      "id": 154,
+      "label": "Types of Political Participation",
+      "group": "ELEC"
+    },
+    {
+      "id": 155,
+      "label": "Voting Behavior",
+      "group": "ELEC"
+    },
+    {
+      "id": 156,
+      "label": "Voter Turnout",
+      "group": "ELEC"
+    },
+    {
+      "id": 157,
+      "label": "Voter Registration",
+      "group": "ELEC"
+    },
+    {
+      "id": 158,
+      "label": "Voter Suppression",
+      "group": "ELEC"
+    },
+    {
+      "id": 159,
+      "label": "Electoral College",
+      "group": "ELEC"
+    },
+    {
+      "id": 160,
+      "label": "Winner-Take-All Electoral System",
+      "group": "ELEC"
+    },
+    {
+      "id": 161,
+      "label": "Political Parties",
+      "group": "ELEC"
+    },
+    {
+      "id": 162,
+      "label": "Two-Party System",
+      "group": "ELEC"
+    },
+    {
+      "id": 163,
+      "label": "Party Platforms",
+      "group": "ELEC"
+    },
+    {
+      "id": 164,
+      "label": "Party Realignment",
+      "group": "ELEC"
+    },
+    {
+      "id": 165,
+      "label": "Interest Groups",
+      "group": "ELEC"
+    },
+    {
+      "id": 166,
+      "label": "Political Action Committees",
+      "group": "ELEC"
+    },
+    {
+      "id": 167,
+      "label": "Campaign Finance Law",
+      "group": "ELEC"
+    },
+    {
+      "id": 168,
+      "label": "Super PACs",
+      "group": "ELEC"
+    },
+    {
+      "id": 169,
+      "label": "Citizens United v FEC",
+      "group": "ELEC"
+    },
+    {
+      "id": 170,
+      "label": "Bipartisan Campaign Reform Act",
+      "group": "ELEC"
+    },
+    {
+      "id": 171,
+      "label": "Primary Elections",
+      "group": "ELEC"
+    },
+    {
+      "id": 172,
+      "label": "General Elections",
+      "group": "ELEC"
+    },
+    {
+      "id": 173,
+      "label": "Midterm Elections",
+      "group": "ELEC"
+    },
+    {
+      "id": 174,
+      "label": "Initiative and Referendum",
+      "group": "ELEC"
+    },
+    {
+      "id": 175,
+      "label": "AI in Federal Agencies",
+      "group": "AIGOV"
+    },
+    {
+      "id": 176,
+      "label": "Algorithmic Decision-Making",
+      "group": "AIGOV"
+    },
+    {
+      "id": 177,
+      "label": "Algorithmic Bias",
+      "group": "AIGOV"
+    },
+    {
+      "id": 178,
+      "label": "AI-Generated Disinformation",
+      "group": "AIGOV"
+    },
+    {
+      "id": 179,
+      "label": "AI and Election Integrity",
+      "group": "AIGOV"
+    },
+    {
+      "id": 180,
+      "label": "Deepfakes in Politics",
+      "group": "AIGOV"
+    },
+    {
+      "id": 181,
+      "label": "Government AI Surveillance",
+      "group": "AIGOV"
+    },
+    {
+      "id": 182,
+      "label": "Facial Recognition Technology",
+      "group": "AIGOV"
+    },
+    {
+      "id": 183,
+      "label": "Autonomous Weapons Policy",
+      "group": "AIGOV"
+    },
+    {
+      "id": 184,
+      "label": "AI Regulatory Frameworks",
+      "group": "AIGOV"
+    },
+    {
+      "id": 185,
+      "label": "EU AI Act",
+      "group": "AIGOV"
+    },
+    {
+      "id": 186,
+      "label": "AI Bill of Rights Blueprint",
+      "group": "AIGOV"
+    },
+    {
+      "id": 187,
+      "label": "Congressional AI Oversight",
+      "group": "AIGOV"
+    },
+    {
+      "id": 188,
+      "label": "AI and Fourth Amendment",
+      "group": "AIGOV"
+    },
+    {
+      "id": 189,
+      "label": "Predictive Policing",
+      "group": "AIGOV"
+    },
+    {
+      "id": 190,
+      "label": "AI in Criminal Justice",
+      "group": "AIGOV"
+    },
+    {
+      "id": 191,
+      "label": "Critical Thinking in Civics",
+      "group": "CRIT",
+      "shape": "box"
+    },
+    {
+      "id": 192,
+      "label": "Systems Thinking in Government",
+      "group": "CRIT"
+    },
+    {
+      "id": 193,
+      "label": "Cognitive Bias in Politics",
+      "group": "CRIT"
+    },
+    {
+      "id": 194,
+      "label": "Confirmation Bias",
+      "group": "CRIT"
+    },
+    {
+      "id": 195,
+      "label": "Motivated Reasoning",
+      "group": "CRIT"
+    },
+    {
+      "id": 196,
+      "label": "Misinformation Detection",
+      "group": "CRIT"
+    },
+    {
+      "id": 197,
+      "label": "Lateral Reading Technique",
+      "group": "CRIT"
+    },
+    {
+      "id": 198,
+      "label": "Fact-Checking Methods",
+      "group": "CRIT"
+    },
+    {
+      "id": 199,
+      "label": "Democratic Participation",
+      "group": "FOUND"
+    },
+    {
+      "id": 200,
+      "label": "Constitutional Democracy",
+      "group": "FOUND"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 1
+    },
+    {
+      "from": 4,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 2
+    },
+    {
+      "from": 5,
+      "to": 3
+    },
+    {
+      "from": 6,
+      "to": 1
+    },
+    {
+      "from": 6,
+      "to": 2
+    },
+    {
+      "from": 6,
+      "to": 3
+    },
+    {
+      "from": 8,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 9
+    },
+    {
+      "from": 11,
+      "to": 9
+    },
+    {
+      "from": 11,
+      "to": 10
+    },
+    {
+      "from": 12,
+      "to": 9
+    },
+    {
+      "from": 13,
+      "to": 9
+    },
+    {
+      "from": 13,
+      "to": 4
+    },
+    {
+      "from": 14,
+      "to": 11
+    },
+    {
+      "from": 15,
+      "to": 4
+    },
+    {
+      "from": 15,
+      "to": 5
+    },
+    {
+      "from": 16,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 15
+    },
+    {
+      "from": 16,
+      "to": 17
+    },
+    {
+      "from": 16,
+      "to": 18
+    },
+    {
+      "from": 16,
+      "to": 11
+    },
+    {
+      "from": 16,
+      "to": 12
+    },
+    {
+      "from": 17,
+      "to": 5
+    },
+    {
+      "from": 17,
+      "to": 15
+    },
+    {
+      "from": 18,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 16
+    },
+    {
+      "from": 19,
+      "to": 38
+    },
+    {
+      "from": 20,
+      "to": 16
+    },
+    {
+      "from": 20,
+      "to": 39
+    },
+    {
+      "from": 21,
+      "to": 16
+    },
+    {
+      "from": 21,
+      "to": 39
+    },
+    {
+      "from": 22,
+      "to": 16
+    },
+    {
+      "from": 23,
+      "to": 16
+    },
+    {
+      "from": 24,
+      "to": 23
+    },
+    {
+      "from": 24,
+      "to": 13
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 24
+    },
+    {
+      "from": 27,
+      "to": 24
+    },
+    {
+      "from": 28,
+      "to": 24
+    },
+    {
+      "from": 29,
+      "to": 24
+    },
+    {
+      "from": 30,
+      "to": 24
+    },
+    {
+      "from": 31,
+      "to": 24
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 33,
+      "to": 31
+    },
+    {
+      "from": 34,
+      "to": 31
+    },
+    {
+      "from": 35,
+      "to": 16
+    },
+    {
+      "from": 35,
+      "to": 104
+    },
+    {
+      "from": 36,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 35
+    },
+    {
+      "from": 38,
+      "to": 16
+    },
+    {
+      "from": 38,
+      "to": 17
+    },
+    {
+      "from": 38,
+      "to": 4
+    },
+    {
+      "from": 39,
+      "to": 38
+    },
+    {
+      "from": 39,
+      "to": 16
+    },
+    {
+      "from": 40,
+      "to": 38
+    },
+    {
+      "from": 40,
+      "to": 16
+    },
+    {
+      "from": 41,
+      "to": 38
+    },
+    {
+      "from": 41,
+      "to": 39
+    },
+    {
+      "from": 41,
+      "to": 40
+    },
+    {
+      "from": 42,
+      "to": 38
+    },
+    {
+      "from": 42,
+      "to": 39
+    },
+    {
+      "from": 42,
+      "to": 40
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 43
+    },
+    {
+      "from": 46,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 48,
+      "to": 46
+    },
+    {
+      "from": 49,
+      "to": 38
+    },
+    {
+      "from": 49,
+      "to": 40
+    },
+    {
+      "from": 50,
+      "to": 19
+    },
+    {
+      "from": 50,
+      "to": 38
+    },
+    {
+      "from": 51,
+      "to": 44
+    },
+    {
+      "from": 52,
+      "to": 14
+    },
+    {
+      "from": 52,
+      "to": 16
+    },
+    {
+      "from": 53,
+      "to": 14
+    },
+    {
+      "from": 53,
+      "to": 16
+    },
+    {
+      "from": 53,
+      "to": 11
+    },
+    {
+      "from": 54,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 53
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 55,
+      "to": 60
+    },
+    {
+      "from": 56,
+      "to": 52
+    },
+    {
+      "from": 56,
+      "to": 53
+    },
+    {
+      "from": 57,
+      "to": 52
+    },
+    {
+      "from": 57,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 53
+    },
+    {
+      "from": 59,
+      "to": 58
+    },
+    {
+      "from": 60,
+      "to": 52
+    },
+    {
+      "from": 60,
+      "to": 53
+    },
+    {
+      "from": 60,
+      "to": 54
+    },
+    {
+      "from": 61,
+      "to": 54
+    },
+    {
+      "from": 61,
+      "to": 60
+    },
+    {
+      "from": 62,
+      "to": 60
+    },
+    {
+      "from": 62,
+      "to": 70
+    },
+    {
+      "from": 63,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 52
+    },
+    {
+      "from": 64,
+      "to": 53
+    },
+    {
+      "from": 65,
+      "to": 52
+    },
+    {
+      "from": 65,
+      "to": 53
+    },
+    {
+      "from": 65,
+      "to": 18
+    },
+    {
+      "from": 66,
+      "to": 60
+    },
+    {
+      "from": 66,
+      "to": 65
+    },
+    {
+      "from": 67,
+      "to": 52
+    },
+    {
+      "from": 67,
+      "to": 68
+    },
+    {
+      "from": 68,
+      "to": 52
+    },
+    {
+      "from": 69,
+      "to": 52
+    },
+    {
+      "from": 69,
+      "to": 53
+    },
+    {
+      "from": 69,
+      "to": 161
+    },
+    {
+      "from": 70,
+      "to": 16
+    },
+    {
+      "from": 70,
+      "to": 17
+    },
+    {
+      "from": 71,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 71
+    },
+    {
+      "from": 73,
+      "to": 70
+    },
+    {
+      "from": 73,
+      "to": 53
+    },
+    {
+      "from": 74,
+      "to": 70
+    },
+    {
+      "from": 75,
+      "to": 74
+    },
+    {
+      "from": 75,
+      "to": 52
+    },
+    {
+      "from": 75,
+      "to": 53
+    },
+    {
+      "from": 76,
+      "to": 70
+    },
+    {
+      "from": 76,
+      "to": 91
+    },
+    {
+      "from": 77,
+      "to": 70
+    },
+    {
+      "from": 77,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 77
+    },
+    {
+      "from": 79,
+      "to": 77
+    },
+    {
+      "from": 79,
+      "to": 66
+    },
+    {
+      "from": 80,
+      "to": 70
+    },
+    {
+      "from": 81,
+      "to": 71
+    },
+    {
+      "from": 81,
+      "to": 18
+    },
+    {
+      "from": 82,
+      "to": 52
+    },
+    {
+      "from": 82,
+      "to": 53
+    },
+    {
+      "from": 82,
+      "to": 18
+    },
+    {
+      "from": 83,
+      "to": 70
+    },
+    {
+      "from": 84,
+      "to": 71
+    },
+    {
+      "from": 84,
+      "to": 149
+    },
+    {
+      "from": 84,
+      "to": 150
+    },
+    {
+      "from": 85,
+      "to": 72
+    },
+    {
+      "from": 85,
+      "to": 70
+    },
+    {
+      "from": 86,
+      "to": 70
+    },
+    {
+      "from": 86,
+      "to": 16
+    },
+    {
+      "from": 87,
+      "to": 86
+    },
+    {
+      "from": 88,
+      "to": 87
+    },
+    {
+      "from": 89,
+      "to": 86
+    },
+    {
+      "from": 90,
+      "to": 86
+    },
+    {
+      "from": 91,
+      "to": 86
+    },
+    {
+      "from": 92,
+      "to": 89
+    },
+    {
+      "from": 92,
+      "to": 94
+    },
+    {
+      "from": 93,
+      "to": 92
+    },
+    {
+      "from": 94,
+      "to": 86
+    },
+    {
+      "from": 94,
+      "to": 100
+    },
+    {
+      "from": 95,
+      "to": 86
+    },
+    {
+      "from": 95,
+      "to": 65
+    },
+    {
+      "from": 95,
+      "to": 18
+    },
+    {
+      "from": 96,
+      "to": 86
+    },
+    {
+      "from": 96,
+      "to": 54
+    },
+    {
+      "from": 96,
+      "to": 165
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 89
+    },
+    {
+      "from": 99,
+      "to": 92
+    },
+    {
+      "from": 99,
+      "to": 86
+    },
+    {
+      "from": 100,
+      "to": 16
+    },
+    {
+      "from": 100,
+      "to": 17
+    },
+    {
+      "from": 101,
+      "to": 100
+    },
+    {
+      "from": 102,
+      "to": 100
+    },
+    {
+      "from": 102,
+      "to": 101
+    },
+    {
+      "from": 103,
+      "to": 100
+    },
+    {
+      "from": 103,
+      "to": 102
+    },
+    {
+      "from": 104,
+      "to": 103
+    },
+    {
+      "from": 104,
+      "to": 16
+    },
+    {
+      "from": 105,
+      "to": 104
+    },
+    {
+      "from": 106,
+      "to": 103
+    },
+    {
+      "from": 106,
+      "to": 80
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 107,
+      "to": 53
+    },
+    {
+      "from": 108,
+      "to": 35
+    },
+    {
+      "from": 109,
+      "to": 104
+    },
+    {
+      "from": 109,
+      "to": 103
+    },
+    {
+      "from": 110,
+      "to": 103
+    },
+    {
+      "from": 111,
+      "to": 103
+    },
+    {
+      "from": 111,
+      "to": 110
+    },
+    {
+      "from": 112,
+      "to": 103
+    },
+    {
+      "from": 113,
+      "to": 108
+    },
+    {
+      "from": 114,
+      "to": 100
+    },
+    {
+      "from": 115,
+      "to": 104
+    },
+    {
+      "from": 115,
+      "to": 114
+    },
+    {
+      "from": 116,
+      "to": 5
+    },
+    {
+      "from": 116,
+      "to": 24
+    },
+    {
+      "from": 117,
+      "to": 5
+    },
+    {
+      "from": 117,
+      "to": 31
+    },
+    {
+      "from": 118,
+      "to": 31
+    },
+    {
+      "from": 118,
+      "to": 116
+    },
+    {
+      "from": 119,
+      "to": 28
+    },
+    {
+      "from": 119,
+      "to": 31
+    },
+    {
+      "from": 120,
+      "to": 31
+    },
+    {
+      "from": 121,
+      "to": 25
+    },
+    {
+      "from": 121,
+      "to": 116
+    },
+    {
+      "from": 122,
+      "to": 25
+    },
+    {
+      "from": 122,
+      "to": 116
+    },
+    {
+      "from": 123,
+      "to": 25
+    },
+    {
+      "from": 124,
+      "to": 123
+    },
+    {
+      "from": 124,
+      "to": 25
+    },
+    {
+      "from": 125,
+      "to": 123
+    },
+    {
+      "from": 125,
+      "to": 25
+    },
+    {
+      "from": 126,
+      "to": 25
+    },
+    {
+      "from": 126,
+      "to": 116
+    },
+    {
+      "from": 127,
+      "to": 27
+    },
+    {
+      "from": 127,
+      "to": 116
+    },
+    {
+      "from": 128,
+      "to": 127
+    },
+    {
+      "from": 129,
+      "to": 28
+    },
+    {
+      "from": 129,
+      "to": 119
+    },
+    {
+      "from": 130,
+      "to": 29
+    },
+    {
+      "from": 130,
+      "to": 119
+    },
+    {
+      "from": 131,
+      "to": 30
+    },
+    {
+      "from": 131,
+      "to": 116
+    },
+    {
+      "from": 132,
+      "to": 117
+    },
+    {
+      "from": 133,
+      "to": 120
+    },
+    {
+      "from": 133,
+      "to": 132
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 134,
+      "to": 120
+    },
+    {
+      "from": 135,
+      "to": 120
+    },
+    {
+      "from": 135,
+      "to": 134
+    },
+    {
+      "from": 136,
+      "to": 32
+    },
+    {
+      "from": 136,
+      "to": 117
+    },
+    {
+      "from": 136,
+      "to": 132
+    },
+    {
+      "from": 137,
+      "to": 120
+    },
+    {
+      "from": 137,
+      "to": 117
+    },
+    {
+      "from": 137,
+      "to": 132
+    },
+    {
+      "from": 138,
+      "to": 120
+    },
+    {
+      "from": 138,
+      "to": 31
+    },
+    {
+      "from": 139,
+      "to": 117
+    },
+    {
+      "from": 139,
+      "to": 120
+    },
+    {
+      "from": 140,
+      "to": 4
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 141
+    },
+    {
+      "from": 143,
+      "to": 141
+    },
+    {
+      "from": 143,
+      "to": 5
+    },
+    {
+      "from": 144,
+      "to": 141
+    },
+    {
+      "from": 144,
+      "to": 142
+    },
+    {
+      "from": 144,
+      "to": 161
+    },
+    {
+      "from": 145,
+      "to": 140
+    },
+    {
+      "from": 145,
+      "to": 4
+    },
+    {
+      "from": 146,
+      "to": 145
+    },
+    {
+      "from": 147,
+      "to": 149
+    },
+    {
+      "from": 147,
+      "to": 145
+    },
+    {
+      "from": 148,
+      "to": 149
+    },
+    {
+      "from": 148,
+      "to": 147
+    },
+    {
+      "from": 149,
+      "to": 140
+    },
+    {
+      "from": 150,
+      "to": 149
+    },
+    {
+      "from": 151,
+      "to": 150
+    },
+    {
+      "from": 151,
+      "to": 144
+    },
+    {
+      "from": 152,
+      "to": 140
+    },
+    {
+      "from": 152,
+      "to": 191
+    },
+    {
+      "from": 153,
+      "to": 144
+    },
+    {
+      "from": 153,
+      "to": 142
+    },
+    {
+      "from": 154,
+      "to": 4
+    },
+    {
+      "from": 154,
+      "to": 140
+    },
+    {
+      "from": 155,
+      "to": 140
+    },
+    {
+      "from": 155,
+      "to": 154
+    },
+    {
+      "from": 156,
+      "to": 155
+    },
+    {
+      "from": 157,
+      "to": 156
+    },
+    {
+      "from": 158,
+      "to": 136
+    },
+    {
+      "from": 158,
+      "to": 157
+    },
+    {
+      "from": 159,
+      "to": 16
+    },
+    {
+      "from": 159,
+      "to": 161
+    },
+    {
+      "from": 159,
+      "to": 4
+    },
+    {
+      "from": 160,
+      "to": 159
+    },
+    {
+      "from": 160,
+      "to": 161
+    },
+    {
+      "from": 161,
+      "to": 140
+    },
+    {
+      "from": 161,
+      "to": 4
+    },
+    {
+      "from": 162,
+      "to": 161
+    },
+    {
+      "from": 162,
+      "to": 160
+    },
+    {
+      "from": 163,
+      "to": 161
+    },
+    {
+      "from": 163,
+      "to": 141
+    },
+    {
+      "from": 164,
+      "to": 161
+    },
+    {
+      "from": 164,
+      "to": 142
+    },
+    {
+      "from": 165,
+      "to": 140
+    },
+    {
+      "from": 165,
+      "to": 4
+    },
+    {
+      "from": 165,
+      "to": 154
+    },
+    {
+      "from": 166,
+      "to": 165
+    },
+    {
+      "from": 166,
+      "to": 167
+    },
+    {
+      "from": 167,
+      "to": 165
+    },
+    {
+      "from": 168,
+      "to": 166
+    },
+    {
+      "from": 168,
+      "to": 169
+    },
+    {
+      "from": 169,
+      "to": 121
+    },
+    {
+      "from": 169,
+      "to": 167
+    },
+    {
+      "from": 169,
+      "to": 166
+    },
+    {
+      "from": 170,
+      "to": 167
+    },
+    {
+      "from": 171,
+      "to": 161
+    },
+    {
+      "from": 171,
+      "to": 159
+    },
+    {
+      "from": 172,
+      "to": 159
+    },
+    {
+      "from": 172,
+      "to": 171
+    },
+    {
+      "from": 173,
+      "to": 172
+    },
+    {
+      "from": 173,
+      "to": 52
+    },
+    {
+      "from": 174,
+      "to": 4
+    },
+    {
+      "from": 174,
+      "to": 154
+    },
+    {
+      "from": 175,
+      "to": 86
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 177,
+      "to": 176
+    },
+    {
+      "from": 177,
+      "to": 120
+    },
+    {
+      "from": 177,
+      "to": 117
+    },
+    {
+      "from": 178,
+      "to": 150
+    },
+    {
+      "from": 178,
+      "to": 176
+    },
+    {
+      "from": 179,
+      "to": 175
+    },
+    {
+      "from": 179,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 179
+    },
+    {
+      "from": 180,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 150
+    },
+    {
+      "from": 181,
+      "to": 175
+    },
+    {
+      "from": 181,
+      "to": 127
+    },
+    {
+      "from": 181,
+      "to": 182
+    },
+    {
+      "from": 182,
+      "to": 127
+    },
+    {
+      "from": 182,
+      "to": 176
+    },
+    {
+      "from": 183,
+      "to": 74
+    },
+    {
+      "from": 183,
+      "to": 175
+    },
+    {
+      "from": 183,
+      "to": 184
+    },
+    {
+      "from": 184,
+      "to": 175
+    },
+    {
+      "from": 184,
+      "to": 89
+    },
+    {
+      "from": 185,
+      "to": 184
+    },
+    {
+      "from": 186,
+      "to": 184
+    },
+    {
+      "from": 186,
+      "to": 116
+    },
+    {
+      "from": 187,
+      "to": 184
+    },
+    {
+      "from": 187,
+      "to": 65
+    },
+    {
+      "from": 187,
+      "to": 175
+    },
+    {
+      "from": 188,
+      "to": 127
+    },
+    {
+      "from": 188,
+      "to": 181
+    },
+    {
+      "from": 188,
+      "to": 27
+    },
+    {
+      "from": 189,
+      "to": 175
+    },
+    {
+      "from": 189,
+      "to": 176
+    },
+    {
+      "from": 190,
+      "to": 189
+    },
+    {
+      "from": 190,
+      "to": 177
+    },
+    {
+      "from": 190,
+      "to": 129
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 192,
+      "to": 38
+    },
+    {
+      "from": 192,
+      "to": 18
+    },
+    {
+      "from": 193,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 140
+    },
+    {
+      "from": 194,
+      "to": 193
+    },
+    {
+      "from": 194,
+      "to": 152
+    },
+    {
+      "from": 195,
+      "to": 193
+    },
+    {
+      "from": 195,
+      "to": 141
+    },
+    {
+      "from": 196,
+      "to": 191
+    },
+    {
+      "from": 196,
+      "to": 150
+    },
+    {
+      "from": 197,
+      "to": 196
+    },
+    {
+      "from": 198,
+      "to": 196
+    },
+    {
+      "from": 198,
+      "to": 197
+    },
+    {
+      "from": 199,
+      "to": 4
+    },
+    {
+      "from": 199,
+      "to": 154
+    },
+    {
+      "from": 199,
+      "to": 156
+    },
+    {
+      "from": 200,
+      "to": 16
+    },
+    {
+      "from": 200,
+      "to": 4
+    },
+    {
+      "from": 200,
+      "to": 5
+    },
+    {
+      "from": 200,
+      "to": 116
+    },
+    {
+      "from": 200,
+      "to": 117
+    }
+  ]
+}
