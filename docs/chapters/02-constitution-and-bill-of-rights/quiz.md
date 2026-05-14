@@ -7,14 +7,14 @@ Test your understanding of constitutional structure, the amendment process, and 
 #### 1. The constitutional principle that divides government authority among the legislative, executive, and judicial branches is called what?
 
 <div class="upper-alpha" markdown>
-1. Federalism
-2. Popular Sovereignty
-3. Separation of Powers
+1. Separation of Powers
+2. Federalism
+3. Popular Sovereignty
 4. Judicial Review
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Separation of powers, drawn from Montesquieu's *The Spirit of the Laws*, assigns distinct functions to three co-equal branches so that no single branch can dominate the government. Congress makes laws, the president executes them, and the courts interpret them. Federalism divides power between national and state governments. Judicial review is the power of courts to strike down unconstitutional laws—a separate, related concept.
+    The correct answer is **A**. Separation of powers, drawn from Montesquieu's *The Spirit of the Laws*, assigns distinct functions to three co-equal branches so that no single branch can dominate the government. Congress makes laws, the president executes them, and the courts interpret them. Federalism divides power between national and state governments. Judicial review is the power of courts to strike down unconstitutional laws—a separate, related concept.
 
     **Concept Tested:** Separation of Powers
 
@@ -40,13 +40,13 @@ Test your understanding of constitutional structure, the amendment process, and 
 
 <div class="upper-alpha" markdown>
 1. A simple majority in both chambers
-2. A two-thirds majority in both chambers
+2. Unanimous consent of all states
 3. A three-fourths majority in both chambers
-4. Unanimous consent of all states
+4. A two-thirds majority in both chambers
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Under Article V, a constitutional amendment may be proposed by a two-thirds vote in both the House and Senate (or by a constitutional convention called by two-thirds of state legislatures). Once proposed, the amendment must then be ratified by three-fourths of states (38 of 50). This double-supermajority requirement makes constitutional change deliberate and difficult, protecting the document from impulsive revision.
+    The correct answer is **D**. Under Article V, a constitutional amendment may be proposed by a two-thirds vote in both the House and Senate (or by a constitutional convention called by two-thirds of state legislatures). Once proposed, the amendment must then be ratified by three-fourths of states (38 of 50). This double-supermajority requirement makes constitutional change deliberate and difficult, protecting the document from impulsive revision.
 
     **Concept Tested:** Amendment Process
 
@@ -55,14 +55,14 @@ Test your understanding of constitutional structure, the amendment process, and 
 #### 4. The First Amendment protects which cluster of rights?
 
 <div class="upper-alpha" markdown>
-1. The right to bear arms, quartering of soldiers, and search-and-seizure protections
-2. Freedom of speech, religion, press, petition, and peaceful assembly
+1. Freedom of speech, religion, press, petition, and peaceful assembly
+2. The right to bear arms, quartering of soldiers, and search-and-seizure protections
 3. Protection against self-incrimination and double jeopardy
 4. The right to a jury trial in criminal and civil cases
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. The First Amendment protects five interrelated freedoms: religion (both free exercise and no establishment), speech, press, peaceful assembly, and the right to petition the government for redress of grievances. The Second Amendment covers arms. The Third addresses quartering. The Fourth covers search and seizure. The Fifth protects against self-incrimination and double jeopardy. The Sixth and Seventh guarantee jury trials.
+    The correct answer is **A**. The First Amendment protects five interrelated freedoms: religion (both free exercise and no establishment), speech, press, peaceful assembly, and the right to petition the government for redress of grievances. The Second Amendment covers arms. The Third addresses quartering. The Fourth covers search and seizure. The Fifth protects against self-incrimination and double jeopardy. The Sixth and Seventh guarantee jury trials.
 
     **Concept Tested:** First Amendment
 
@@ -87,14 +87,14 @@ Test your understanding of constitutional structure, the amendment process, and 
 #### 6. The Fourteenth Amendment, ratified in 1868, is most significant for extending which principle to the states?
 
 <div class="upper-alpha" markdown>
-1. The right to bear arms
-2. Federal supremacy over state law
-3. Equal protection and due process of law
-4. The right to vote regardless of race
+1. The right to vote regardless of race
+2. The right to bear arms
+3. Federal supremacy over state law in all policy areas
+4. Equal protection and due process of law
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Section 1 of the Fourteenth Amendment prohibits states from denying any person equal protection of the laws or depriving any person of life, liberty, or property without due process of law. These clauses became the constitutional engine for incorporating most of the Bill of Rights against state governments and for civil rights decisions like *Brown v. Board of Education*. The Fifteenth Amendment specifically addressed voting rights based on race.
+    The correct answer is **D**. Section 1 of the Fourteenth Amendment prohibits states from denying any person equal protection of the laws or depriving any person of life, liberty, or property without due process of law. These clauses became the constitutional engine for incorporating most of the Bill of Rights against state governments and for civil rights decisions like *Brown v. Board of Education*. The Fifteenth Amendment specifically addressed voting rights based on race.
 
     **Concept Tested:** Fourteenth Amendment
 
@@ -104,24 +104,24 @@ Test your understanding of constitutional structure, the amendment process, and 
 
 <div class="upper-alpha" markdown>
 1. The Fifteenth Amendment
-2. The Seventeenth Amendment
-3. The Nineteenth Amendment
+2. The Nineteenth Amendment
+3. The Seventeenth Amendment
 4. The Twenty-Sixth Amendment
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. The Nineteenth Amendment, ratified on August 18, 1920, prohibited denying the right to vote on account of sex, completing a suffrage movement that had been organized since the Seneca Falls Convention of 1848. The Fifteenth Amendment (1870) prohibited denying the vote based on race. The Seventeenth Amendment (1913) established direct election of senators. The Twenty-Sixth Amendment (1971) lowered the voting age to 18.
+    The correct answer is **B**. The Nineteenth Amendment, ratified on August 18, 1920, prohibited denying the right to vote on account of sex, completing a suffrage movement organized since the Seneca Falls Convention of 1848. The Fifteenth Amendment (1870) prohibited denying the vote based on race. The Seventeenth Amendment (1913) established direct election of senators. The Twenty-Sixth Amendment (1971) lowered the voting age to 18.
 
     **Concept Tested:** Nineteenth Amendment
 
 ---
 
-#### 8. The system of checks and balances ensures that each branch of government can limit the power of the others. Which of the following is an example of the judicial branch checking the legislative branch?
+#### 8. The system of checks and balances ensures that each branch can limit the power of the others. Which of the following is an example of the judicial branch checking the legislative branch?
 
 <div class="upper-alpha" markdown>
 1. The president vetoing a bill passed by Congress
-2. The Senate refusing to confirm a presidential nominee
-3. Congress overriding a presidential veto by a two-thirds vote
+2. Congress overriding a presidential veto by a two-thirds vote
+3. The Senate refusing to confirm a presidential nominee
 4. The Supreme Court striking down a federal law as unconstitutional
 </div>
 
@@ -135,10 +135,10 @@ Test your understanding of constitutional structure, the amendment process, and 
 #### 9. The Twenty-Sixth Amendment lowered the national voting age to 18. What event most directly prompted its passage in 1971?
 
 <div class="upper-alpha" markdown>
-1. The women's suffrage movement demanding equal civic participation
-2. The Civil Rights Movement's push to eliminate racial barriers to voting
+1. The women's suffrage movement demanding equal civic participation for all adults
+2. Rising youth voter turnout in the 1968 presidential election
 3. Student protests against the Vietnam War, where 18-year-olds were drafted but could not vote
-4. Rising youth voter turnout in the 1968 presidential election
+4. The Civil Rights Movement's push to eliminate racial barriers to voting
 </div>
 
 ??? question "Show Answer"
@@ -152,13 +152,13 @@ Test your understanding of constitutional structure, the amendment process, and 
 
 <div class="upper-alpha" markdown>
 1. Demand a speedy and public trial before an impartial jury
-2. Refuse to answer questions that could be used as evidence against them
-3. Confront and cross-examine witnesses testifying against them
+2. Confront and cross-examine witnesses testifying against them
+3. Refuse to answer questions that could be used as evidence against them
 4. Receive appointed counsel if they cannot afford an attorney
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. The Fifth Amendment's self-incrimination clause gives individuals the right to remain silent and refuse to provide testimony that could be used against them in a criminal prosecution. This is the basis for "pleading the Fifth." The right to a speedy, public, jury trial is in the Sixth Amendment. The right to confront witnesses is also the Sixth Amendment. The right to appointed counsel (*Gideon v. Wainwright*) is rooted in the Sixth Amendment as well.
+    The correct answer is **C**. The Fifth Amendment's self-incrimination clause gives individuals the right to remain silent and refuse to provide testimony that could be used against them in a criminal prosecution. This is the basis for "pleading the Fifth." The right to a speedy, public, jury trial is in the Sixth Amendment. The right to confront witnesses is also in the Sixth Amendment. The right to appointed counsel (*Gideon v. Wainwright*) is rooted in the Sixth Amendment as well.
 
     **Concept Tested:** Fifth Amendment
 

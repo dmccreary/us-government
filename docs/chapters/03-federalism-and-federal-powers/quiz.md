@@ -7,14 +7,14 @@ Test your understanding of the division of power between the national and state 
 #### 1. The Supremacy Clause of the Constitution establishes what principle?
 
 <div class="upper-alpha" markdown>
-1. The Supreme Court has the final word on all constitutional questions
-2. The federal government's power is supreme over the states in all matters
-3. The Constitution and federal laws made under it are the supreme law of the land, overriding conflicting state laws
+1. The Constitution and federal laws made under it are the supreme law of the land, overriding conflicting state laws
+2. The Supreme Court has the final word on all constitutional questions
+3. The federal government's power is supreme over the states in all matters
 4. Congress may override any presidential veto with a simple majority vote
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Article VI's Supremacy Clause declares that the Constitution, federal laws, and treaties are "the supreme Law of the Land," and that state judges are bound by them even if state constitutions or laws say otherwise. However, federal supremacy applies only where the federal government has legitimate constitutional authority—states retain authority in areas not delegated to the federal government. The clause does not make the federal government supreme in every conceivable matter.
+    The correct answer is **A**. Article VI's Supremacy Clause declares that the Constitution, federal laws, and treaties are "the supreme Law of the Land," and that state judges are bound by them even when state constitutions or laws say otherwise. Federal supremacy applies only where the federal government has legitimate constitutional authority—states retain authority in areas not delegated to the federal government. The clause does not make the federal government supreme in every conceivable matter.
 
     **Concept Tested:** Supremacy Clause
 
@@ -36,13 +36,13 @@ Test your understanding of the division of power between the national and state 
 
 ---
 
-#### 3. The Tenth Amendment reserves to the states (or the people) all powers not delegated to the United States nor prohibited to the states by the Constitution. This amendment is the primary textual basis for what?
+#### 3. The Tenth Amendment reserves to the states (or the people) powers not delegated to the federal government. This amendment is the primary textual basis for what?
 
 <div class="upper-alpha" markdown>
-1. The federal government's authority to regulate interstate commerce
+1. Congress's power to create implied powers beyond those listed
 2. State reserved powers and federalism's limits on national authority
-3. The president's power to issue executive orders
-4. Congress's power to create implied powers beyond those listed
+3. The federal government's authority to regulate interstate commerce
+4. The president's power to issue executive orders to state agencies
 </div>
 
 ??? question "Show Answer"
@@ -56,13 +56,13 @@ Test your understanding of the division of power between the national and state 
 
 <div class="upper-alpha" markdown>
 1. Override Supreme Court decisions it considers politically harmful
-2. Make all laws necessary and proper for carrying out its enumerated powers
-3. Regulate state elections to ensure they meet federal standards
-4. Expand the Bill of Rights through ordinary legislation
+2. Expand the Bill of Rights through ordinary legislation
+3. Make all laws necessary and proper for carrying out its enumerated powers
+4. Regulate state elections to ensure they meet federal standards
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Found at the end of Article I, Section 8, the Necessary and Proper Clause (sometimes called the "elastic clause") allows Congress to enact laws that are reasonably related to executing its enumerated powers. In *McCulloch v. Maryland* (1819), Chief Justice Marshall gave this clause an expansive reading, establishing that Congress need not find an action explicitly listed if it is a reasonable means to a legitimate end. It cannot override the Court or expand rights through statute.
+    The correct answer is **C**. Found at the end of Article I, Section 8, the Necessary and Proper Clause (sometimes called the "elastic clause") allows Congress to enact laws that are reasonably related to executing its enumerated powers. In *McCulloch v. Maryland* (1819), Chief Justice Marshall gave this clause an expansive reading, establishing that Congress need not find an action explicitly listed if it is a reasonable means to a legitimate end. It cannot override the Court or expand rights through statute.
 
     **Concept Tested:** Necessary and Proper Clause
 
@@ -72,13 +72,13 @@ Test your understanding of the division of power between the national and state 
 
 <div class="upper-alpha" markdown>
 1. A marble cake, where federal and state responsibilities are blended together
-2. A layer cake, with national and state governments operating in separate, distinct spheres
-3. A mosaic, where states can opt in or out of federal programs as they choose
-4. A pyramid, where the federal government sits above states and directs all policy
+2. A pyramid, where the federal government sits above states and directs all policy
+3. A layer cake, with national and state governments operating in separate, distinct spheres
+4. A mosaic, where states can opt in or out of federal programs as they choose
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Dual federalism is often described as a "layer cake" model because it imagines clear, separate domains for the federal and state governments with minimal overlap. The federal government handled national defense and interstate commerce; states handled everything else. The New Deal era largely ended this model as federal power expanded into areas previously left to states. Cooperative federalism is the "marble cake" model where the two levels intermingle.
+    The correct answer is **C**. Dual federalism is often described as a "layer cake" model because it imagines clear, separate domains for the federal and state governments with minimal overlap. The federal government handled national defense and interstate commerce; states handled everything else. The New Deal era largely ended this model as federal power expanded into areas previously left to states. Cooperative federalism is the "marble cake" model where the two levels intermingle.
 
     **Concept Tested:** Dual Federalism
 
@@ -87,9 +87,9 @@ Test your understanding of the division of power between the national and state 
 #### 6. Categorical grants differ from block grants primarily because categorical grants require what?
 
 <div class="upper-alpha" markdown>
-1. Matching funds from state governments equal to the federal contribution
-2. States to spend money on narrowly specified purposes with detailed federal conditions
-3. States to use funds however they deem most effective for their citizens
+1. States to use funds however they deem most effective for their citizens
+2. States to spend money on narrowly specified purposes with detailed federal conditions attached
+3. Matching funds from state governments equal to the federal contribution
 4. Congressional approval for every individual expenditure made by a state
 </div>
 
@@ -104,13 +104,13 @@ Test your understanding of the division of power between the national and state 
 
 <div class="upper-alpha" markdown>
 1. Gives states grant money without specifying how it should be spent
-2. Transfers a federal program to state administration with full cost reimbursement
-3. Requires states to perform activities or meet standards without providing the funds to pay for them
-4. Allows states to nullify federal regulations within their borders
+2. Allows states to nullify federal regulations within their borders
+3. Transfers a federal program to state administration with full cost reimbursement
+4. Requires states to perform activities or meet standards without providing the funds to pay for them
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Unfunded mandates require states or localities to comply with federal rules—such as environmental standards or disability accommodations—without providing the money to do so. States resent these requirements because they shift costs downward without consent. Congress passed the Unfunded Mandates Reform Act of 1995 to make it harder to impose new unfunded mandates, though existing ones remained. They are a persistent source of intergovernmental tension.
+    The correct answer is **D**. Unfunded mandates require states or localities to comply with federal rules—such as environmental standards or disability accommodations—without providing the money to do so. States resent these requirements because they shift costs downward without consent. Congress passed the Unfunded Mandates Reform Act of 1995 to make it harder to impose new unfunded mandates, though existing ones remained. They are a persistent source of intergovernmental tension.
 
     **Concept Tested:** Unfunded Mandates
 
@@ -120,9 +120,9 @@ Test your understanding of the division of power between the national and state 
 
 <div class="upper-alpha" markdown>
 1. Declare federal laws unconstitutional and refuse to enforce them within state borders
-2. Propose constitutional amendments without congressional approval
+2. Admit new states to the union without congressional authorization
 3. Collect federal taxes independently and send a portion to Washington
-4. Admit new states to the union without congressional authorization
+4. Propose constitutional amendments without congressional approval
 </div>
 
 ??? question "Show Answer"
@@ -132,17 +132,17 @@ Test your understanding of the division of power between the national and state 
 
 ---
 
-#### 9. A state student argues that because marijuana is still illegal under federal law, Colorado's legalization of recreational marijuana violates the Supremacy Clause. Which response best evaluates this argument?
+#### 9. A state argues that because marijuana is still illegal under federal law, its legalization of recreational marijuana violates the Supremacy Clause. Which response best evaluates this argument?
 
 <div class="upper-alpha" markdown>
-1. The argument is correct; the Supremacy Clause requires states to actively enforce federal drug laws
-2. The argument overstates the clause; while federal law is supreme, the federal government cannot commandeer state governments to enforce federal law, and states may choose not to assist
-3. The argument is irrelevant because drug enforcement is entirely a state matter under the Tenth Amendment
-4. The argument is incorrect because the Commerce Clause gives states exclusive authority over goods sold within their borders
+1. The argument is incorrect because the Commerce Clause gives states exclusive authority over goods sold within their borders
+2. The argument overstates the clause; while federal law is supreme, the federal government cannot commandeer state governments to enforce federal law under the anti-commandeering doctrine
+3. The argument is correct; the Supremacy Clause requires states to actively enforce all federal laws
+4. The argument is irrelevant because drug enforcement is entirely a state matter under the Tenth Amendment
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. The Supreme Court's anti-commandeering doctrine (*Printz v. United States*, 1997) prohibits the federal government from directing state governments to enforce federal law. Colorado need not enforce federal drug statutes even though federal law remains supreme. Federal agencies can enforce federal drug law in Colorado using their own agents, but they cannot compel state police or courts to do so. The Tenth Amendment and anti-commandeering doctrine together explain this result.
+    The correct answer is **B**. The Supreme Court's anti-commandeering doctrine (*Printz v. United States*, 1997) prohibits the federal government from directing state governments to enforce federal law. A state need not enforce federal drug statutes even though federal law remains supreme. Federal agencies can enforce federal drug law in a state using their own agents, but they cannot compel state police or courts to do so. The Tenth Amendment and anti-commandeering doctrine together explain this result.
 
     **Concept Tested:** Supremacy Clause
 
@@ -151,14 +151,14 @@ Test your understanding of the division of power between the national and state 
 #### 10. New Federalism, associated with Presidents Nixon and Reagan, sought to shift power back to states primarily through what mechanism?
 
 <div class="upper-alpha" markdown>
-1. Constitutional amendments repealing New Deal-era federal programs
+1. Replacing categorical grants with block grants giving states more spending flexibility
 2. Increased use of unfunded mandates to discipline state spending
-3. Replacing categorical grants with block grants giving states more spending flexibility
-4. Eliminating the Commerce Clause as a basis for federal regulation
+3. Eliminating the Commerce Clause as a basis for federal regulation
+4. Constitutional amendments repealing New Deal-era federal programs
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. New Federalism was a political movement beginning in the Nixon era and accelerating under Reagan that sought to return governing authority to states by consolidating narrow categorical grants into broad block grants. This gave states more discretion over how to spend federal money. It did not eliminate federal programs through constitutional amendments, nor did it increase mandates (which conflict with its decentralizing philosophy). The Commerce Clause remained the primary basis for federal economic regulation throughout this period.
+    The correct answer is **A**. New Federalism was a political movement beginning in the Nixon era and accelerating under Reagan that sought to return governing authority to states by consolidating narrow categorical grants into broad block grants, giving states more discretion over how to spend federal money. It did not eliminate federal programs through constitutional amendments, nor did it increase mandates (which conflict with its decentralizing philosophy). The Commerce Clause remained the primary basis for federal economic regulation throughout this period.
 
     **Concept Tested:** New Federalism
 

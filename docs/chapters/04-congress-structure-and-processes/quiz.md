@@ -7,14 +7,14 @@ Test your understanding of how Congress is organized, how it makes laws, and how
 #### 1. How many voting members does the U.S. House of Representatives have?
 
 <div class="upper-alpha" markdown>
-1. 50
-2. 100
-3. 435
+1. 435
+2. 50
+3. 100
 4. 538
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. The House of Representatives has 435 voting members, a number fixed by the Permanent Apportionment Act of 1929. Each state receives at least one representative; the remaining seats are distributed proportionally based on census population data. Seats are reapportioned every ten years following the census. The Senate has 100 members (two per state). The Electoral College has 538 members. States have 50 governors but that is not a congressional figure.
+    The correct answer is **A**. The House of Representatives has 435 voting members, a number fixed by the Permanent Apportionment Act of 1929. Each state receives at least one representative; the remaining seats are distributed proportionally based on census population data. Seats are reapportioned every ten years following the census. The Senate has 100 members (two per state). The Electoral College has 538 members. States have 50 governors, but that is not a congressional figure.
 
     **Concept Tested:** House of Representatives
 
@@ -24,13 +24,13 @@ Test your understanding of how Congress is organized, how it makes laws, and how
 
 <div class="upper-alpha" markdown>
 1. Initiate all revenue bills before the House may consider them
-2. Confirm presidential appointments and ratify treaties
-3. Override a presidential veto with a simple majority
+2. Override a presidential veto with a simple majority
+3. Confirm presidential appointments and ratify treaties
 4. Conduct investigations of executive branch agencies without a warrant
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Under Article II, the Senate must confirm major presidential appointments (judges, cabinet secretaries, ambassadors) by majority vote and must ratify treaties by a two-thirds vote. The House—not the Senate—must originate revenue bills (Article I, Section 7). Veto overrides require two-thirds of each chamber. Congressional investigations are an oversight tool available to both chambers and do not require warrants.
+    The correct answer is **C**. Under Article II, the Senate must confirm major presidential appointments (judges, cabinet secretaries, ambassadors) by majority vote and must ratify treaties by a two-thirds vote. The House—not the Senate—must originate revenue bills (Article I, Section 7). Veto overrides require two-thirds of each chamber. Congressional investigations are an oversight tool available to both chambers and do not require warrants.
 
     **Concept Tested:** Senate Structure
 
@@ -40,13 +40,13 @@ Test your understanding of how Congress is organized, how it makes laws, and how
 
 <div class="upper-alpha" markdown>
 1. To investigate allegations of misconduct against executive branch officials
-2. To negotiate a single unified version of a bill that passed the House and Senate in different forms
-3. To hold public hearings on proposed legislation before it reaches the floor
-4. To remove a member of Congress who has violated House or Senate rules
+2. To hold public hearings on proposed legislation before it reaches the floor
+3. To remove a member of Congress who has violated House or Senate rules
+4. To negotiate a single unified version of a bill that passed the House and Senate in different forms
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. When the House and Senate pass different versions of the same bill, a conference committee—composed of members from both chambers—meets to reconcile the differences and produce a single compromise bill. Both chambers must then pass the conference report without amendment before sending it to the president. Investigative hearings are typically conducted by standing committees. Floor debate is managed by the relevant legislative committee.
+    The correct answer is **D**. When the House and Senate pass different versions of the same bill, a conference committee—composed of members from both chambers—meets to reconcile the differences and produce a single compromise bill. Both chambers must then pass the conference report without amendment before sending it to the president. Investigative hearings are typically conducted by standing committees. Discipline of members is handled by the House or Senate Ethics Committees, not conference committees.
 
     **Concept Tested:** Conference Committees
 
@@ -55,10 +55,10 @@ Test your understanding of how Congress is organized, how it makes laws, and how
 #### 4. The Senate's filibuster allows senators to do what?
 
 <div class="upper-alpha" markdown>
-1. Attach unrelated amendments to any bill under consideration
+1. Veto individual line items within an appropriations bill
 2. Delay or block a vote on legislation by engaging in extended debate
-3. Force an immediate floor vote without committee approval
-4. Veto individual line items within an appropriations bill
+3. Attach unrelated amendments to any bill under consideration
+4. Force an immediate floor vote without committee approval
 </div>
 
 ??? question "Show Answer"
@@ -72,13 +72,13 @@ Test your understanding of how Congress is organized, how it makes laws, and how
 
 <div class="upper-alpha" markdown>
 1. Allows the majority leader to table any amendment without a vote
-2. Permits the House to demand an immediate conference with the Senate
-3. Ends a filibuster and forces a final vote on the pending measure when 60 senators agree
-4. Requires all senators to be present on the floor during debate on major legislation
+2. Requires all senators to be present on the floor during debate on major legislation
+3. Permits the House to demand an immediate conference with the Senate
+4. Ends a filibuster and forces a final vote on the pending measure when 60 senators agree
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Cloture (Rule XXII) is the Senate's only formal mechanism for ending a filibuster. Invoking cloture requires signatures from 16 senators and a subsequent vote of 60 senators (three-fifths of the full Senate). After cloture is invoked, debate is limited to 30 additional hours. The 60-vote threshold effectively means that controversial legislation usually requires bipartisan support to advance. Most judicial nominations now require only a simple majority after the "nuclear option" changes in 2013 and 2017.
+    The correct answer is **D**. Cloture (Rule XXII) is the Senate's only formal mechanism for ending a filibuster. Invoking cloture requires signatures from 16 senators and a subsequent vote of 60 senators (three-fifths of the full Senate). After cloture is invoked, debate is limited to 30 additional hours. The 60-vote threshold effectively means that controversial legislation usually requires bipartisan support to advance. Most judicial nominations now require only a simple majority after the "nuclear option" changes in 2013 and 2017.
 
     **Concept Tested:** Cloture
 
@@ -87,14 +87,14 @@ Test your understanding of how Congress is organized, how it makes laws, and how
 #### 6. Gerrymandering refers to the practice of doing what?
 
 <div class="upper-alpha" markdown>
-1. Reducing the number of House seats after a state loses population in the census
-2. Drawing congressional district boundaries in ways designed to give one party or group an electoral advantage
-3. Requiring that members of Congress live within the districts they represent
+1. Requiring that members of Congress live within the districts they represent
+2. Reducing the number of House seats after a state loses population in the census
+3. Drawing congressional district boundaries in ways designed to give one party or group an electoral advantage
 4. Prohibiting incumbents from running for the same seat more than three consecutive times
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Gerrymandering involves manipulating the shape of legislative districts to favor a particular party, racial group, or incumbent. It takes two main forms: "packing" (concentrating opposition voters into a few districts) and "cracking" (splitting opposition voters across many districts). Named after Massachusetts Governor Elbridge Gerry, whose 1812 district looked like a salamander, the practice is common after each census when state legislatures redraw district lines.
+    The correct answer is **C**. Gerrymandering involves manipulating the shape of legislative districts to favor a particular party, racial group, or incumbent. It takes two main forms: "packing" (concentrating opposition voters into a few districts) and "cracking" (splitting opposition voters across many districts). Named after Massachusetts Governor Elbridge Gerry, whose 1812 district looked like a salamander, the practice is common after each census when state legislatures redraw district lines.
 
     **Concept Tested:** Gerrymandering
 
@@ -121,12 +121,12 @@ Test your understanding of how Congress is organized, how it makes laws, and how
 <div class="upper-alpha" markdown>
 1. The Speaker controls which bills are scheduled for floor debate
 2. The Speaker appoints members to the most powerful House committees
-3. The Speaker is the presiding officer of the House and second in the line of presidential succession
-4. The Speaker can veto legislation passed by the full House before it goes to the Senate
+3. The Speaker can veto legislation passed by the full House before it goes to the Senate
+4. The Speaker is the presiding officer of the House and second in the presidential line of succession
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **D**. The Speaker of the House has no veto power over legislation passed by the full House. Once the House passes a bill, it goes directly to the Senate (or to conference if the Senate passed a different version). The Speaker does control the legislative calendar, makes key committee assignments, and stands second in the presidential line of succession (after the vice president). The veto power belongs exclusively to the president under Article I, Section 7.
+    The correct answer is **C**. The Speaker of the House has no veto power over legislation passed by the full House. Once the House passes a bill, it goes directly to the Senate (or to conference if the Senate passed a different version). The Speaker does control the legislative calendar, makes key committee assignments, and stands second in the presidential line of succession (after the vice president). The veto power belongs exclusively to the president under Article I, Section 7.
 
     **Concept Tested:** Speaker of the House
 
@@ -136,29 +136,29 @@ Test your understanding of how Congress is organized, how it makes laws, and how
 
 <div class="upper-alpha" markdown>
 1. How Senate seats are divided among the political parties after each election
-2. The allocation of the 435 House seats among the 50 states based on population changes
-3. How federal grant money is distributed to states proportionally by population
-4. Which party controls committee chairmanships in both chambers of Congress
+2. How federal grant money is distributed to states proportionally by population
+3. Which party controls committee chairmanships in both chambers of Congress
+4. The allocation of the 435 House seats among the 50 states based on population changes
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Reapportionment is the process of redistributing the 435 House seats among the states after each decennial census reflects population shifts. States that have gained population receive additional seats; states that have lost population lose seats. Reapportionment applies only to the House—each state always retains its two Senate seats regardless of population change. Following reapportionment, states typically redraw their district lines through redistricting.
+    The correct answer is **D**. Reapportionment is the process of redistributing the 435 House seats among the states after each decennial census reflects population shifts. States that have gained population receive additional seats; states that have lost population lose seats. Reapportionment applies only to the House—each state always retains its two Senate seats regardless of population change. Following reapportionment, states typically redraw their district lines through redistricting.
 
     **Concept Tested:** Reapportionment
 
 ---
 
-#### 10. A bill that originates in a Senate committee and is approved by the full Senate then goes to the House, which passes a different version. What must happen next for the bill to become law?
+#### 10. A bill approved by the Senate then goes to the House, which passes a different version. What must happen next for the bill to become law?
 
 <div class="upper-alpha" markdown>
-1. The president can sign either version into law as long as both chambers have passed something
-2. The Senate version automatically prevails because it originated first
-3. A conference committee must produce a compromise version that both chambers must then pass
-4. The House version automatically prevails because the House is the larger and more representative chamber
+1. Both chambers must pass an identical text—typically negotiated by a conference committee—before sending it to the president
+2. The House version automatically prevails because the House is the larger, more representative chamber
+3. The president can sign either version into law as long as both chambers have passed something
+4. The Senate version automatically prevails because it originated first
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. When the House and Senate pass different versions of a bill, neither version automatically prevails. Both chambers must pass the identical text before it can go to the president. A conference committee, made up of designated members from both chambers, negotiates a single compromise version. Both chambers then vote on the conference report without amendment—they must accept or reject it as written. Only if both pass it can it be sent to the president for signature or veto.
+    The correct answer is **A**. When the House and Senate pass different versions of a bill, neither version automatically prevails. Both chambers must pass the identical text before it can go to the president. A conference committee, made up of designated members from both chambers, negotiates a single compromise version. Both chambers then vote on the conference report without amendment—they must accept or reject it as written. Only if both pass it can it be sent to the president for signature or veto.
 
     **Concept Tested:** Legislative Process
 

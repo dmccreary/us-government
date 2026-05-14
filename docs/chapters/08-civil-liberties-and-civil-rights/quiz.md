@@ -7,9 +7,9 @@ Test your understanding of the constitutional protections for individual freedom
 #### 1. What is the primary distinction between civil liberties and civil rights?
 
 <div class="upper-alpha" markdown>
-1. Civil liberties are protected by state constitutions; civil rights are protected by the federal Constitution
+1. Civil liberties apply only to citizens; civil rights apply to all persons present in the United States
 2. Civil liberties protect individuals from government interference in their freedoms; civil rights protect individuals from discrimination in accessing the full benefits of society
-3. Civil liberties apply only to citizens; civil rights apply to all persons present in the United States
+3. Civil liberties are protected by state constitutions; civil rights are protected by the federal Constitution
 4. Civil liberties are absolute protections; civil rights may be limited by compelling government interests
 </div>
 
@@ -39,14 +39,14 @@ Test your understanding of the constitutional protections for individual freedom
 #### 3. The exclusionary rule, established in *Mapp v. Ohio* (1961), requires courts to do what with evidence obtained in violation of the Fourth Amendment?
 
 <div class="upper-alpha" markdown>
-1. Admit the evidence but instruct the jury to give it reduced weight
-2. Exclude the evidence from trial so that it cannot be used against the defendant
-3. Return the evidence to the defendant before the trial begins
-4. Permit the evidence only if the prosecutor can demonstrate it would have been discovered eventually
+1. Exclude the evidence from trial so that it cannot be used against the defendant
+2. Return the evidence to the defendant before the trial begins
+3. Permit the evidence only if the prosecutor can demonstrate it would have been discovered eventually
+4. Admit the evidence but instruct the jury to give it reduced weight
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. The exclusionary rule prohibits prosecutors from using evidence that was obtained through unconstitutional searches or seizures (Fourth Amendment violations) in a criminal trial. The Supreme Court extended it to state courts in *Mapp v. Ohio* through selective incorporation. The rule's purpose is to deter police misconduct by removing the incentive to conduct illegal searches. Critics argue it can allow guilty defendants to go free. Note: Answer D describes the separate "inevitable discovery" exception to the exclusionary rule.
+    The correct answer is **A**. The exclusionary rule prohibits prosecutors from using evidence that was obtained through unconstitutional searches or seizures (Fourth Amendment violations) in a criminal trial. The Supreme Court extended it to state courts in *Mapp v. Ohio* through selective incorporation. The rule's purpose is to deter police misconduct by removing the incentive to conduct illegal searches. Critics argue it can allow guilty defendants to go free. Note: Answer C describes the separate "inevitable discovery" exception to the exclusionary rule.
 
     **Concept Tested:** Exclusionary Rule
 
@@ -56,13 +56,13 @@ Test your understanding of the constitutional protections for individual freedom
 
 <div class="upper-alpha" markdown>
 1. The First and Fourth Amendments
-2. The Fourth and Sixth Amendments
-3. The Fifth and Sixth Amendments
+2. The Fifth and Sixth Amendments
+3. The Fourth and Sixth Amendments
 4. The Eighth and Fourteenth Amendments
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. In *Miranda v. Arizona* (1966), the Supreme Court held that suspects must be informed of their rights before custodial interrogation to protect against self-incrimination (Fifth Amendment) and to ensure access to counsel (Sixth Amendment). The required warnings include: the right to remain silent, that anything said can be used in court, the right to an attorney, and the right to appointed counsel if the suspect cannot afford one. These protections ensure suspects knowingly waive their constitutional rights if they choose to speak.
+    The correct answer is **B**. In *Miranda v. Arizona* (1966), the Supreme Court held that suspects must be informed of their rights before custodial interrogation to protect against self-incrimination (Fifth Amendment) and to ensure access to counsel (Sixth Amendment). The required warnings include: the right to remain silent, that anything said can be used in court, the right to an attorney, and the right to appointed counsel if the suspect cannot afford one. These protections ensure suspects knowingly waive their constitutional rights if they choose to speak.
 
     **Concept Tested:** Miranda Rights
 
@@ -72,9 +72,9 @@ Test your understanding of the constitutional protections for individual freedom
 
 <div class="upper-alpha" markdown>
 1. Marbury v. Madison (1803), which had established judicial review
-2. Dred Scott v. Sandford (1857), which had denied citizenship to African Americans
+2. Korematsu v. United States (1944), which had approved Japanese American internment
 3. Plessy v. Ferguson (1896), which had upheld racial segregation under the "separate but equal" doctrine
-4. Korematsu v. United States (1944), which had approved Japanese American internment
+4. Dred Scott v. Sandford (1857), which had denied citizenship to African Americans
 </div>
 
 ??? question "Show Answer"
@@ -88,13 +88,13 @@ Test your understanding of the constitutional protections for individual freedom
 
 <div class="upper-alpha" markdown>
 1. Federal employment and military service
-2. Public accommodations (hotels, restaurants, theaters) and employment
-3. Housing and voting
-4. Higher education admissions and federal contracting
+2. Housing and voting
+3. Higher education admissions and federal contracting
+4. Public accommodations (hotels, restaurants, theaters) and employment
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. The Civil Rights Act of 1964 is one of the most comprehensive civil rights statutes in American history. Title II prohibited discrimination in places of public accommodation (restaurants, hotels, theaters, gas stations). Title VII prohibited employment discrimination based on race, color, religion, sex, or national origin and created the Equal Employment Opportunity Commission (EEOC). Housing discrimination was addressed by the Fair Housing Act of 1968. The Voting Rights Act of 1965 addressed voting separately.
+    The correct answer is **D**. The Civil Rights Act of 1964 is one of the most comprehensive civil rights statutes in American history. Title II prohibited discrimination in places of public accommodation (restaurants, hotels, theaters, gas stations). Title VII prohibited employment discrimination based on race, color, religion, sex, or national origin and created the Equal Employment Opportunity Commission (EEOC). Housing discrimination was addressed by the Fair Housing Act of 1968. The Voting Rights Act of 1965 addressed voting separately.
 
     **Concept Tested:** Civil Rights Act of 1964
 
@@ -103,7 +103,7 @@ Test your understanding of the constitutional protections for individual freedom
 #### 7. The Voting Rights Act of 1965 is best known for including what key provision?
 
 <div class="upper-alpha" markdown>
-1. It established a national system of voter registration to be administered by the federal government
+1. It established a national system of voter registration administered by the federal government
 2. It required jurisdictions with a history of discrimination to obtain "preclearance" from the federal government before changing voting procedures
 3. It lowered the voting age to 18 in federal elections in response to the Vietnam War
 4. It created the Electoral College system for electing the president
@@ -119,14 +119,14 @@ Test your understanding of the constitutional protections for individual freedom
 #### 8. The Establishment Clause of the First Amendment prohibits the government from doing what?
 
 <div class="upper-alpha" markdown>
-1. Requiring that all religious organizations register with a federal agency
-2. Taxing religious organizations' property in the same way as other nonprofit organizations
-3. Making laws respecting an establishment of religion—endorsing, funding, or entangling government with religion
+1. Making laws respecting an establishment of religion—endorsing, funding, or entangling government with religion
+2. Requiring that all religious organizations register with a federal agency
+3. Taxing religious organizations' property in the same way as other nonprofit organizations
 4. Preventing religious organizations from participating in political activities
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. The Establishment Clause ("Congress shall make no law respecting an establishment of religion") prohibits government from officially endorsing a religion, setting up a state church, preferring one religion over another, or broadly entangling government with religious institutions. The Supreme Court's tests in this area include the Lemon test, the endorsement test, and the coercion test. The Free Exercise Clause (a separate provision of the First Amendment) protects individuals' right to practice their religion.
+    The correct answer is **A**. The Establishment Clause ("Congress shall make no law respecting an establishment of religion") prohibits government from officially endorsing a religion, setting up a state church, preferring one religion over another, or broadly entangling government with religious institutions. The Supreme Court's tests in this area include the Lemon test, the endorsement test, and the coercion test. The Free Exercise Clause (a separate provision of the First Amendment) protects individuals' right to practice their religion.
 
     **Concept Tested:** Establishment Clause
 
@@ -136,13 +136,13 @@ Test your understanding of the constitutional protections for individual freedom
 
 <div class="upper-alpha" markdown>
 1. Free speech rights of students and the government's power to regulate public universities
-2. The Equal Protection Clause's prohibition on racial discrimination and institutions' interest in achieving educational diversity
+2. The Fifth Amendment's due process protections and Congress's power to regulate interstate commerce in education
 3. The Establishment Clause's separation of religion and the government's power to fund religious universities
-4. The Fifth Amendment's due process protections and Congress's power to regulate interstate commerce in education
+4. The Equal Protection Clause's prohibition on racial discrimination and institutions' interest in achieving educational diversity
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Affirmative action admissions policies use race as a factor to increase diversity. Supporters argue they serve a compelling interest in educational diversity and remedy historical discrimination; opponents argue they constitute racial discrimination forbidden by the Equal Protection Clause. In *Grutter v. Bollinger* (2003) the Court narrowly upheld race-conscious admissions. In *Students for Fair Admissions v. Harvard* (2023), the Court ruled that race-conscious admissions programs at Harvard and UNC were unconstitutional.
+    The correct answer is **D**. Affirmative action admissions policies use race as a factor to increase diversity. Supporters argue they serve a compelling interest in educational diversity and remedy historical discrimination; opponents argue they constitute racial discrimination forbidden by the Equal Protection Clause. In *Grutter v. Bollinger* (2003) the Court narrowly upheld race-conscious admissions. In *Students for Fair Admissions v. Harvard* (2023), the Court ruled that race-conscious admissions programs at Harvard and UNC were unconstitutional.
 
     **Concept Tested:** Affirmative Action
 
@@ -151,14 +151,14 @@ Test your understanding of the constitutional protections for individual freedom
 #### 10. A student argues that the government should be able to ban hate speech because such speech causes real harm to minority communities. Evaluate this argument in light of First Amendment doctrine.
 
 <div class="upper-alpha" markdown>
-1. The student is correct; the Supreme Court has consistently held that speech causing emotional harm is not constitutionally protected
-2. The student raises a valid concern, but current First Amendment doctrine broadly protects even offensive and hateful speech, and a hate speech ban would likely be struck down as viewpoint discrimination
-3. The student's argument is irrelevant because hate speech laws are exclusively a matter for state legislatures, not subject to federal constitutional review
-4. The student is correct; the "clear and present danger" test allows government to ban any speech likely to cause harm to individuals
+1. The student is correct; the "clear and present danger" test allows government to ban any speech likely to cause harm to individuals
+2. The student is correct; the Supreme Court has consistently held that speech causing emotional harm is not constitutionally protected
+3. The student raises a valid concern, but current First Amendment doctrine broadly protects even offensive and hateful speech, and a hate speech ban would likely be struck down as viewpoint discrimination
+4. The student's argument is irrelevant because hate speech laws are exclusively a matter for state legislatures, not subject to federal constitutional review
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Unlike many democracies, the United States provides very broad First Amendment protection for offensive and even hateful speech. In *R.A.V. v. City of St. Paul* (1992), the Supreme Court struck down a hate speech ordinance as viewpoint discrimination. The Court has held that the remedy for harmful speech is more speech, not enforced silence. The "clear and present danger" test applies to speech that incites imminent lawless action (*Brandenburg v. Ohio*, 1969), not speech that is merely offensive or harmful to dignity.
+    The correct answer is **C**. Unlike many democracies, the United States provides very broad First Amendment protection for offensive and even hateful speech. In *R.A.V. v. City of St. Paul* (1992), the Supreme Court struck down a hate speech ordinance as viewpoint discrimination. The Court has held that the remedy for harmful speech is more speech, not enforced silence. The "clear and present danger" test applies to speech that incites imminent lawless action (*Brandenburg v. Ohio*, 1969), not speech that is merely offensive or harmful to dignity.
 
     **Concept Tested:** Freedom of Speech
 

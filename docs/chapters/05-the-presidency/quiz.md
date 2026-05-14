@@ -9,12 +9,12 @@ Test your understanding of presidential powers, the relationship between the exe
 <div class="upper-alpha" markdown>
 1. Issuing executive orders to direct federal agencies
 2. Declaring war on a foreign nation
-3. Negotiating and signing treaties with foreign governments
-4. Creating federal departments and agencies
+3. Creating federal departments and agencies
+4. Negotiating and signing treaties with foreign governments
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Article II explicitly grants the president the power to make treaties (with Senate ratification), appoint officers of the United States, serve as commander in chief, and grant pardons. Executive orders are an informal power derived from the president's general executive authority—not explicitly listed. The power to declare war belongs to Congress (Article I). Creating executive departments is a congressional function, though the president nominates secretaries.
+    The correct answer is **D**. Article II explicitly grants the president the power to make treaties (with Senate ratification), appoint officers of the United States, serve as commander in chief, and grant pardons. Executive orders are an informal power derived from the president's general executive authority—not explicitly listed. The power to declare war belongs to Congress (Article I). Creating executive departments is a congressional function, though the president nominates secretaries.
 
     **Concept Tested:** Enumerated Presidential Powers
 
@@ -23,14 +23,14 @@ Test your understanding of presidential powers, the relationship between the exe
 #### 2. The War Powers Resolution of 1973 was designed to limit presidential military action by requiring what?
 
 <div class="upper-alpha" markdown>
-1. The president to seek a declaration of war from Congress before deploying any troops abroad
-2. The president to notify Congress within 48 hours of committing forces and withdraw them within 60 days unless Congress authorizes continued action
-3. A joint congressional resolution to approve all military budgets above a specified threshold
-4. Senate confirmation of all generals and admirals before they may command U.S. forces in combat
+1. The president to notify Congress within 48 hours of committing forces and withdraw them within 60 days unless Congress authorizes continued action
+2. The president to seek a formal declaration of war from Congress before deploying any troops abroad
+3. Senate confirmation of all generals and admirals before they may command U.S. forces in combat
+4. A joint congressional resolution to approve all military budgets above a specified threshold
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Passed over Nixon's veto in the wake of Vietnam, the War Powers Resolution requires the president to notify Congress within 48 hours of introducing U.S. armed forces into hostilities. If Congress does not declare war or otherwise authorize the action within 60 days (with a 30-day withdrawal period), the president must remove U.S. forces. Every president since Nixon has questioned the resolution's constitutionality, and its effectiveness has been debated in every major military intervention since.
+    The correct answer is **A**. Passed over Nixon's veto in the wake of Vietnam, the War Powers Resolution requires the president to notify Congress within 48 hours of introducing U.S. armed forces into hostilities. If Congress does not declare war or otherwise authorize the action within 60 days (with a 30-day withdrawal period), the president must remove U.S. forces. Every president since Nixon has questioned the resolution's constitutionality, and its effectiveness has been debated in every major military intervention since.
 
     **Concept Tested:** War Powers Resolution
 
@@ -39,10 +39,10 @@ Test your understanding of presidential powers, the relationship between the exe
 #### 3. A pocket veto occurs when the president does what?
 
 <div class="upper-alpha" markdown>
-1. Signs a bill into law while issuing a signing statement objecting to certain provisions
-2. Returns a bill to Congress with specific objections, preventing its immediate passage
+1. Issues an executive order that effectively replaces legislation Congress refused to pass
+2. Signs a bill into law while issuing a signing statement objecting to certain provisions
 3. Takes no action on a bill while Congress adjourns within ten days, killing the bill
-4. Issues an executive order that effectively replaces legislation Congress refused to pass
+4. Returns a bill to Congress with specific objections, preventing its immediate passage
 </div>
 
 ??? question "Show Answer"
@@ -55,14 +55,14 @@ Test your understanding of presidential powers, the relationship between the exe
 #### 4. Which of the following best describes the concept of executive privilege?
 
 <div class="upper-alpha" markdown>
-1. The president's exclusive authority to set the federal budget without congressional approval
-2. The president's claimed right to keep certain communications and information confidential from Congress and the courts
+1. The president's claimed right to keep certain communications and information confidential from Congress and the courts
+2. The president's exclusive authority to set the federal budget without congressional approval
 3. The power of the White House to grant security clearances to executive branch employees
 4. The president's authority to reorganize executive agencies without congressional legislation
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Executive privilege is the president's claimed constitutional right—not explicitly listed in the Constitution—to withhold certain communications, documents, and information from Congress and the courts in order to protect the confidentiality of executive deliberations and national security. In *United States v. Nixon* (1974), the Supreme Court recognized executive privilege as a legitimate constitutional principle but ruled that it is not absolute and must yield to a demonstrated specific need in a criminal proceeding.
+    The correct answer is **A**. Executive privilege is the president's claimed constitutional right—not explicitly listed in the Constitution—to withhold certain communications, documents, and information from Congress and the courts in order to protect the confidentiality of executive deliberations and national security. In *United States v. Nixon* (1974), the Supreme Court recognized executive privilege as a legitimate constitutional principle but ruled that it is not absolute and must yield to a demonstrated specific need in a criminal proceeding.
 
     **Concept Tested:** Executive Privilege
 
@@ -72,29 +72,29 @@ Test your understanding of presidential powers, the relationship between the exe
 
 <div class="upper-alpha" markdown>
 1. Formally notify Congress that the president intends to veto legislation currently under consideration
-2. Announce executive orders that modify how federal agencies will implement new legislation
-3. Express the president's interpretation of a law's meaning or signal which provisions the executive intends not to enforce
+2. Express the president's interpretation of a law's meaning or signal which provisions the executive intends not to enforce
+3. Announce executive orders that modify how federal agencies will implement new legislation
 4. Certify that a treaty has been ratified and is binding on the United States
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Signing statements are written proclamations issued by the president at the time of signing legislation. Presidents use them to interpret ambiguous provisions, assert constitutional objections to specific sections, or signal their intent not to enforce certain parts they consider unconstitutional. Critics argue that signing statements function as a form of line-item veto—allowing presidents to accept a bill while rejecting parts of it—which was ruled unconstitutional when used formally (*Clinton v. City of New York*, 1998).
+    The correct answer is **B**. Signing statements are written proclamations issued by the president at the time of signing legislation. Presidents use them to interpret ambiguous provisions, assert constitutional objections to specific sections, or signal their intent not to enforce certain parts they consider unconstitutional. Critics argue that signing statements function as a form of line-item veto—allowing presidents to accept a bill while rejecting parts of it—which was ruled unconstitutional when used formally (*Clinton v. City of New York*, 1998).
 
     **Concept Tested:** Signing Statements
 
 ---
 
-#### 6. Impeachment of the president is a two-step process. Which branch conducts the trial after impeachment?
+#### 6. Impeachment of the president is a two-step process. Which branch conducts the trial after the House votes to impeach?
 
 <div class="upper-alpha" markdown>
-1. The Supreme Court, with the Chief Justice presiding and justices acting as jurors
-2. The Senate, with the Chief Justice presiding and senators acting as jurors
-3. A joint session of Congress, with the Vice President presiding
-4. The House of Representatives, which both votes to impeach and conducts the trial
+1. A joint session of Congress, with the Vice President presiding
+2. The Supreme Court, with the Chief Justice presiding and justices acting as jurors
+3. The House of Representatives, which both votes to impeach and conducts the trial
+4. The Senate, with the Chief Justice presiding and senators acting as jurors
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Under Article I, the House of Representatives holds the sole power to impeach (bring charges against) a president by simple majority vote. The Senate then holds the trial, with the Chief Justice of the United States presiding when the president is tried. A two-thirds vote of senators present is required to convict and remove the president from office. Three presidents have been impeached by the House (Johnson, Clinton, Trump twice); none has been convicted by the Senate.
+    The correct answer is **D**. Under Article I, the House of Representatives holds the sole power to impeach (bring charges against) a president by simple majority vote. The Senate then holds the trial, with the Chief Justice of the United States presiding when the president is tried. A two-thirds vote of senators present is required to convict and remove the president from office. Three presidents have been impeached by the House (Johnson, Clinton, Trump twice); none has been convicted by the Senate.
 
     **Concept Tested:** Impeachment Process
 
@@ -104,9 +104,9 @@ Test your understanding of presidential powers, the relationship between the exe
 
 <div class="upper-alpha" markdown>
 1. Enforced only by the military, not by civilian federal agencies
-2. Issued only during a national emergency declared by Congress
+2. Applied only to citizens who have signed contracts with the federal government
 3. Reversed by the next president without any congressional action
-4. Applied only to citizens who have signed contracts with the federal government
+4. Issued only during a national emergency declared by Congress
 </div>
 
 ??? question "Show Answer"
@@ -121,8 +121,8 @@ Test your understanding of presidential powers, the relationship between the exe
 <div class="upper-alpha" markdown>
 1. Limits the president to two four-year terms in office
 2. Presidential disability, vacancy, and succession when the president cannot perform their duties
-3. The process by which the vice president assumes legislative duties during a Senate recess
-4. The requirement that the president submit a budget to Congress by February 1 of each year
+3. The requirement that the president submit a budget to Congress by February 1 of each year
+4. The process by which the vice president assumes legislative duties during a Senate recess
 </div>
 
 ??? question "Show Answer"
@@ -132,10 +132,10 @@ Test your understanding of presidential powers, the relationship between the exe
 
 ---
 
-#### 9. Compare and contrast a president who primarily relies on formal, enumerated powers versus one who also uses informal powers such as the bully pulpit. Which president's approach is more likely to achieve major domestic policy change and why?
+#### 9. Which president's approach is more likely to achieve major domestic policy change: one who relies only on enumerated powers, or one who also uses informal powers such as the bully pulpit?
 
 <div class="upper-alpha" markdown>
-1. The president relying only on enumerated powers, because those are the only constitutionally legitimate means of influence
+1. The president relying only on enumerated powers, because those are the only constitutionally legitimate means
 2. The president using informal powers, because public opinion pressure can compel Congress to act on the president's agenda
 3. Both approaches are equally effective because Congress responds the same to formal and informal pressure
 4. Neither approach matters because Congress ultimately controls domestic policy regardless of presidential strategy
@@ -151,14 +151,14 @@ Test your understanding of presidential powers, the relationship between the exe
 #### 10. The commander-in-chief power grants the president authority over the armed forces. How have presidents used this power beyond formal declarations of war?
 
 <div class="upper-alpha" markdown>
-1. By unilaterally increasing the size of the military budget without a congressional appropriation
-2. By deploying troops to foreign conflicts, conducting drone strikes, and directing covert operations without formal declarations of war
-3. By appointing all military officers above the rank of colonel without Senate confirmation
+1. By unilaterally increasing the military budget without a congressional appropriation
+2. By appointing all military officers above the rank of colonel without Senate confirmation
+3. By deploying troops to foreign conflicts, conducting drone strikes, and directing covert operations without formal declarations of war
 4. By designating friendly foreign militaries as official branches of the U.S. armed forces
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Since the Korean War (1950), no declared war has been fought despite numerous major military conflicts. Presidents have used the commander-in-chief power to deploy forces to Korea, Vietnam, the Persian Gulf, Afghanistan, Iraq, and numerous other locations—relying on congressional authorizations for the use of military force (AUMFs) or acting unilaterally under claims of inherent executive power. The War Powers Resolution (1973) was Congress's attempt to constrain this practice, but its effectiveness remains disputed.
+    The correct answer is **C**. Since the Korean War (1950), no declared war has been fought despite numerous major military conflicts. Presidents have used the commander-in-chief power to deploy forces to Korea, Vietnam, the Persian Gulf, Afghanistan, Iraq, and numerous other locations—relying on congressional authorizations for the use of military force (AUMFs) or acting unilaterally under claims of inherent executive power. The War Powers Resolution (1973) was Congress's attempt to constrain this practice, but its effectiveness remains disputed.
 
     **Concept Tested:** Commander in Chief
 
