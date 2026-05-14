@@ -1,14 +1,14 @@
 ---
 title: Enlightenment Ideas to American Institutions
 description: Students will *identify* (Bloom L1 — Remember) the key Enlightenment thinkers and *explain* (Bloom L2 — Understand) how each thinker's ideas appeared in specific founding documents or constitutional structures.
-status: implemented
+status: apprved
 library: vis-timeline
 bloom_level: Understand
 ---
 
 # Enlightenment Ideas to American Institutions
 
-<iframe src="main.html" width="100%" height="532" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="600" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

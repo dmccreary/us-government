@@ -1,7 +1,7 @@
 ---
 title: Checks and Balances Among the Three Branches
 description: Students will *identify* (Bloom L1 — Remember) each constitutional check and *explain* (Bloom L2 — Understand) how it prevents any one branch from becoming too powerful.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Understand
 ---

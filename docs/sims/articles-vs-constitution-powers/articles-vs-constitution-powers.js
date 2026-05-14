@@ -48,6 +48,7 @@ let flipped = []; // parallel: 'none' | 'art' | 'con'
 let cardRects = []; // {x,y,w,h, side, idx}
 let showWhy = false;
 let whyBtn;
+let resetBtn;
 
 function setup() {
     updateCanvasSize();
@@ -56,11 +57,17 @@ function setup() {
     textSize(14);
     flipped = powers.map(() => 'none');
     whyBtn = createButton('Show "Why It Matters" Today');
-    whyBtn.position(10, drawHeight + 8);
     whyBtn.mousePressed(() => {
         showWhy = !showWhy;
         whyBtn.html(showWhy ? 'Hide "Why It Matters" Today' : 'Show "Why It Matters" Today');
     });
+
+    resetBtn = createButton('Reset All Cards');
+    resetBtn.mousePressed(() => {
+        flipped = powers.map(() => 'none');
+    });
+
+    updateButtonPositions();
 }
 
 function draw() {
@@ -162,7 +169,7 @@ function drawCard(x, y, w, h, idx, side, p) {
         textAlign(LEFT, CENTER);
         textSize(13);
         textStyle(NORMAL);
-        text(p.topic, x + 28, y + h / 2 - 1, w - 60, h);
+        text(p.topic, x + 28, y, w - 60, h);
         // Status icon
         textSize(20);
         textAlign(CENTER, CENTER);
@@ -212,9 +219,15 @@ function mousePressed() {
     }
 }
 
+function updateButtonPositions() {
+    whyBtn.position(10, drawHeight + 8);
+    resetBtn.position(canvasWidth - resetBtn.elt.offsetWidth - 10, drawHeight + 8);
+}
+
 function windowResized() {
     updateCanvasSize();
     resizeCanvas(containerWidth, containerHeight);
+    updateButtonPositions();
     redraw();
 }
 

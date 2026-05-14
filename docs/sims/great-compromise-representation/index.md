@@ -1,7 +1,7 @@
 ---
 title: Great Compromise — The Two-Chamber Solution
 description: Students will *explain* (Bloom L2 — Understand) how the Great Compromise resolved the conflict between large-state and small-state interests by creating a bicameral legislature.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Understand
 ---
@@ -19,6 +19,10 @@ Students will *explain* (Bloom L2 — Understand) how the Great Compromise resol
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Explain
 - **Library:** p5.js
+
+## TODO
+
+Fix the spacing in the control region
 
 ## Specification
 

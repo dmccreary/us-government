@@ -1,7 +1,8 @@
 // Enlightenment to Constitution Timeline — vis-timeline
-// CANVAS_HEIGHT: 530
+// CANVAS_HEIGHT: 600
 document.addEventListener('DOMContentLoaded', function () {
     const data = [
+        { id: 0, year: 1675, cat: 'ghost', title: '', body: '' },
         { id: 1, year: 1689, cat: 'philo',
           title: 'Locke publishes Two Treatises of Government',
           body: 'Argues for natural rights to life, liberty, and property; legitimate government rests on consent of the governed and may be replaced if it becomes tyrannical.' },
@@ -35,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const items = data.map(d => {
         const it = {
             id: d.id,
-            content: d.title.split(' publishes ').pop().split(' (')[0],
+            content: d.cat === 'ghost' ? '' : d.title.split(' publishes ').pop().split(' (')[0],
             start: new Date(d.year, 5, 30),
             className: d.cat,
             title: d.title,
@@ -46,7 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const allItems = items.slice();
-    const dataset = new vis.DataSet(allItems);
+    const visibleItems = items.filter(i => i.className !== 'ghost');
+    const dataset = new vis.DataSet(visibleItems);
     const container = document.getElementById('timeline');
 
     const options = {
@@ -56,8 +58,8 @@ document.addEventListener('DOMContentLoaded', function () {
         orientation: 'top',
         zoomMin: 1000 * 60 * 60 * 24 * 365 * 5,
         zoomMax: 1000 * 60 * 60 * 24 * 365 * 200,
-        min: new Date(1680, 0, 1),
-        max: new Date(1800, 0, 1),
+        min: new Date(1640, 0, 1),
+        max: new Date(1820, 0, 1),
         stack: true,
         selectable: true,
         showCurrentTime: false,
@@ -75,8 +77,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function fitToData() {
         const ts = allItems.map(i => i.start.getTime());
         const minD = Math.min(...ts), maxD = Math.max(...ts);
-        const pad = 5 * 365 * 24 * 60 * 60 * 1000;
-        timeline.setWindow(new Date(minD - pad), new Date(maxD + pad), { animation: false });
+        const year = 365 * 24 * 60 * 60 * 1000;
+        const padL = 0, padR = 10 * year;
+        timeline.setWindow(new Date(minD - padL), new Date(maxD + padR), { animation: false });
     }
     fitToData();
 
@@ -90,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('catFilter').addEventListener('change', function () {
         const cat = this.value;
-        const filtered = (cat === 'all') ? allItems : allItems.filter(i => i.className === cat);
+        const filtered = (cat === 'all') ? visibleItems : visibleItems.filter(i => i.className === cat);
         dataset.clear();
         dataset.add(filtered);
     });

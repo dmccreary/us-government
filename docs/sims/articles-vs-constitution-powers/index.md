@@ -1,7 +1,7 @@
 ---
 title: Powers Comparison — Articles vs. Constitution
 description: Students will *compare and contrast* (Bloom L4 — Analyze) the powers granted to the national government under the Articles of Confederation versus the Constitution.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Analyze
 ---

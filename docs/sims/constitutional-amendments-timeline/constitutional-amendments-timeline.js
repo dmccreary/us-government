@@ -1,5 +1,5 @@
 // Constitutional Amendment Timeline — vis-timeline
-// CANVAS_HEIGHT: 540
+// CANVAS_HEIGHT: 660
 document.addEventListener('DOMContentLoaded', function () {
     // Course-highlighted amendments (per spec): 1, 2, 4, 5, 6, 8, 14, 15, 19, 26
     const starred = new Set([1, 2, 4, 5, 6, 8, 14, 15, 19, 26]);
@@ -49,13 +49,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const options = {
         width: '100%',
-        height: '380px',
+        height: '500px',
         margin: { item: { horizontal: 10, vertical: 6 }, axis: 30 },
         orientation: 'top',
         zoomMin: 1000 * 60 * 60 * 24 * 365 * 5,
         zoomMax: 1000 * 60 * 60 * 24 * 365 * 300,
         min: new Date(1780, 0, 1),
-        max: new Date(2030, 0, 1),
+        max: new Date(2050, 0, 1),
         stack: true,
         selectable: true,
         showCurrentTime: false,
@@ -73,8 +73,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function fitToData() {
         const ts = allItems.map(i => i.start.getTime());
         const minD = Math.min(...ts), maxD = Math.max(...ts);
-        const pad = 8 * 365 * 24 * 60 * 60 * 1000;
-        timeline.setWindow(new Date(minD - pad), new Date(maxD + pad), { animation: false });
+        const year = 365 * 24 * 60 * 60 * 1000;
+        const padL = 8 * year, padR = 20 * year;
+        timeline.setWindow(new Date(minD - padL), new Date(maxD + padR), { animation: false });
     }
     fitToData();
 

@@ -1,10 +1,10 @@
 // Cognitive Bias in Political Reasoning — Scenario Identifier
-// CANVAS_HEIGHT: 540
+// CANVAS_HEIGHT: 450
 
 let containerWidth;
 let canvasWidth = 800;
-let drawHeight = 460;
-let controlHeight = 80;
+let drawHeight = 400;
+let controlHeight = 50;
 let canvasHeight = drawHeight + controlHeight;
 let containerHeight = canvasHeight;
 
@@ -115,7 +115,7 @@ function draw() {
     // Card area
     const cardX = 20, cardY = 50;
     const cardW = canvasWidth - 40;
-    const cardH = drawHeight - 110;
+    const cardH = drawHeight - 50;
 
     fill(255);
     stroke(180);

@@ -1,14 +1,14 @@
 ---
 title: Civil Rights Milestones — Legal and Legislative Timeline
 description: Students will *recall* (Bloom L1 — Remember) the sequence of major civil rights milestones and *explain* (Bloom L2 — Understand) how legal decisions and legislation built on each other.
-status: implemented
+status: approved
 library: vis-timeline
 bloom_level: Understand
 ---
 
 # Civil Rights Milestones — Legal and Legislative Timeline
 
-<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="720" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

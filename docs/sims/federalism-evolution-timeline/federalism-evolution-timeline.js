@@ -1,7 +1,11 @@
 // Federalism Evolution Timeline — vis-timeline
-// CANVAS_HEIGHT: 540
+// CANVAS_HEIGHT: 640
 document.addEventListener('DOMContentLoaded', function () {
     const data = [
+        // Ghost padding items — invisible spacers that extend the fit window so the
+        // earliest and latest real items aren't clipped at the timeline edges.
+        { id: 100, year: 1795, era: 'ghost', shift: '', title: '', body: '' },
+        { id: 101, year: 2050, era: 'ghost', shift: '', title: '', body: '' },
         // Dual Federalism (1789–1933)
         { id: 1, year: 1819, era: 'dual', shift: 'nat',
           title: 'McCulloch v. Maryland',
@@ -51,17 +55,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const items = data.map(d => ({
         id: d.id,
-        content: d.title,
+        content: d.era === 'ghost' ? '' : d.title,
         start: new Date(d.year, 5, 30),
         className: d.era,
-        title: d.title + ' (' + d.year + ')',
+        title: d.era === 'ghost' ? '' : d.title + ' (' + d.year + ')',
         body: d.body,
         era: d.era,
         shift: d.shift
     }));
 
     const allItems = items.slice();
-    const dataset = new vis.DataSet(allItems);
+    const visibleItems = items.filter(i => i.era !== 'ghost');
+    const dataset = new vis.DataSet(visibleItems);
     const container = document.getElementById('timeline');
 
     const options = {
@@ -72,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
         zoomMin: 1000 * 60 * 60 * 24 * 365 * 5,
         zoomMax: 1000 * 60 * 60 * 24 * 365 * 300,
         min: new Date(1789, 0, 1),
-        max: new Date(2030, 0, 1),
+        max: new Date(2050, 0, 1),
         stack: true,
         selectable: true,
         showCurrentTime: false,
@@ -90,8 +95,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function fitToData() {
         const ts = allItems.map(i => i.start.getTime());
         const minD = Math.min(...ts), maxD = Math.max(...ts);
-        const pad = 8 * 365 * 24 * 60 * 60 * 1000;
-        timeline.setWindow(new Date(minD - pad), new Date(maxD + pad), { animation: false });
+        const year = 365 * 24 * 60 * 60 * 1000;
+        const padL = 0, padR = 0;
+        timeline.setWindow(new Date(minD - padL), new Date(maxD + padR), { animation: false });
     }
     fitToData();
 
@@ -108,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('eraFilter').addEventListener('change', function () {
         const era = this.value;
-        const filtered = (era === 'all') ? allItems : allItems.filter(i => i.era === era);
+        const filtered = (era === 'all') ? visibleItems : visibleItems.filter(i => i.era === era);
         dataset.clear();
         dataset.add(filtered);
     });

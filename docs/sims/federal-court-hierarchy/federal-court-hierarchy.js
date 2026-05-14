@@ -9,7 +9,7 @@ let canvasHeight = drawHeight + controlHeight;
 let containerHeight = canvasHeight;
 
 const TIERS = [
-    { id: 'sct', label: 'Supreme Court of the United States',
+    { id: 'sct', label: 'Supreme Court\nof the United States',
       count: '1 court, 9 justices',
       jurisdiction: 'Final appellate jurisdiction over federal questions; original jurisdiction in a narrow set of cases (e.g., disputes between states).',
       who: 'Chief Justice + 8 Associate Justices, lifetime appointed by President with Senate confirmation.',
@@ -185,10 +185,10 @@ function draw() {
     const mapH = 130;
     drawCircuitMap(20, mapY, leftW - 30, mapH);
 
-    // Info panel on right
+    // Info panel on right — pushed below the State Supreme Courts box so they don't overlap
     const infoX = leftW + 10;
     const infoW = canvasWidth - infoX - 10;
-    const infoTop = 60;
+    const infoTop = stateY + stateH + 15;
     const infoH = drawHeight - infoTop - 80;
     fill(255);
     stroke(180);

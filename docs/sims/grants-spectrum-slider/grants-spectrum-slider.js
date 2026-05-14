@@ -1,10 +1,10 @@
 // Grants Spectrum — Categorical to Block (and conditional in between)
-// CANVAS_HEIGHT: 500
+// CANVAS_HEIGHT: 525
 
 let containerWidth;
 let canvasWidth = 800;
-let drawHeight = 460;
-let controlHeight = 40;
+let drawHeight = 485;
+let controlHeight = 45;
 let canvasHeight = drawHeight + controlHeight;
 let containerHeight = canvasHeight;
 
@@ -14,7 +14,7 @@ let spectrumSlider;
 const presets = [
     { name: 'Medicaid',     val: 18,
       note: 'Categorical with state matching — strict federal eligibility & service rules; states can apply for limited 1115 waivers.' },
-    { name: 'Highway Funds (Conditional Categorical)', val: 35,
+    { name: 'Highway Funds\n(Conditional Categorical)', val: 35,
       note: 'States get federal highway dollars but must enforce conditions like the 21 drinking age (South Dakota v. Dole).' },
     { name: 'TANF (Welfare Block)', val: 80,
       note: 'PRWORA (1996) replaced AFDC entitlement with state-administered TANF block grants — wide state discretion within federal time/work limits.' }
@@ -35,8 +35,16 @@ function setup() {
 
 function draw() {
     updateCanvasSize();
-    background(248, 249, 250);
 
+    // MicroSim Standard layout
+    fill('aliceblue');
+    // draw a light gray line about both the drawing area and the control area
+    stroke('silver');
+    rect(0, 0, canvasWidth, drawHeight);
+    // draw a white background for the control area
+    fill('white');
+    rect(0, drawHeight, canvasWidth, controlHeight);
+    
     const v = spectrumSlider.value();
 
     // Title
@@ -79,7 +87,7 @@ function draw() {
     }
 
     // Spectrum bar
-    const sx = 30, sy = 90, sw = canvasWidth - 60, sh = 30;
+    const sx = 30, sy = 115, sw = canvasWidth - 60, sh = 30;
     // gradient bar
     for (let x = 0; x < sw; x++) {
         const t = x / sw;

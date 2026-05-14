@@ -114,6 +114,16 @@ function draw() {
         pairGroups[key].push({ check: ch, idx: i });
     });
 
+    // Pairs that have a reverse direction get a bias so opposite arrows sit on
+    // opposite sides of the center line rather than all drawing on the same line.
+    const PAIR_BIAS = 22;
+    Object.keys(pairGroups).forEach(key => {
+        const sep = key.indexOf('→');
+        const from = key.substring(0, sep);
+        const to   = key.substring(sep + '→'.length);
+        pairGroups[key].bias = pairGroups[to + '→' + from] ? PAIR_BIAS : 0;
+    });
+
     Object.values(pairGroups).forEach(group => {
         drawArrowGroup(group);
     });
@@ -200,7 +210,16 @@ function drawArrowGroup(group) {
     const ux = dx / len, uy = dy / len;     // unit direction
     const nx = -uy, ny = ux;                // perpendicular
     const offsetStep = 14;
-    const baseOffset = -(group.length - 1) * offsetStep / 2;
+    const bias = group.bias || 0;
+    const baseOffset = -(group.length - 1) * offsetStep / 2 + bias;
+
+    // Stagger label positions along the arrow to spread them apart when
+    // multiple arrows run parallel close together.
+    const labelFracs =
+        group.length === 4 ? [0.28, 0.42, 0.58, 0.72] :
+        group.length === 3 ? [0.33, 0.50, 0.67] :
+        group.length === 2 ? [0.38, 0.62] :
+        [0.50];
 
     group.forEach((entry, k) => {
         const off = baseOffset + k * offsetStep;
@@ -210,11 +229,11 @@ function drawArrowGroup(group) {
         const sy = fromNode.y + uy * startGap + ny * off;
         const ex = toNode.x   - ux * endGap   + nx * off;
         const ey = toNode.y   - uy * endGap   + ny * off;
-        drawArrow(sx, sy, ex, ey, COLORS[entry.check.from], entry, group);
+        drawArrow(sx, sy, ex, ey, COLORS[entry.check.from], entry, labelFracs[k]);
     });
 }
 
-function drawArrow(sx, sy, ex, ey, col, entry, group) {
+function drawArrow(sx, sy, ex, ey, col, entry, labelFrac) {
     const isSelected = (selectedIdx === entry.idx);
     const isHover = pointNearLine(mouseX, mouseY, sx, sy, ex, ey, 8);
     stroke(col[0], col[1], col[2]);
@@ -230,10 +249,10 @@ function drawArrow(sx, sy, ex, ey, col, entry, group) {
     noStroke();
     triangle(0, 0, -ah, -ah / 2, -ah, ah / 2);
     pop();
-    // Label
+    // Label — placed at labelFrac along the arrow to spread labels apart
     if (!testMode || isSelected) {
-        const mx = (sx + ex) / 2;
-        const my = (sy + ey) / 2;
+        const mx = sx + (ex - sx) * labelFrac;
+        const my = sy + (ey - sy) * labelFrac;
         const txt = entry.check.short;
         textSize(10);
         textStyle(NORMAL);

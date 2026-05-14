@@ -1,14 +1,14 @@
 ---
 title: Constitutional Amendment Timeline
 description: Students will *identify* (Bloom L1 — Remember) the amendments covered in this course and *explain* (Bloom L2 — Understand) the historical context that drove each amendment's ratification.
-status: implemented
+status: approved
 library: vis-timeline
 bloom_level: Understand
 ---
 
 # Constitutional Amendment Timeline
 
-<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="762" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

@@ -1,7 +1,7 @@
 ---
 title: AI Threat Taxonomy for Elections — Interactive Risk Map
 description: Students will *classify* (Bloom L2 — Understand) different types of AI-enabled election threats and *evaluate* (Bloom L5 — Evaluate) the effectiveness of proposed countermeasures against each threat type.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Evaluate
 ---

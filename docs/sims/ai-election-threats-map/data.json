@@ -1,0 +1,55 @@
+{
+  "threats": [
+    { "id": "deepfake",  "label": "Deepfakes (audio/video)",       "desc": "AI-generated images, audio, or video of candidates saying or doing things they never did." },
+    { "id": "textdis",   "label": "Text disinformation",           "desc": "Mass-produced fake news stories, comments, and posts authored by language models." },
+    { "id": "micro",     "label": "Micro-targeting",               "desc": "AI-personalized ads and messages tailored to individual voters' psychological vulnerabilities." },
+    { "id": "suppress",  "label": "Voter suppression via false info", "desc": "False information about voting locations, hours, eligibility, or ID requirements." },
+    { "id": "infra",     "label": "Infrastructure attacks",        "desc": "AI-enhanced attacks on voter rolls, election websites, or vote-tabulation systems." }
+  ],
+  "vectors": [
+    { "id": "social",    "label": "Social Media" },
+    { "id": "email",     "label": "Email / SMS" },
+    { "id": "broadcast", "label": "Broadcast / Web Video" },
+    { "id": "inperson",  "label": "In-Person / Robocalls" }
+  ],
+  "cells": {
+    "deepfake|social":    { "difficulty": "low",  "example": "2024: AI-generated voice clips circulated on TikTok/X within hours of original posts; many viral before fact-check.", "counter": "Platform watermarking; rapid-response fact-check teams." },
+    "deepfake|email":     { "difficulty": "med",  "example": "Targeted spear-phishing with deepfake audio of a campaign manager authorizing actions.", "counter": "Out-of-band verification; staff training." },
+    "deepfake|broadcast": { "difficulty": "low",  "example": "2024 NH primary: AI-cloned voice of President Biden urged voters not to vote in primary (robocall).", "counter": "FCC ban on AI voice in robocalls (Feb 2024); broadcast-network verification." },
+    "deepfake|inperson":  { "difficulty": "high", "example": "AI-generated robocalls in rural areas where independent fact-checking is sparse.", "counter": "State-level criminal penalties for election deception." },
+
+    "textdis|social":     { "difficulty": "low",  "example": "LLM-generated comment armies make fringe positions appear mainstream.", "counter": "Bot detection; provenance signals (C2PA); platform moderation." },
+    "textdis|email":      { "difficulty": "med",  "example": "AI-tailored phishing emails impersonate poll workers or candidates.", "counter": "DMARC/SPF email authentication; reporting tools." },
+    "textdis|broadcast":  { "difficulty": "med",  "example": "Fake \"news\" sites use LLMs to produce thousands of articles cited on social media.", "counter": "Source-credibility tools; media literacy." },
+    "textdis|inperson":   { "difficulty": "high", "example": "AI-generated flyers and door-hangers that mimic official election materials.", "counter": "State election-board enforcement; voter education." },
+
+    "micro|social":       { "difficulty": "low",  "example": "AI tailors ad copy to each voter's emotional triggers, A/B-tested in real time.", "counter": "Ad-transparency laws; ban on issue ads close to election." },
+    "micro|email":        { "difficulty": "med",  "example": "Personalized fundraising emails using AI-inferred psychological profiles.", "counter": "Privacy laws (GDPR-style); campaign-finance disclosure." },
+    "micro|broadcast":    { "difficulty": "high", "example": "Geo-targeted streaming ads use AI to serve different versions to different demographics.", "counter": "Ad-archive disclosure rules; FCC oversight of streaming." },
+    "micro|inperson":     { "difficulty": "high", "example": "AI-driven canvassing apps prioritize visits based on predicted persuadability.", "counter": "Limited counter-measures; mostly transparency-based." },
+
+    "suppress|social":    { "difficulty": "low",  "example": "False posts claiming polls closed early or voter ID is required when it isn't.", "counter": "Platform priority labeling for election-day misinformation." },
+    "suppress|email":     { "difficulty": "med",  "example": "AI-generated emails to voters in targeted precincts with wrong polling place addresses.", "counter": "Election-board email verification; voter-education campaigns." },
+    "suppress|broadcast": { "difficulty": "med",  "example": "AI-altered video of officials announcing fake voting changes.", "counter": "Same as deepfake/broadcast." },
+    "suppress|inperson":  { "difficulty": "high", "example": "2020-style robocalls falsely warning of arrests at polling places (now AI-enhanced).", "counter": "Federal & state election-deception statutes; rapid law enforcement." },
+
+    "infra|social":       { "difficulty": "low",  "example": "AI-coordinated DDoS or doxxing campaigns against election workers.", "counter": "Threat protection programs (CISA); local-law-enforcement coordination." },
+    "infra|email":        { "difficulty": "med",  "example": "AI-crafted phishing of election officials' credentials to access voter rolls or pollbooks.", "counter": "MFA mandates; CISA security guidance." },
+    "infra|broadcast":    { "difficulty": "high", "example": "AI-generated fake \"results\" feeds spliced into news broadcasts.", "counter": "Multi-source verification; AP & state EOS protocols." },
+    "infra|inperson":     { "difficulty": "high", "example": "AI-coordinated harassment of poll workers tied to false fraud claims.", "counter": "Federal protections (DOJ Election Threats Task Force)." }
+  },
+  "defenses": [
+    { "id": "water",    "label": "Watermarking \n& provenance", "addresses": ["deepfake", "textdis"] },
+    { "id": "platform", "label": "Platform moderation",       "addresses": ["deepfake", "textdis", "micro", "suppress"] },
+    { "id": "literacy", "label": "Media literacy",            "addresses": ["deepfake", "textdis", "micro", "suppress"] },
+    { "id": "legal",    "label": "Legal penalties",           "addresses": ["deepfake", "suppress", "infra"] },
+    { "id": "detect",   "label": "Technical detection",       "addresses": ["deepfake", "textdis", "infra"] }
+  ],
+  "whatWorks": [
+    "Provenance/watermarking standards (C2PA) being adopted by major platforms and AI vendors.",
+    "Faster human + automated fact-check pipelines coupled with platform priority labeling.",
+    "Media-literacy curricula starting in middle school.",
+    "Targeted legal penalties for election-deception (state laws + federal robocall ban).",
+    "CISA and DOJ Election Threats Task Force coordination on infrastructure security."
+  ]
+}

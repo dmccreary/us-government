@@ -1,14 +1,14 @@
 ---
 title: Cognitive Bias in Political Reasoning — Interactive Scenario Explorer
 description: Students will *classify* (Bloom L2 — Understand) examples of biased political reasoning as confirmation bias, motivated reasoning, availability heuristic, in-group favoritism, or anchoring, and *apply* (Bloom L3 — Apply) this knowledge to evaluate political arguments they encounter.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Apply
 ---
 
 # Cognitive Bias in Political Reasoning — Interactive Scenario Explorer
 
-<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="452" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

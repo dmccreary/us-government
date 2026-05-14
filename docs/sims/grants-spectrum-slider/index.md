@@ -1,14 +1,14 @@
 ---
 title: The Grants Spectrum — Categorical to Block
 description: Students will *compare and contrast* (Bloom L4 — Analyze) categorical grants and block grants, and *evaluate* (Bloom L5 — Evaluate) the trade-offs between federal accountability and state flexibility.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Evaluate
 ---
 
 # The Grants Spectrum — Categorical to Block
 
-<iframe src="main.html" width="100%" height="502" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="532" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

@@ -1,7 +1,7 @@
 ---
 title: Electoral College — Interactive Map
 description: Students will *explain* (Bloom L2 — Understand) how the Electoral College works and *analyze* (Bloom L4 — Analyze) how winner-take-all creates strategic incentives that concentrate campaign attention in swing states.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Analyze
 ---

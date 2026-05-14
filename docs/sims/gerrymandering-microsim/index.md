@@ -1,14 +1,14 @@
 ---
 title: Gerrymandering — Packing and Cracking Visualized
 description: Students will *demonstrate* (Bloom L3 — Apply) how district boundary drawing affects election outcomes, and *analyze* (Bloom L4 — Analyze) the difference between packing and cracking strategies.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Analyze
 ---
 
 # Gerrymandering — Packing and Cracking Visualized
 
-<iframe src="main.html" width="100%" height="622" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="402" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

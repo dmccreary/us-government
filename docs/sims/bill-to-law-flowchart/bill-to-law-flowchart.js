@@ -1,9 +1,9 @@
 // How a Bill Becomes a Law — Interactive Flowchart
-// CANVAS_HEIGHT: 800
+// CANVAS_HEIGHT: 652
 
 let containerWidth;
 let canvasWidth = 800;
-let drawHeight = 760;
+let drawHeight = 612;
 let controlHeight = 40;
 let canvasHeight = drawHeight + controlHeight;
 let containerHeight = canvasHeight;
@@ -103,7 +103,7 @@ function draw() {
     nodeRects = [];
     const top = 50;
     const nodeH = 32;
-    const gap = 10;
+    const gap = 7;
     const spacing = nodeH + gap;
     for (let i = 0; i < steps.length; i++) {
         const s = steps[i];

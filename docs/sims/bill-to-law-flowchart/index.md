@@ -1,14 +1,14 @@
 ---
 title: How a Bill Becomes a Law
 description: Students will *recall* (Bloom L1 — Remember) the sequence of steps in the legislative process and *apply* (Bloom L3 — Apply) this knowledge to determine at what stage a hypothetical bill was defeated.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Apply
 ---
 
 # How a Bill Becomes a Law
 
-<iframe src="main.html" width="100%" height="802" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="652" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

@@ -1,3 +1,11 @@
+---
+title: Learning Graph Viewer
+description: "View the concepts for this course as a directed graph with links showing dependencies."
+image:  
+hide:
+   toc
+status: approved
+---
 # Learning Graph Viewer
 
 [Open Learning Graph Viewer Fullscreen (Recommended)](./main.html){ .md-button .md-button--primary }

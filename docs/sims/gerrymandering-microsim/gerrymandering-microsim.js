@@ -1,10 +1,10 @@
 // Gerrymandering — Packing and Cracking visualized
-// CANVAS_HEIGHT: 620
+// CANVAS_HEIGHT: 400
 
 let containerWidth;
 let canvasWidth = 800;
-let drawHeight = 540;
-let controlHeight = 80;
+let drawHeight = 340;
+let controlHeight = 60;
 let canvasHeight = drawHeight + controlHeight;
 let containerHeight = canvasHeight;
 
@@ -32,15 +32,15 @@ function setup() {
     buildConfigs();
 
     fairBtn = createButton('Fair Districts');
-    fairBtn.position(10, drawHeight + 10);
+    fairBtn.position(10, drawHeight + 8);
     fairBtn.mousePressed(() => { currentConfig = 'Fair'; highlightedDist = -1; });
 
     packBtn = createButton('Pack Blue');
-    packBtn.position(120, drawHeight + 10);
+    packBtn.position(120, drawHeight + 8);
     packBtn.mousePressed(() => { currentConfig = 'Pack'; highlightedDist = -1; });
 
     crackBtn = createButton('Crack Blue');
-    crackBtn.position(220, drawHeight + 10);
+    crackBtn.position(220, drawHeight + 8);
     crackBtn.mousePressed(() => { currentConfig = 'Crack'; highlightedDist = -1; });
 }
 
@@ -118,26 +118,24 @@ function buildConfigs() {
 
 function draw() {
     updateCanvasSize();
-    background(248, 249, 250);
+    background(240, 248, 255);
 
     noStroke();
     fill(26, 58, 108);
     textSize(17);
-    textStyle(BOLD);
     textAlign(CENTER, TOP);
-    text('Gerrymandering — Packing and Cracking', canvasWidth / 2, 6);
-    textStyle(NORMAL);
+    text('Gerrymandering — Packing and Cracking', canvasWidth / 2, 4);
     textSize(11);
     fill(73, 80, 87);
     text('A hypothetical state with 60% Blue / 40% Red voters. Same voters — three different district maps.',
-         canvasWidth / 2, 28);
+         canvasWidth / 2, 26);
 
     const assign = (currentConfig === 'Fair') ? configs.Fair :
                    (currentConfig === 'Pack') ? configs.Pack : configs.Crack;
 
     // Grid layout
     const gridLeft = 20;
-    const gridTop = 50;
+    const gridTop = 46;
     const gridW = canvasWidth * 0.55 - 40;
     const cell = Math.min(gridW / COLS, 36);
     const gridRight = gridLeft + cell * COLS;
@@ -186,12 +184,11 @@ function draw() {
     // Right panel
     const rx = gridRight + 30;
     const rw = canvasWidth - rx - 20;
+    noStroke();
     fill(26, 58, 108);
     textAlign(LEFT, TOP);
-    textStyle(BOLD);
     textSize(13);
     text('Configuration: ' + currentConfig, rx, gridTop);
-    textStyle(NORMAL);
     textSize(11);
     fill(50);
     text(configDescription(currentConfig), rx, gridTop + 18, rw, 60);
@@ -199,9 +196,7 @@ function draw() {
     // Seat distribution
     const sdY = gridTop + 88;
     fill(50);
-    textStyle(BOLD);
     text('Seat distribution', rx, sdY);
-    textStyle(NORMAL);
     // Bar
     const barX = rx, barY = sdY + 18, barW = rw, barH = 22;
     const blueW = (blueSeats / NUM_DISTRICTS) * barW;
@@ -209,6 +204,7 @@ function draw() {
     rect(barX, barY, blueW, barH, 4);
     fill(200, 50, 50);
     rect(barX + blueW, barY, barW - blueW, barH, 4);
+    noStroke();
     fill(255);
     textAlign(CENTER, CENTER);
     textSize(11);
@@ -216,6 +212,7 @@ function draw() {
     if (barW - blueW > 30) text('Red: ' + redSeats, barX + blueW + (barW - blueW) / 2, barY + barH / 2);
 
     // Voter share vs seat share
+    noStroke();
     fill(50);
     textAlign(LEFT, TOP);
     textSize(11);
@@ -224,9 +221,7 @@ function draw() {
          Math.round(redSeats / NUM_DISTRICTS * 100) + '% Red', rx, sdY + 66);
     const gap = Math.abs(60 - blueSeats / NUM_DISTRICTS * 100);
     fill(gap > 15 ? color(180, 0, 0) : color(50));
-    textStyle(BOLD);
     text('Voter→seat gap: ' + gap.toFixed(0) + '%', rx, sdY + 82);
-    textStyle(NORMAL);
 
     // Highlighted district detail
     if (highlightedDist >= 0) {
@@ -240,15 +235,14 @@ function draw() {
         rect(rx, sdY + 110, rw, 80, 6);
         noStroke();
         fill(102, 77, 0);
-        textStyle(BOLD);
         text('District ' + (highlightedDist + 1) + ': ' + verdict, rx + 10, sdY + 118);
-        textStyle(NORMAL);
         text('Blue: ' + t.blue + ' (' + pct + '%)   |   Red: ' + t.red + ' (' + (100 - pct) + '%)',
              rx + 10, sdY + 138);
         textSize(10);
         text('Total voters in district: ' + (t.blue + t.red), rx + 10, sdY + 156);
         textSize(11);
     } else {
+        noStroke();
         fill(108, 117, 125);
         textSize(10);
         text('Click any district on the grid to see its detailed composition.', rx, sdY + 110, rw, 30);
@@ -256,13 +250,13 @@ function draw() {
 
     // Control region
     noStroke();
-    fill(233, 236, 239);
+    fill(255);
     rect(0, drawHeight, canvasWidth, controlHeight);
     fill(50);
     textAlign(LEFT, TOP);
     textSize(11);
     text('Click a configuration above. Same voters → very different election outcomes.',
-         10, drawHeight + 50);
+         10, drawHeight + 38);
 }
 
 function drawDistrictBorders(assign, gridLeft, gridTop, cell) {
