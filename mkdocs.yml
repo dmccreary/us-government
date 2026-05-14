@@ -116,6 +116,11 @@ nav:
 
 
 
+  - Appendix:
+    - Reading a Causal Loop Diagram: appendix/reading-a-causal-loop-diagram.md
+    - Citizens United CLD: appendix/citizens-united-cld.md
+    - 10 Key Concepts via CLD: appendix/10-key-concepts-via-cld.md
+
   - FAQ: faq.md
   - Glossary: glossary.md
   - License: license.md

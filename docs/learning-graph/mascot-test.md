@@ -12,49 +12,49 @@ correctly and colors match the site theme.
 ---
 
 !!! mascot-neutral "A Note from Lex"
-    <img src="../../img/mascot/neutral.png" class="mascot-admonition-img" alt="Lex the Bald Eagle in a neutral pose">
+    ![Lex the Bald Eagle in a neutral pose](../../img/mascot/neutral.png){ class="mascot-admonition-img"}
     This is the **neutral** style, used for general sidebars or introductions
     that don't call for a specific emotional tone. The law belongs to all of us!
 
 ---
 
 !!! mascot-welcome "Welcome!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waving welcome">
+    ![Lex the Bald Eagle waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     This is the **welcome** style, used at chapter openings. Lex greets students
     and previews what the chapter will cover. Knowledge is the cornerstone of democracy!
 
 ---
 
 !!! mascot-thinking "Key Insight"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle thinking">
+    ![Lex the Bald Eagle thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     This is the **thinking** style, used for key concepts and important analytical
     moments. Lex signals "pause and reason this through." Let's examine the evidence!
 
 ---
 
 !!! mascot-tip "Lex's Tip"
-    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Lex the Bald Eagle giving a tip">
+    ![Lex the Bald Eagle giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img"}
     This is the **tip** style, used for practical hints and AP exam strategies.
     Lex shares insider guidance to help students succeed.
 
 ---
 
 !!! mascot-warning "Watch Out!"
-    <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Lex the Bald Eagle warning">
+    ![Lex the Bald Eagle warning](../../img/mascot/warning.png){ class="mascot-admonition-img"}
     This is the **warning** style, used for common mistakes and conceptual pitfalls.
     Lex flags the errors that most students make so you can avoid them.
 
 ---
 
 !!! mascot-encourage "You Can Do This!"
-    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Lex the Bald Eagle encouraging">
+    ![Lex the Bald Eagle encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img"}
     This is the **encouraging** style, used for difficult or dense content.
     Lex reminds students that struggle is part of the learning process.
 
 ---
 
 !!! mascot-celebration "Great Work, Citizen!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrating">
+    ![Lex the Bald Eagle celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     This is the **celebration** style, used at chapter endings and milestone moments.
     Lex celebrates student progress with patriotic confetti!
 

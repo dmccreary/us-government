@@ -39,7 +39,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 6, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Congress passes laws; the president signs them. But who actually *does* the work of government day after day — inspecting food, reviewing drug applications, patrolling borders, managing national parks, processing Social Security checks? The answer is the federal bureaucracy: about two million civilian employees organized into dozens of departments, agencies, and corporations. Most Americans rarely think about the bureaucracy, but it shapes their daily lives more directly than any other part of government. Let's examine the evidence!
 
 ---
@@ -130,7 +130,7 @@ The **Executive Office of the President (EOP)** is the collection of White House
 **Office of Management and Budget (OMB)**: The OMB is arguably the most powerful agency in Washington that most Americans have never heard of. It prepares the president's annual budget request to Congress, reviews all significant regulatory rules before they are published (allowing the White House to modify or block agency rules), and conducts government-wide management and evaluation functions. The OMB Director is often called the president's "chief financial officer."
 
 !!! mascot-tip "Exam Tip from Lex"
-    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Lex the Bald Eagle shares a tip">
+    ![Lex the Bald Eagle shares a tip](../../img/mascot/tip.png){ class="mascot-admonition-img"}
     AP exam questions on the bureaucracy frequently ask about the difference between the Cabinet and the Executive Office of the President. Key distinction: **Cabinet secretaries** lead entire departments, are Senate-confirmed, and primarily manage large bureaucracies. **White House staff** (EOP) are not Senate-confirmed and work directly for the president — they often have more day-to-day access to the president than cabinet secretaries do. The National Security Advisor and the OMB Director are classic examples of EOP officials who wield enormous power without Senate confirmation.
 
 ## From Spoils to Merit: The Civil Service System
@@ -205,7 +205,7 @@ The federal bureaucracy wields enormous power — writing rules that bind busine
 - **Merit Systems Protection Board**: Protects federal workers from prohibited personnel practices while allowing removal of poor performers
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     The bureaucracy faces a fundamental democratic tension: unelected officials make decisions that affect millions of people, often with significant discretion. Civil service protections insulate them from direct presidential control to prevent pure politicization — but that same insulation makes them hard to redirect even when elected officials want to. Is a more insulated bureaucracy more or less democratic? There is no simple answer, and AP free-response questions frequently ask students to evaluate this trade-off using specific examples.
 
 ## Key Takeaways
@@ -223,7 +223,7 @@ The federal bureaucracy wields enormous power — writing rules that bind busine
 - **Bureaucratic Accountability**: Achieved through presidential appointment/removal, congressional oversight and appropriations, judicial review (APA), and internal controls (IGs, GAO).
 
 !!! mascot-celebration "Lex Celebrates Chapter 6!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     Most civics education focuses on elected officials — but the people who actually run government day-to-day are the two million civil servants in the federal bureaucracy. You now understand how that apparatus is organized, how it gained independence from pure partisan control, and how it is held accountable. Next up: the federal judiciary — the branch with no army, no budget, and no election, yet the ultimate interpreter of the Constitution. The law belongs to all of us!
 
 [See Annotated References](./references.md)

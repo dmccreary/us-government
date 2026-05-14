@@ -44,7 +44,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 3, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Federalism is arguably the most uniquely American contribution to political science. The framers invented a new kind of government: one in which two levels of authority — national and state — each exercise genuine power over the same people at the same time. It sounds simple, but deciding where national authority ends and state authority begins has generated two centuries of political conflict and constitutional litigation. Let's examine the evidence!
 
 ---
@@ -99,7 +99,7 @@ The **Commerce Clause** (Article I, Section 8, Clause 3) gives Congress power "T
 - **Modern limits**: In *United States v. Lopez* (1995) and *United States v. Morrison* (2000), the Court held that Congress cannot regulate non-economic activity under the Commerce Clause, even if it has some relationship to interstate commerce
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     The Commerce Clause has been used to justify federal civil rights law (*Heart of Atlanta Motel v. United States*, 1964), environmental regulation, drug laws, minimum wage, and much more. If almost all economic activity "substantially affects" interstate commerce, what *cannot* Congress regulate under this clause? This question — the limits of the Commerce Clause — is one of the most enduring debates in constitutional law, and the AP exam frequently asks students to apply it.
 
 ## The Evolution of Federalism
@@ -135,7 +135,7 @@ Beginning with President Nixon and accelerating under Reagan, conservatives push
 Devolution's main tool was replacing **categorical grants** (highly specific federal funds) with **block grants** — larger pools of federal money given to states with fewer strings attached, allowing states to design their own programs within broad federal guidelines. The 1996 welfare reform law (which replaced Aid to Families with Dependent Children with a block grant called Temporary Assistance for Needy Families) is the most prominent example.
 
 !!! mascot-tip "Exam Tip from Lex"
-    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Lex the Bald Eagle shares a tip">
+    ![Lex the Bald Eagle shares a tip](../../img/mascot/tip.png){ class="mascot-admonition-img"}
     A recurring AP exam question compares categorical and block grants. Remember: **categorical grants** come with many specific conditions set by Congress (the federal government controls the policy); **block grants** come with broad guidelines and state discretion (states have more policy control). Democrats have historically preferred categorical grants (ensuring national standards); Republicans have historically preferred block grants (states' rights and local control). This is a clean left-right divide you can use in FRQ arguments.
 
 ## Fiscal Federalism
@@ -242,7 +242,7 @@ Type: timeline
 - **Devolution**: Policy movement returning authority to states — generates debates about efficiency, equity, and the "race to the bottom."
 
 !!! mascot-celebration "Lex Celebrates Chapter 3!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     Federalism is the vertical axis of American government — Chapter 2 gave you the horizontal structure (three branches), and Chapter 3 gives you the depth (national versus state). Together these two chapters provide the constitutional scaffolding that everything else in this course hangs from. Coming up: Congress, the branch closest to the people and the one the Constitution's framers treated as the most powerful. The law belongs to all of us!
 
 [See Annotated References](./references.md)

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "id": "iron-triangle-cld",
+    "title": "Iron Triangle / Regulatory Capture",
+    "archetype": "success-to-the-successful",
+    "description": "The classic political-science feedback loop. An interest group's political support helps a congressional subcommittee, which favorably treats an executive agency, which produces regulatory decisions that benefit the industry, which opens revolving-door career opportunities for former officials — and the cycle of mutual benefit locks in over time. All four edges are positive, so zero negative edges → reinforcing.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["iron-triangle", "regulatory-capture", "interest-groups", "bureaucracy", "reinforcing-loop"]
+  },
+  "nodes": [
+    {
+      "id": "interest_group_political_support",
+      "label": "Interest Group Political Support",
+      "position": {"x": 300, "y": 120},
+      "type": "variable",
+      "description": "Campaign donations, endorsements, expertise briefings, and constituent-mobilization help flowing from the industry's lobbyists to members of the relevant congressional subcommittee."
+    },
+    {
+      "id": "committee_favorable_treatment",
+      "label": "Committee Favorable Treatment of Agency",
+      "position": {"x": 510, "y": 320},
+      "type": "variable",
+      "description": "Favorable legislation, protected (or expanded) budget appropriations, and supportive oversight from the subcommittee to the executive agency that regulates the industry."
+    },
+    {
+      "id": "agency_favorable_decisions",
+      "label": "Agency Favorable Regulatory Decisions",
+      "position": {"x": 300, "y": 520},
+      "type": "variable",
+      "description": "Lenient enforcement, narrow rule interpretations, and slow-walked investigations from the agency toward the industry it regulates."
+    },
+    {
+      "id": "revolving_door_career_flow",
+      "label": "Revolving Door Career Flow",
+      "position": {"x": 90, "y": 320},
+      "type": "variable",
+      "description": "Job opportunities from the industry to former agency officials and committee staff. The anticipation of future hire creates a present-day incentive for lenient regulation."
+    }
+  ],
+  "edges": [
+    {
+      "id": "interest_to_committee",
+      "source": "interest_group_political_support",
+      "target": "committee_favorable_treatment",
+      "polarity": "positive",
+      "description": "Industry money and political support translate into favorable committee action.",
+      "strength": "strong"
+    },
+    {
+      "id": "committee_to_agency",
+      "source": "committee_favorable_treatment",
+      "target": "agency_favorable_decisions",
+      "polarity": "positive",
+      "description": "The committee uses its budget and oversight power to steer agency decisions toward industry-preferred outcomes.",
+      "strength": "moderate"
+    },
+    {
+      "id": "agency_to_revolving",
+      "source": "agency_favorable_decisions",
+      "target": "revolving_door_career_flow",
+      "polarity": "positive",
+      "description": "Industry rewards lenient regulators with lucrative post-government jobs — and the credible promise of such jobs shapes current agency behavior.",
+      "strength": "strong"
+    },
+    {
+      "id": "revolving_to_interest",
+      "source": "revolving_door_career_flow",
+      "target": "interest_group_political_support",
+      "polarity": "positive",
+      "description": "Former regulators bring insider expertise and contacts to the industry, strengthening its political position for the next cycle.",
+      "strength": "moderate"
+    }
+  ],
+  "loops": [
+    {
+      "id": "R",
+      "type": "reinforcing",
+      "label": "R: Iron Triangle",
+      "description": "Mutual benefit locks in over time. The fourth node (Revolving Door) is what makes the triangle 'iron' — it gives every actor a long-term reason to keep the cycle going.",
+      "path": ["interest_group_political_support", "committee_favorable_treatment", "agency_favorable_decisions", "revolving_door_career_flow", "interest_group_political_support"],
+      "behavior_pattern": "Self-reinforcing stability. Hard to break by changing any single actor — all four sides must change at once.",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ]
+}

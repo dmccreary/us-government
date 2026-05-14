@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "id": "approval-self-correction-cld",
+    "title": "Approval Rating Self-Correction (Balancing Example)",
+    "archetype": "balancing-process",
+    "description": "A simple 3-node balancing loop used in the appendix to teach how to read a causal loop diagram. High approval emboldens a president to take political risks, which produces voter backlash, which pulls approval back down toward equilibrium.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["teaching-example", "balancing-loop", "presidential-approval", "public-opinion"]
+  },
+  "nodes": [
+    {
+      "id": "approval_rating",
+      "label": "Approval Rating",
+      "position": {"x": 300, "y": 120},
+      "type": "stock",
+      "description": "The percentage of Americans who say they approve of the president's job performance."
+    },
+    {
+      "id": "risky_policy_choices",
+      "label": "Risky Policy Choices",
+      "position": {"x": 500, "y": 420},
+      "type": "variable",
+      "description": "Politically controversial moves — unpopular vetoes, contested executive orders, ambitious legislation — that a president feels free to attempt when their political capital is high."
+    },
+    {
+      "id": "voter_backlash",
+      "label": "Voter Backlash",
+      "position": {"x": 100, "y": 420},
+      "type": "variable",
+      "description": "Public anger, protest, and negative media coverage that follows a controversial decision."
+    }
+  ],
+  "edges": [
+    {
+      "id": "approval_to_risk",
+      "source": "approval_rating",
+      "target": "risky_policy_choices",
+      "polarity": "positive",
+      "description": "A president with high approval has political capital to spend, so they attempt more controversial moves.",
+      "strength": "moderate"
+    },
+    {
+      "id": "risk_to_backlash",
+      "source": "risky_policy_choices",
+      "target": "voter_backlash",
+      "polarity": "positive",
+      "description": "Controversial decisions provoke opposition, protest, and negative media coverage.",
+      "strength": "strong"
+    },
+    {
+      "id": "backlash_to_approval",
+      "source": "voter_backlash",
+      "target": "approval_rating",
+      "polarity": "negative",
+      "description": "Public anger drives the president's approval rating back down. This single negative edge is what makes the loop balancing.",
+      "strength": "strong"
+    }
+  ],
+  "loops": [
+    {
+      "id": "B1",
+      "type": "balancing",
+      "label": "B1: Approval Self-Correction",
+      "description": "A built-in stabilizer of American politics: every president eventually overreaches when their approval is high, and the public pulls them back.",
+      "path": ["approval_rating", "risky_policy_choices", "voter_backlash", "approval_rating"],
+      "behavior_pattern": "Oscillation around a slowly-falling average — most presidents end their term less popular than they started.",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ]
+}

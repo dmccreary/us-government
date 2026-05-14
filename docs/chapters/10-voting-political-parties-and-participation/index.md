@@ -45,7 +45,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 10, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Democracy is not just a system of government — it is a practice. Voting, organizing, lobbying, donating, running for office, and even protesting are all forms of democratic participation. This chapter maps the full terrain of how Americans engage (and disengage) with politics, why the systems and incentives look the way they do, and why our participation — or lack of it — shapes everything that follows. Let's examine the evidence!
 
 ---
@@ -61,6 +61,17 @@ This chapter builds on concepts from:
 - **Digital participation**: Online activism, social media advocacy, e-petitions, crowdfunding political causes
 
 Participation rates vary enormously across these categories. Roughly half of Americans vote in presidential elections; a much smaller fraction contact their representative, donate to campaigns, or attend political meetings. Unconventional participation (protests) has seen significant increases in the past decade, with major waves around the Women's March (2017), Black Lives Matter (2020), and other movements.
+
+#### Diagram: Civic Reform Pressure (B1) — Causal Loop Diagram
+
+Civic participation is not just an individual virtue — it is a *system-level force* that pushes back against corruption. When trust in government falls, sustained activism produces reform legislation (the Ethics in Government Act of 1978 after Watergate, Dodd-Frank after the 2008 financial crisis). Those reforms reduce corruption, which lets trust recover.
+
+<iframe src="/us-government/sims/cld-viewer/main.html?file=civic-reform-pressure-cld" width="100%" height="500" scrolling="no"></iframe>
+
+[Open B1 Fullscreen](../../sims/cld-viewer/main.html?file=civic-reform-pressure-cld&menu=true){ .md-button }
+[See Full System (4 Loops)](../../sims/causes-of-political-corruption/index.md){ .md-button }
+
+This is **B1**, a *balancing* loop. It is slow — major reforms typically arrive 2–5 years after the scandals that prompt them — but it is the main way distrust gets translated into structural change. See the [Causes of Political Corruption MicroSim](../../sims/causes-of-political-corruption/index.md) for the three other loops it competes with.
 
 ## Voting Behavior: Why People Vote the Way They Do
 
@@ -196,7 +207,7 @@ Sorting produces polarization in institutions even if individual voters have not
 **Filter bubbles** — the information silos created by algorithmic curation and self-selection in media consumption — contribute to perceived polarization by limiting exposure to opposing viewpoints. Research suggests that Americans overestimate how extreme the other party's views are, partly because social media surfaces the most extreme voices in each coalition.
 
 !!! mascot-warning "Lex Flags a Common Mistake"
-    <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks cautionary">
+    ![Lex the Bald Eagle looks cautionary](../../img/mascot/warning.png){ class="mascot-admonition-img"}
     Students often conflate partisan sorting with popular polarization. *Sorting* means liberals and conservatives are now in the "right" parties — it is primarily a change in party composition. *Polarization* means Americans have moved further apart in their beliefs. The data shows sorting has clearly occurred; genuine mass polarization is more contested. AP essays that conflate the two terms will lose points. Be precise: use "sorting" when discussing party composition, "polarization" when discussing the spread of public attitudes.
 
 ## Key Takeaways
@@ -218,7 +229,7 @@ Sorting produces polarization in institutions even if individual voters have not
 - **Filter Bubbles**: Algorithmic and self-selection information silos that limit exposure to opposing views; contribute to perceived polarization.
 
 !!! mascot-celebration "Lex Celebrates Chapter 10!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     You now understand how Americans engage with democracy — from the mechanics of voter registration and the Electoral College, to the psychology of party identification and the structural forces that maintain the two-party system, to the dynamics of polarization and sorting that shape our current political moment. Two chapters remain, and they connect the formal institutions to the organized interests and emerging technologies that are reshaping American politics right now. The law belongs to all of us!
 
 [See Annotated References](./references.md)

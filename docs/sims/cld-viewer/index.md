@@ -4,6 +4,8 @@ description: A shared fullscreen viewer for browsing and editing the causal loop
 status: built
 library: vis-network
 bloom_level: Apply
+hide:
+    toc
 ---
 
 # Causal Loop Diagram (CLD) Viewer

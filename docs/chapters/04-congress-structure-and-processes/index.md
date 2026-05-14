@@ -42,7 +42,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 4, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Article I of the Constitution is the longest article — and that is not an accident. The framers considered Congress the most powerful and most representative branch of the national government. They gave it the power to make law, control the budget, declare war, and check the president and courts. Yet today Congress is also the branch Americans trust least. In this chapter, we trace how it actually works — and where the friction points are. Let's examine the evidence!
 
 ---
@@ -119,7 +119,7 @@ Committee assignments determine a legislator's influence. Senior members tend to
 When the House and Senate pass different versions of the same bill, a **conference committee** is formed to negotiate a single compromise version. The conference committee includes members from both chambers. If it reaches agreement, the compromise bill goes back to both chambers for a final up-or-down vote — no further amendments are allowed. The conference process is one reason major legislation can take months or years to complete.
 
 !!! mascot-tip "Exam Tip from Lex"
-    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Lex the Bald Eagle shares a tip">
+    ![Lex the Bald Eagle shares a tip](../../img/mascot/tip.png){ class="mascot-admonition-img"}
     The AP exam frequently tests the committee system with questions like: "Which committee would a bill to change the federal income tax most likely be referred to?" (House Ways and Means; Senate Finance). Learn the major committees by policy area: Judiciary (courts and law), Armed Services (military), Appropriations (spending), Foreign Relations/Foreign Affairs (treaties and diplomacy), Ways and Means/Finance (taxes). These appear regularly in FRQ scenarios.
 
 ## Congressional Leadership
@@ -154,7 +154,7 @@ The filibuster applies only to regular legislation. The Senate has carved out ex
 - **Nominations**: In 2013, Senate Democrats eliminated the filibuster for executive nominations and most judicial nominations. In 2017, Senate Republicans extended this "nuclear option" to Supreme Court nominations.
 
 !!! mascot-warning "Lex Flags a Common Mistake"
-    <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks cautionary">
+    ![Lex the Bald Eagle looks cautionary](../../img/mascot/warning.png){ class="mascot-admonition-img"}
     The filibuster is a **Senate rule**, not a constitutional provision. The Constitution says nothing about filibusters or 60-vote supermajorities for legislation. The filibuster was developed through Senate custom over the nineteenth century and can be changed by the Senate at any time — the 60-vote cloture rule exists only because a majority of senators have chosen to keep it. This distinction matters for AP essays: never say the Constitution requires 60 votes to pass legislation. It does not.
 
 ## The Legislative Process
@@ -263,6 +263,17 @@ Type: MicroSim
 
 The Supreme Court has held that racial gerrymandering violates the Equal Protection Clause (*Shaw v. Reno*, 1993) but that *partisan* gerrymandering — drawing districts to favor one political party — is a political question beyond the reach of federal courts (*Rucho v. Common Cause*, 2019). As a result, states may draw extreme partisan gerrymanders without federal judicial remedy; the only check is through state courts applying state law, or through Congress passing legislation to require independent redistricting commissions.
 
+#### Diagram: Gerrymandering Arms Race (R1) — Causal Loop Diagram
+
+Gerrymandering is not just an isolated tactic — it sits inside a *feedback loop* that compounds over time. When one state party draws aggressive maps, the opposing party feels justified retaliating in states they control. The loop below shows how that arms race feeds back into falling trust in government.
+
+<iframe src="/us-government/sims/cld-viewer/main.html?file=gerrymandering-arms-race-cld" width="100%" height="500" scrolling="no"></iframe>
+
+[Open R1 Fullscreen](../../sims/cld-viewer/main.html?file=gerrymandering-arms-race-cld&menu=true){ .md-button }
+[See Full System (4 Loops)](../../sims/causes-of-political-corruption/index.md){ .md-button }
+
+This is **R1**, one of four feedback loops that shape trust in U.S. government. The full system — including the two balancing loops that can push trust back up — is explored in the [Causes of Political Corruption MicroSim](../../sims/causes-of-political-corruption/index.md).
+
 ## Key Takeaways
 
 - **House of Representatives**: 435 members, 2-year terms, apportioned by population; originates revenue bills, initiates impeachment.
@@ -280,7 +291,7 @@ The Supreme Court has held that racial gerrymandering violates the Equal Protect
 - **Reapportionment and Redistricting**: Every 10 years after the census, House seats are reallocated and district maps redrawn.
 
 !!! mascot-celebration "Lex Celebrates Chapter 4!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     Congress is enormously complex — two chambers, hundreds of committees, baroque procedural rules, a budget process that takes all year, and a filibuster that can stop majority will in its tracks. But you now have the map. You understand why most bills die in committee, why 60 votes matters more than 51, and why the party that controls the state legislature after the census controls the congressional map for a decade. That is real civic power. Knowledge is the cornerstone of democracy!
 
 [See Annotated References](./references.md)

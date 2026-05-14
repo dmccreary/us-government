@@ -52,7 +52,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 8, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     This chapter is about the distance between America's founding promise and America's lived reality — and the legal and political struggles to close that gap. The Declaration said all men are created equal. The Constitution protected slavery. The Fourteenth Amendment promised equal protection. *Plessy v. Ferguson* blessed segregation. *Brown v. Board* overturned it. The story of civil liberties and civil rights is America's ongoing argument with itself. Let's examine the evidence!
 
 ---
@@ -107,6 +107,17 @@ The vast middle ground — political speech, social commentary, religious advoca
 
 **Freedom of assembly** protects the right to gather in groups for peaceful purposes. It encompasses both the right to protest in public spaces (streets, parks, sidewalks — traditional public forums) and the right to associate with others for political, religious, or expressive purposes.
 
+#### Diagram: Free Press Accountability (B2) — Causal Loop Diagram
+
+The First Amendment does more than protect individual speech. It also enables a structural check on government corruption: a *free press accountability loop*. When journalists can investigate without government permission, exposed wrongdoing forces consequences, corruption falls, and public trust recovers. Watergate, Iran-Contra, and Abu Ghraib are textbook cases of this loop in action.
+
+<iframe src="/us-government/sims/cld-viewer/main.html?file=free-press-accountability-cld" width="100%" height="500" scrolling="no"></iframe>
+
+[Open B2 Fullscreen](../../sims/cld-viewer/main.html?file=free-press-accountability-cld&menu=true){ .md-button }
+[See Full System (4 Loops)](../../sims/causes-of-political-corruption/index.md){ .md-button }
+
+This is **B2**, a *balancing* loop — the constitutional check that the Framers built directly into the system. See the [Causes of Political Corruption MicroSim](../../sims/causes-of-political-corruption/index.md) for the full set of forces that erode and restore trust in government.
+
 ### Freedom of Religion: Two Clauses
 
 The First Amendment contains two distinct religion clauses that work in tension with each other:
@@ -124,7 +135,7 @@ The **Free Exercise Clause** — "or prohibiting the free exercise thereof" — 
 - The current Court has shown increasing solicitude for religious liberty claims across a wide range of contexts
 
 !!! mascot-encourage "Lex Encourages You"
-    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks encouraging">
+    ![Lex the Bald Eagle looks encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img"}
     The religion clauses are among the most doctrinally complex areas of First Amendment law. Do not try to memorize every case — focus on understanding the core tension: the Establishment Clause says government cannot favor religion, while the Free Exercise Clause says government cannot burden religion. When do these clauses conflict? (When a religious exemption from a general law would look like an "establishment"?) That tension is what the Court has been working through for decades — and it is exactly the kind of nuanced analysis AP FRQ 4 rewards.
 
 ## Fourth Amendment Protections
@@ -292,7 +303,7 @@ The ADA is an example of Congress using its Commerce Clause authority to extend 
 - **Americans with Disabilities Act**: Federal civil rights law requiring disability accommodation in employment, government, and public accommodations.
 
 !!! mascot-celebration "Lex Celebrates Chapter 8!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     Civil liberties and civil rights represent the heart of what it means to live in a constitutional democracy — the promise that each person has dignity the government must respect, and that no one may be discriminated against simply for who they are. The distance between that promise and reality has been the central drama of American political history. You now have the legal vocabulary and historical knowledge to participate in that ongoing argument as an informed citizen. The law belongs to all of us!
 
 [See Annotated References](./references.md)

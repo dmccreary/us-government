@@ -42,7 +42,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 11, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Between elections and the formal institutions of government sits a dense ecosystem of organized interests — advocacy organizations, industry associations, labor unions, professional societies, and ideological groups — all competing to shape what government does. Money flows through this ecosystem in ways regulated by law but profoundly contested in practice. This chapter maps the territory between the people and their government. Let's examine the evidence!
 
 ---
@@ -147,8 +147,26 @@ Before the 1970s, there were few effective limits on campaign money. Scandals �
 The practical impact of *Citizens United* has been enormous: super PAC spending has exceeded $1 billion in recent presidential election cycles, dominated by wealthy donors.
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     The *Citizens United* majority argued that political spending is protected speech and that independent spending cannot corrupt candidates because it is not coordinated with them. Critics argue that large donors who can spend unlimited money in support of candidates gain access and influence that ordinary citizens cannot match — regardless of formal independence. Which view of corruption is more persuasive? This is exactly the kind of normative question AP FRQ 4 asks students to defend with evidence and constitutional reasoning.
+
+#### Diagram: Money in Politics (R3) — Causal Loop Diagram
+
+Campaign finance is not just a set of legal rules — it is a feedback loop. When trust in government falls, fewer ordinary citizens vote, but lobbyists and major donors always show up. Policy starts to reflect donor priorities more than voter priorities, which deepens cynicism and pushes turnout still lower. The diagram below shows this loop — known as **R3 Money in Politics** in the systems-thinking analysis of trust in government.
+
+<iframe src="/us-government/sims/cld-viewer/main.html?file=money-in-politics-cld" width="100%" height="500" scrolling="no"></iframe>
+
+[Open R3 Fullscreen](../../sims/cld-viewer/main.html?file=money-in-politics-cld&menu=true){ .md-button }
+[See All Six Loops](../../sims/causes-of-political-corruption/index.md){ .md-button }
+
+This is the trickiest loop in the textbook to classify by eye. The first edge (Trust → Voter Turnout) is *positive* — they move together. The second edge (Voter Turnout → Special Interest Influence) is *negative* — they move opposite. Count carefully: 2 negatives = even = reinforcing.
+
+**FRQ-style questions to consider:**
+
+- Which campaign finance reforms (BCRA 2002, Citizens United 2010) would shift this loop, and in which direction?
+- Where is the *leverage point* — the place where a single intervention does the most to weaken the loop? (Hint: think about which node ordinary citizens can directly affect.)
+
+New to causal loop diagrams? See the **[Appendix: Reading a Causal Loop Diagram](../../appendix/reading-a-causal-loop-diagram.md)** for a step-by-step walkthrough.
 
 ## Elections: Primary, General, and Midterm
 
@@ -198,7 +216,7 @@ Initiatives have been used to enact (or repeal) marijuana legalization, minimum 
 - **Initiative and Referendum**: Direct democracy mechanisms at the state level; allow citizens to create or repeal laws by petition and popular vote.
 
 !!! mascot-celebration "Lex Celebrates Chapter 11!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     You now understand the ecosystem of organized interests, money, and elections that connects (and sometimes disconnects) citizens from their government. One chapter remains — and it is the newest, the most rapidly changing, and in many ways the most consequential for the future of everything you have just learned. Chapter 12 asks: what happens to all these institutions — Congress, the presidency, the courts, elections, civil liberties — when artificial intelligence enters the picture? The law belongs to all of us!
 
 [See Annotated References](./references.md)

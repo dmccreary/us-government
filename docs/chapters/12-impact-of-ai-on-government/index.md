@@ -48,7 +48,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 12 — The Final Frontier, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Every chapter in this textbook has been about how constitutional principles govern the exercise of power. This final chapter asks the hardest version of that question: what happens when the people exercising power delegate significant portions of it to machines? Artificial intelligence is not a distant future threat to American democracy — it is an immediate, present-tense challenge that touches every institution we have studied. Let's examine the evidence!
 
 ---
@@ -219,7 +219,7 @@ The Blueprint is aspirational, not enforceable — it has no legal force. It rep
 As of the knowledge cutoff date, comprehensive federal AI legislation — equivalent to the EU AI Act — had not been enacted, though multiple bills were under consideration.
 
 !!! mascot-encourage "Lex Encourages You"
-    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks encouraging">
+    ![Lex the Bald Eagle looks encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img"}
     The AI policy landscape is evolving so rapidly that specific laws and regulations may have changed between when this chapter was written and when you are reading it. That is not a problem — it is the point. The constitutional principles you have learned throughout this course — due process, equal protection, the Fourth Amendment, separation of powers, checks and balances — are durable. Applying them to new technologies is exactly what constitutional democracy requires you to do as an informed citizen. You are ready for this.
 
 ## What AI Means for Constitutional Democracy
@@ -240,7 +240,7 @@ And yet constitutional democracy also has resources for responding to AI challen
 - Civil society — the interest groups, advocacy organizations, journalism, and civic engagement studied in previous chapters — is already active in AI governance debates, performing the watchdog functions that democracy depends on
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     Here is the central question of AI governance in a constitutional democracy: AI systems make decisions that were once made by humans. Human decisions are governed by rules, procedures, accountability mechanisms, and constitutional rights. When AI makes those decisions, do all those protections still apply? The answer is: they should — and making sure they do is the work of lawyers, legislators, judges, advocates, and informed citizens. That is the work you are now equipped to do.
 
 ## Key Takeaways
@@ -264,7 +264,7 @@ And yet constitutional democracy also has resources for responding to AI challen
 - **Constitutional Democracy**: Government by, for, and through the people under a rights-protecting constitution — the framework that must adapt to govern AI.
 
 !!! mascot-celebration "Lex Celebrates — And So Should You!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     You have reached the end of this textbook — and what a journey it has been! From Enlightenment philosophy to artificial intelligence, from the Constitutional Convention to *Citizens United*, from *Marbury v. Madison* to the EU AI Act. You have studied 200 concepts across 12 chapters, and you have done it with the four cross-cutting skills that matter most: critical thinking, systems thinking, bias awareness, and misinformation detection. The Constitution belongs to all of us — and now you know how to defend it, question it, and improve it. That is what a citizen of a constitutional democracy does. The law belongs to all of us!
 
 [See Annotated References](./references.md)

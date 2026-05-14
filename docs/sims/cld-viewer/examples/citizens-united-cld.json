@@ -1,0 +1,749 @@
+{
+  "metadata": {
+    "id": "citizens-united-cld",
+    "title": "Citizens United and Trust In Government",
+    "archetype": "limits-to-growth",
+    "description": "A systems model centered on Trust In Government showing how the Citizens United v. FEC (2010) decision interacts with campaign finance, media, polarization, and economic inequality through four reinforcing loops and two balancing loops. The framing is not 'Citizens United caused distrust' — it is 'Citizens United amplified an already-running set of feedback loops that shape democratic legitimacy.'",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": [
+      "citizens-united",
+      "trust-in-government",
+      "campaign-finance",
+      "polarization",
+      "media",
+      "inequality",
+      "full-system"
+    ],
+    "updated_date": "2026-05-14T21:04:11.607Z"
+  },
+  "nodes": [
+    {
+      "id": "trust_in_government",
+      "label": "Trust In Government",
+      "position": {
+        "x": -112,
+        "y": -69
+      },
+      "type": "stock",
+      "description": "The central stock — the percentage of citizens who say they trust the federal government to do what is right. Every loop in this diagram either drains it or refills it."
+    },
+    {
+      "id": "citizens_united_decision",
+      "label": "Citizens United Decision (2010)",
+      "position": {
+        "x": -938,
+        "y": -102
+      },
+      "type": "variable",
+      "description": "The Supreme Court's 5-4 ruling that political spending by corporations and unions is protected First Amendment speech, lifting limits on independent expenditures and enabling super PACs. Treated here as the structural trigger that opens up R1."
+    },
+    {
+      "id": "independent_political_spending",
+      "label": "Independent Political Spending",
+      "position": {
+        "x": -515,
+        "y": -183
+      },
+      "type": "variable",
+      "description": "Total dollars spent on political ads and organizing by entities legally independent of campaigns — super PACs, dark-money 501(c)(4)s, corporations, unions."
+    },
+    {
+      "id": "large_donor_influence",
+      "label": "Large Donor Influence",
+      "position": {
+        "x": -368,
+        "y": 8
+      },
+      "type": "variable",
+      "description": "The weight of wealthy individuals, corporations, and major PACs in shaping which candidates run, which messages reach voters, and which policies get attention."
+    },
+    {
+      "id": "civic_participation",
+      "label": "Civic Participation",
+      "position": {
+        "x": -50,
+        "y": 350
+      },
+      "type": "variable",
+      "description": "Voting, volunteering, organizing, attending town halls — the breadth of ordinary citizens involved in democratic life."
+    },
+    {
+      "id": "broad_democratic_accountability",
+      "label": "Broad Democratic Accountability",
+      "position": {
+        "x": -422,
+        "y": 352
+      },
+      "type": "variable",
+      "description": "The degree to which elected officials must answer to a wide swath of constituents rather than a narrow donor class. Falls when participation falls."
+    },
+    {
+      "id": "negative_political_advertising",
+      "label": "Negative Political Advertising",
+      "position": {
+        "x": 447,
+        "y": -242
+      },
+      "type": "variable",
+      "description": "Ads designed to discredit an opponent rather than promote a candidate. Super PAC money disproportionately funds attack ads — they are legally easier to make and emotionally effective."
+    },
+    {
+      "id": "political_polarization",
+      "label": "Political Polarization",
+      "position": {
+        "x": 409,
+        "y": 85
+      },
+      "type": "variable",
+      "description": "The ideological and emotional distance between the two major parties and their voters. The single most-shared variable in this diagram — feeds R2 and R4."
+    },
+    {
+      "id": "institutional_conflict",
+      "label": "Institutional Conflict",
+      "position": {
+        "x": 150,
+        "y": -400
+      },
+      "type": "variable",
+      "description": "Government shutdowns, debt-ceiling brinkmanship, Senate filibusters, refusal to hold confirmation hearings — visible breakdowns in inter-branch cooperation."
+    },
+    {
+      "id": "public_frustration",
+      "label": "Public Frustration and Anxiety",
+      "position": {
+        "x": 232,
+        "y": 19
+      },
+      "type": "variable",
+      "description": "Citizens' sense of being unheard, exhausted, or alarmed by political news. Rises from institutional conflict (R2) and from sensational media (R3)."
+    },
+    {
+      "id": "cynicism_and_tribal_voting",
+      "label": "Cynicism and Tribal Voting",
+      "position": {
+        "x": 556,
+        "y": -394
+      },
+      "type": "variable",
+      "description": "Voting against the other team rather than for one's own — and assuming both parties are equally compromised. Feeds further polarization."
+    },
+    {
+      "id": "emotionally_charged_media",
+      "label": "Emotionally Charged Media",
+      "position": {
+        "x": 874,
+        "y": -27
+      },
+      "type": "variable",
+      "description": "News and social-media content selected to provoke strong reactions — outrage, fear, validation — because emotional content drives engagement."
+    },
+    {
+      "id": "audience_attention_competition",
+      "label": "Audience Attention Competition",
+      "position": {
+        "x": 786,
+        "y": 177
+      },
+      "type": "variable",
+      "description": "The market pressure among news outlets, podcasts, and platforms to win finite human attention. Pushes all participants toward more provocative content."
+    },
+    {
+      "id": "sensationalism",
+      "label": "Sensationalism",
+      "position": {
+        "x": 502,
+        "y": 252
+      },
+      "type": "variable",
+      "description": "The choice to amplify dramatic, scandalous, or alarming framings over careful analysis — a competitive outcome of the attention market."
+    },
+    {
+      "id": "demand_for_outrage_media",
+      "label": "Demand for Outrage Media",
+      "position": {
+        "x": 877,
+        "y": -241
+      },
+      "type": "variable",
+      "description": "Audience appetite for content that confirms the worst about the other side. Rises when trust in shared institutions falls."
+    },
+    {
+      "id": "policy_responsiveness_to_donors",
+      "label": "Policy Responsiveness to Donors",
+      "position": {
+        "x": -344,
+        "y": 506
+      },
+      "type": "variable",
+      "description": "The degree to which legislation, tax provisions, and regulatory decisions reflect the policy preferences of major donors rather than the median voter."
+    },
+    {
+      "id": "wealth_concentration",
+      "label": "Wealth Concentration",
+      "position": {
+        "x": -761,
+        "y": 469
+      },
+      "type": "variable",
+      "description": "The share of national wealth held by the top 1% (and especially the top 0.1%). Both a cause and a consequence of donor-favored policy."
+    },
+    {
+      "id": "economic_inequality",
+      "label": "Economic Inequality",
+      "position": {
+        "x": -849,
+        "y": 320
+      },
+      "type": "variable",
+      "description": "The income and wealth gap across the broader population — Gini coefficient, median wage stagnation, intergenerational mobility."
+    },
+    {
+      "id": "perception_system_unfair",
+      "label": "Perception System Is Unfair",
+      "position": {
+        "x": -806,
+        "y": 130
+      },
+      "type": "variable",
+      "description": "Citizens' sense that 'the game is rigged' — that hard work no longer reliably leads to mobility and that institutions favor insiders."
+    },
+    {
+      "id": "anti_institution_sentiment",
+      "label": "Anti-Institution Sentiment",
+      "position": {
+        "x": 159,
+        "y": -258
+      },
+      "type": "variable",
+      "description": "Generalized hostility toward government, media, expertise, and 'the establishment' — distinct from frustration with specific policies."
+    },
+    {
+      "id": "dependence_on_high_dollar_campaigning",
+      "label": "Dependence on High-Dollar Campaigning",
+      "position": {
+        "x": 92,
+        "y": 453
+      },
+      "type": "variable",
+      "description": "The reality that candidates without major donor support cannot afford to compete — locking in the donor-policy link."
+    },
+    {
+      "id": "public_perception_of_corruption",
+      "label": "Public Perception of Corruption",
+      "position": {
+        "x": -506,
+        "y": 204
+      },
+      "type": "variable",
+      "description": "Citizens' belief that public officials trade favors for money or self-deal. Distinct from actual corruption — perception alone is enough to drive distrust."
+    },
+    {
+      "id": "demand_for_reform",
+      "label": "Demand for Reform",
+      "position": {
+        "x": -697,
+        "y": -114
+      },
+      "type": "variable",
+      "description": "Sustained public pressure — petitions, protests, reform candidates — calling for ethics laws, campaign finance restrictions, or constitutional amendments."
+    },
+    {
+      "id": "transparency_laws",
+      "label": "Transparency Laws",
+      "position": {
+        "x": -562,
+        "y": -333
+      },
+      "type": "variable",
+      "description": "Statutes requiring disclosure of campaign donations, lobbying expenditures, and meetings between officials and outside interests. FOIA, HONEST Leadership Act, DISCLOSE Act."
+    },
+    {
+      "id": "visibility_of_political_funding",
+      "label": "Visibility of Political Funding",
+      "position": {
+        "x": -313,
+        "y": -390
+      },
+      "type": "variable",
+      "description": "How easy it is to find out who is paying for political messages and policy advocacy. High visibility lets journalists, watchdogs, and voters connect dots."
+    },
+    {
+      "id": "institutional_accountability",
+      "label": "Institutional Accountability",
+      "position": {
+        "x": -137,
+        "y": -268
+      },
+      "type": "variable",
+      "description": "Visible consequences — resignations, prosecutions, electoral defeats — when officials betray public trust. The outcome of transparency plus enforcement."
+    },
+    {
+      "id": "grassroots_activism",
+      "label": "Grassroots Activism",
+      "position": {
+        "x": 190,
+        "y": 140
+      },
+      "type": "variable",
+      "description": "Citizen-led organizing — door-knocking, voter registration drives, advocacy networks — that builds political power from below rather than from donors above."
+    },
+    {
+      "id": "small_donor_participation",
+      "label": "Small-Donor Participation",
+      "position": {
+        "x": 108,
+        "y": 248
+      },
+      "type": "variable",
+      "description": "Campaign fundraising from contributions under $200. Platforms like ActBlue and WinRed have made small-donor fundraising competitive at scale."
+    },
+    {
+      "id": "competitive_elections",
+      "label": "Competitive Elections",
+      "position": {
+        "x": -136,
+        "y": 232
+      },
+      "type": "variable",
+      "description": "Races where the outcome is not predetermined — multiple viable candidates, real policy debate, voters whose choices matter."
+    },
+    {
+      "id": "perceived_responsiveness",
+      "label": "Perceived Responsiveness",
+      "position": {
+        "x": -201,
+        "y": 65
+      },
+      "type": "variable",
+      "description": "Citizens' sense that elected officials actually hear and act on their concerns. Rises when elections are competitive and small donors matter."
+    }
+  ],
+  "edges": [
+    {
+      "id": "cu_to_spending",
+      "source": "citizens_united_decision",
+      "target": "independent_political_spending",
+      "polarity": "positive",
+      "description": "The decision lifted limits on independent expenditures, opening the channel."
+    },
+    {
+      "id": "spending_to_donors",
+      "source": "independent_political_spending",
+      "target": "large_donor_influence",
+      "polarity": "positive",
+      "description": "More dollars in independent expenditures translates directly into more donor influence over campaigns."
+    },
+    {
+      "id": "donors_to_corruption",
+      "source": "large_donor_influence",
+      "target": "public_perception_of_corruption",
+      "polarity": "positive",
+      "description": "Visible donor influence — even when legal — raises citizens' suspicion that money is buying outcomes."
+    },
+    {
+      "id": "corruption_to_trust",
+      "source": "public_perception_of_corruption",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "Believing the system is corrupt drives trust down."
+    },
+    {
+      "id": "trust_to_civic",
+      "source": "trust_in_government",
+      "target": "civic_participation",
+      "polarity": "positive",
+      "description": "People who trust the system show up to participate in it."
+    },
+    {
+      "id": "civic_to_accountability",
+      "source": "civic_participation",
+      "target": "broad_democratic_accountability",
+      "polarity": "positive",
+      "description": "A broad participating public holds officials to account."
+    },
+    {
+      "id": "accountability_to_spending",
+      "source": "broad_democratic_accountability",
+      "target": "independent_political_spending",
+      "polarity": "negative",
+      "description": "When the broad public is engaged and informed, the relative leverage of independent expenditures falls."
+    },
+    {
+      "id": "spending_to_negative_ads",
+      "source": "independent_political_spending",
+      "target": "negative_political_advertising",
+      "polarity": "positive",
+      "description": "Super PAC money disproportionately funds negative attack ads."
+    },
+    {
+      "id": "ads_to_polarization",
+      "source": "negative_political_advertising",
+      "target": "political_polarization",
+      "polarity": "positive",
+      "description": "Repeated negative messaging hardens the view that the other party is dangerous, not just wrong."
+    },
+    {
+      "id": "polarization_to_conflict",
+      "source": "political_polarization",
+      "target": "institutional_conflict",
+      "polarity": "positive",
+      "description": "Polarized politicians refuse to cooperate, producing shutdowns and gridlock."
+    },
+    {
+      "id": "conflict_to_frustration",
+      "source": "institutional_conflict",
+      "target": "public_frustration",
+      "polarity": "positive",
+      "description": "Visible government dysfunction exhausts and alarms citizens."
+    },
+    {
+      "id": "frustration_to_trust",
+      "source": "public_frustration",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "Frustration and anxiety pull trust down."
+    },
+    {
+      "id": "trust_to_cynicism",
+      "source": "trust_in_government",
+      "target": "cynicism_and_tribal_voting",
+      "polarity": "negative",
+      "description": "When trust collapses, voters fall back on team loyalty — voting against the other side rather than for any positive vision."
+    },
+    {
+      "id": "cynicism_to_polarization",
+      "source": "cynicism_and_tribal_voting",
+      "target": "political_polarization",
+      "polarity": "positive",
+      "description": "Tribal voting reinforces the parties' polarized self-images."
+    },
+    {
+      "id": "ads_to_charged_media",
+      "source": "negative_political_advertising",
+      "target": "emotionally_charged_media",
+      "polarity": "positive",
+      "description": "Negative ads set the tone for what counts as 'news-worthy' political content."
+    },
+    {
+      "id": "charged_to_attention",
+      "source": "emotionally_charged_media",
+      "target": "audience_attention_competition",
+      "polarity": "positive",
+      "description": "Emotional content wins attention; competitors must match it or lose audience."
+    },
+    {
+      "id": "attention_to_sensationalism",
+      "source": "audience_attention_competition",
+      "target": "sensationalism",
+      "polarity": "positive",
+      "description": "Sustained attention competition rewards the most provocative framings."
+    },
+    {
+      "id": "sensationalism_to_frustration",
+      "source": "sensationalism",
+      "target": "public_frustration",
+      "polarity": "positive",
+      "description": "A sensational news environment leaves citizens anxious and unable to distinguish signal from noise."
+    },
+    {
+      "id": "trust_to_outrage",
+      "source": "trust_in_government",
+      "target": "demand_for_outrage_media",
+      "polarity": "negative",
+      "description": "When trust in mainstream institutions falls, audiences seek out content that confirms their worst suspicions."
+    },
+    {
+      "id": "outrage_to_charged",
+      "source": "demand_for_outrage_media",
+      "target": "emotionally_charged_media",
+      "polarity": "positive",
+      "description": "Audience demand for outrage content shapes what producers make more of."
+    },
+    {
+      "id": "responsiveness_to_wealth",
+      "source": "policy_responsiveness_to_donors",
+      "target": "wealth_concentration",
+      "polarity": "positive",
+      "description": "Donor-favored policy concentrates wealth at the top: tax cuts, regulatory capture, no-bid contracts."
+    },
+    {
+      "id": "wealth_to_inequality",
+      "source": "wealth_concentration",
+      "target": "economic_inequality",
+      "polarity": "positive",
+      "description": "Concentrated wealth at the top widens the gap with everyone else."
+    },
+    {
+      "id": "inequality_to_unfair",
+      "source": "economic_inequality",
+      "target": "perception_system_unfair",
+      "polarity": "positive",
+      "description": "Visible inequality fuels the belief that the rules favor insiders."
+    },
+    {
+      "id": "unfair_to_trust",
+      "source": "perception_system_unfair",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "Believing the system is unfair drives trust in government down."
+    },
+    {
+      "id": "trust_to_anti_institution",
+      "source": "trust_in_government",
+      "target": "anti_institution_sentiment",
+      "polarity": "negative",
+      "description": "Low trust generalizes into hostility toward 'the establishment' as a whole."
+    },
+    {
+      "id": "anti_to_polarization",
+      "source": "anti_institution_sentiment",
+      "target": "political_polarization",
+      "polarity": "positive",
+      "description": "Anti-establishment movements often align with — or get captured by — the polarized parties."
+    },
+    {
+      "id": "polarization_to_dependence",
+      "source": "political_polarization",
+      "target": "dependence_on_high_dollar_campaigning",
+      "polarity": "positive",
+      "description": "Polarized races are expensive — base mobilization, ad wars, opposition research all require donor money."
+    },
+    {
+      "id": "dependence_to_responsiveness",
+      "source": "dependence_on_high_dollar_campaigning",
+      "target": "policy_responsiveness_to_donors",
+      "polarity": "positive",
+      "description": "Officials who depend on donor money for re-election listen first to donors."
+    },
+    {
+      "id": "corruption_to_reform",
+      "source": "public_perception_of_corruption",
+      "target": "demand_for_reform",
+      "polarity": "positive",
+      "description": "Perceived corruption mobilizes reform movements."
+    },
+    {
+      "id": "reform_to_transparency",
+      "source": "demand_for_reform",
+      "target": "transparency_laws",
+      "polarity": "positive",
+      "description": "Sustained reform pressure passes disclosure and ethics legislation."
+    },
+    {
+      "id": "transparency_to_visibility",
+      "source": "transparency_laws",
+      "target": "visibility_of_political_funding",
+      "polarity": "positive",
+      "description": "Disclosure laws let journalists and watchdogs see the money."
+    },
+    {
+      "id": "visibility_to_accountability",
+      "source": "visibility_of_political_funding",
+      "target": "institutional_accountability",
+      "polarity": "positive",
+      "description": "Visible misconduct produces resignations, prosecutions, and electoral defeats."
+    },
+    {
+      "id": "accountability_to_trust",
+      "source": "institutional_accountability",
+      "target": "trust_in_government",
+      "polarity": "positive",
+      "description": "Visible accountability rebuilds trust."
+    },
+    {
+      "id": "trust_to_corruption",
+      "source": "trust_in_government",
+      "target": "public_perception_of_corruption",
+      "polarity": "negative",
+      "description": "Restored trust reduces perceived corruption — closing the balancing loop."
+    },
+    {
+      "id": "trust_to_grassroots",
+      "source": "trust_in_government",
+      "target": "grassroots_activism",
+      "polarity": "negative",
+      "description": "Falling trust mobilizes grassroots organizing — people show up when they feel the system has failed."
+    },
+    {
+      "id": "grassroots_to_smalldonor",
+      "source": "grassroots_activism",
+      "target": "small_donor_participation",
+      "polarity": "positive",
+      "description": "Activists give small donations and recruit others to do the same."
+    },
+    {
+      "id": "smalldonor_to_competitive",
+      "source": "small_donor_participation",
+      "target": "competitive_elections",
+      "polarity": "positive",
+      "description": "Small-dollar funded candidates can compete without depending on major donors."
+    },
+    {
+      "id": "competitive_to_responsive",
+      "source": "competitive_elections",
+      "target": "perceived_responsiveness",
+      "polarity": "positive",
+      "description": "Competition forces incumbents to actually listen to constituents."
+    },
+    {
+      "id": "responsive_to_trust",
+      "source": "perceived_responsiveness",
+      "target": "trust_in_government",
+      "polarity": "positive",
+      "description": "When citizens see officials responding to their concerns, trust rises."
+    }
+  ],
+  "loops": [
+    {
+      "id": "R1",
+      "type": "reinforcing",
+      "label": "R1: Money and Trust Erosion",
+      "description": "The primary post-Citizens United loop. Independent spending elevates donor influence, perceived corruption rises, trust falls, civic participation shrinks, broad accountability weakens, and independent spending flows in even more easily.",
+      "path": [
+        "independent_political_spending",
+        "large_donor_influence",
+        "public_perception_of_corruption",
+        "trust_in_government",
+        "civic_participation",
+        "broad_democratic_accountability",
+        "independent_political_spending"
+      ],
+      "position": {
+        "x": -610,
+        "y": 336
+      },
+      "is_primary": true
+    },
+    {
+      "id": "R2",
+      "type": "reinforcing",
+      "label": "R2: Polarization and Trust",
+      "description": "Negative ads → polarization → institutional conflict → public frustration → falling trust → tribal voting → more polarization. A self-reinforcing decline in institutional cooperation.",
+      "path": [
+        "political_polarization",
+        "institutional_conflict",
+        "public_frustration",
+        "trust_in_government",
+        "cynicism_and_tribal_voting",
+        "political_polarization"
+      ],
+      "position": {
+        "x": 315,
+        "y": -227
+      },
+      "is_primary": false
+    },
+    {
+      "id": "R3",
+      "type": "reinforcing",
+      "label": "R3: Media Amplification",
+      "description": "Emotionally charged content → attention competition → sensationalism → frustration → falling trust → demand for outrage media → more charged content. Modern media business models can reinforce distrust because outrage drives engagement.",
+      "path": [
+        "emotionally_charged_media",
+        "audience_attention_competition",
+        "sensationalism",
+        "public_frustration",
+        "trust_in_government",
+        "demand_for_outrage_media",
+        "emotionally_charged_media"
+      ],
+      "position": {
+        "x": 580,
+        "y": 0
+      },
+      "is_primary": false
+    },
+    {
+      "id": "R4",
+      "type": "reinforcing",
+      "label": "R4: Economic Inequality",
+      "description": "Donor-responsive policy → wealth concentration → broader inequality → perception the system is unfair → falling trust → anti-institution sentiment → polarization → higher dependence on big-dollar campaigning → still more donor-responsive policy.",
+      "path": [
+        "policy_responsiveness_to_donors",
+        "wealth_concentration",
+        "economic_inequality",
+        "perception_system_unfair",
+        "trust_in_government",
+        "anti_institution_sentiment",
+        "political_polarization",
+        "dependence_on_high_dollar_campaigning",
+        "policy_responsiveness_to_donors"
+      ],
+      "position": {
+        "x": -200,
+        "y": 250
+      },
+      "is_primary": false
+    },
+    {
+      "id": "B1",
+      "type": "balancing",
+      "label": "B1: Transparency Reform",
+      "description": "Perceived corruption → demand for reform → transparency laws → visibility of funding → institutional accountability → trust recovers → less perceived corruption. The Watergate-era reform pattern.",
+      "path": [
+        "public_perception_of_corruption",
+        "demand_for_reform",
+        "transparency_laws",
+        "visibility_of_political_funding",
+        "institutional_accountability",
+        "trust_in_government",
+        "public_perception_of_corruption"
+      ],
+      "position": {
+        "x": -378,
+        "y": -155
+      },
+      "is_primary": false
+    },
+    {
+      "id": "B2",
+      "type": "balancing",
+      "label": "B2: Grassroots Engagement",
+      "description": "Falling trust → grassroots activism → small-donor participation → competitive elections → perceived responsiveness → trust recovers. The democratic-renewal loop — the most hopeful counter to the four reinforcing dynamics.",
+      "path": [
+        "trust_in_government",
+        "grassroots_activism",
+        "small_donor_participation",
+        "competitive_elections",
+        "perceived_responsiveness",
+        "trust_in_government"
+      ],
+      "position": {
+        "x": 93,
+        "y": -122
+      },
+      "is_primary": false
+    }
+  ],
+  "educational_content": {
+    "key_insights": [
+      "Trust in government is not caused by one event. It emerges from interacting feedback loops involving money, media, participation, inequality, and institutional responsiveness.",
+      "Citizens United (2010) did not invent any of these loops. It amplified R1 by making large-scale independent expenditures legal — and in doing so strengthened the upstream drivers of R2, R3, and R4.",
+      "The two balancing loops (B1 and B2) are not theoretical. Both have historical precedent — B1 in the Watergate-era reforms, B2 in the post-2008 small-donor revolution.",
+      "Political polarization is the most-shared node in this diagram. It appears in R2 and R4, and is fed by cynicism, anti-institution sentiment, and negative advertising. Any intervention that weakens polarization weakens multiple reinforcing loops at once."
+    ],
+    "discussion_questions": [
+      "Which campaign finance reforms (BCRA 2002, Citizens United 2010) would shift R1, and in which direction?",
+      "R1, R2, R3, and R4 all pass through Trust In Government with a negative incoming edge. Why? What does this tell you about Trust's role in the system?",
+      "If you could weaken exactly one edge in this diagram, which would you pick, and why? (This is the 'leverage point' question.)",
+      "How is B2 (Grassroots Engagement) different from B1 (Transparency Reform)? Where does each loop work fastest?",
+      "The framing avoids implying inevitability. What would have to change for R1 to weaken on its own, without active intervention?"
+    ],
+    "common_misconceptions": [
+      {
+        "misconception": "Citizens United caused the decline in trust in government.",
+        "correction": "Trust in government has been declining since the late 1960s — well before Citizens United (2010). The decision amplified an existing dynamic; it did not create it."
+      },
+      {
+        "misconception": "More transparency automatically rebuilds trust.",
+        "correction": "Transparency without enforcement (institutional accountability) just produces visible information that nothing gets done about — which can deepen cynicism. B1 requires all five nodes, not just the disclosure step."
+      },
+      {
+        "misconception": "Polarization and money in politics are separate problems.",
+        "correction": "R4 explicitly connects them: polarized politics increases campaign costs, which increases dependence on big donors, which increases donor-responsive policy."
+      }
+    ]
+  }
+}

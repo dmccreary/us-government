@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "id": "citizens-united-r4-cld",
+    "title": "R4: Economic Inequality",
+    "archetype": "success-to-the-successful",
+    "description": "Donor-favored policy concentrates wealth, widens inequality, fuels the belief that the system is unfair, drives anti-institution sentiment and polarization, increases campaign costs — and locks in dependence on big donors.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["citizens-united", "appendix-stage-4", "economic-inequality", "reinforcing-loop"]
+  },
+  "nodes": [
+    {"id": "policy_responsiveness_to_donors", "label": "Policy Responsiveness to Donors", "position": {"x": 300, "y": 80}, "type": "stock", "description": "Degree to which legislation reflects donor preferences over the median voter."},
+    {"id": "wealth_concentration", "label": "Wealth Concentration", "position": {"x": 510, "y": 170}, "type": "variable", "description": "Share of national wealth held at the top — both cause and consequence of donor-favored policy."},
+    {"id": "economic_inequality", "label": "Economic Inequality", "position": {"x": 580, "y": 380}, "type": "variable", "description": "The broader income and wealth gap — Gini coefficient, median wage stagnation, mobility."},
+    {"id": "perception_system_unfair", "label": "Perception System Is Unfair", "position": {"x": 460, "y": 550}, "type": "variable", "description": "Citizens' sense that hard work no longer reliably leads to mobility and that institutions favor insiders."},
+    {"id": "trust_in_government", "label": "Trust In Government", "position": {"x": 300, "y": 620}, "type": "stock", "description": "The percentage of citizens who say they trust the federal government to do what is right."},
+    {"id": "anti_institution_sentiment", "label": "Anti-Institution Sentiment", "position": {"x": 140, "y": 550}, "type": "variable", "description": "Generalized hostility toward 'the establishment' — distinct from frustration with specific policies."},
+    {"id": "political_polarization", "label": "Political Polarization", "position": {"x": 20, "y": 380}, "type": "variable", "description": "Ideological and emotional distance between the parties — the same node that connects R2 and R4 in the full system."},
+    {"id": "dependence_on_high_dollar_campaigning", "label": "Dependence on High-Dollar Campaigning", "position": {"x": 90, "y": 170}, "type": "variable", "description": "The reality that candidates without major donor support cannot afford to compete."}
+  ],
+  "edges": [
+    {"id": "responsiveness_to_wealth", "source": "policy_responsiveness_to_donors", "target": "wealth_concentration", "polarity": "positive", "description": "Donor-favored policy concentrates wealth at the top."},
+    {"id": "wealth_to_inequality", "source": "wealth_concentration", "target": "economic_inequality", "polarity": "positive", "description": "Concentrated wealth widens the gap with everyone else."},
+    {"id": "inequality_to_unfair", "source": "economic_inequality", "target": "perception_system_unfair", "polarity": "positive", "description": "Visible inequality fuels the belief that the rules favor insiders."},
+    {"id": "unfair_to_trust", "source": "perception_system_unfair", "target": "trust_in_government", "polarity": "negative", "description": "Believing the system is unfair drives trust in government down."},
+    {"id": "trust_to_anti_institution", "source": "trust_in_government", "target": "anti_institution_sentiment", "polarity": "negative", "description": "Low trust generalizes into hostility toward 'the establishment' as a whole."},
+    {"id": "anti_to_polarization", "source": "anti_institution_sentiment", "target": "political_polarization", "polarity": "positive", "description": "Anti-establishment movements often align with — or get captured by — the polarized parties."},
+    {"id": "polarization_to_dependence", "source": "political_polarization", "target": "dependence_on_high_dollar_campaigning", "polarity": "positive", "description": "Polarized races are expensive — base mobilization, ad wars, opposition research all cost money."},
+    {"id": "dependence_to_responsiveness", "source": "dependence_on_high_dollar_campaigning", "target": "policy_responsiveness_to_donors", "polarity": "positive", "description": "Officials who depend on donors for re-election listen first to donors."}
+  ],
+  "loops": [
+    {"id": "R4", "type": "reinforcing", "label": "R4: Economic Inequality", "description": "Money in politics → unequal outcomes → unfair perception → distrust → polarization → more money needed.", "path": ["policy_responsiveness_to_donors", "wealth_concentration", "economic_inequality", "perception_system_unfair", "trust_in_government", "anti_institution_sentiment", "political_polarization", "dependence_on_high_dollar_campaigning", "policy_responsiveness_to_donors"], "position": {"x": 300, "y": 360}, "is_primary": true}
+  ]
+}

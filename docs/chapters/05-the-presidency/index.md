@@ -42,7 +42,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 5, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Article II of the Constitution describes the presidency in far fewer words than Article I describes Congress — and this brevity was intentional. The framers feared a powerful executive, having just fought a revolution against a king. Yet today the president is often described as the most powerful person in the world. How did we get from Article II's spare language to that reality? Let's examine the evidence!
 
 ---
@@ -100,7 +100,7 @@ Congress can override a presidential veto with a **two-thirds vote in both the H
 | President takes no action, Congress adjourns within 10 days | Pocket veto — bill dies |
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     The "veto threat" is as important as the veto itself. When the president announces opposition to a bill still in Congress, members must decide whether to modify it to avoid a veto, push it through knowing it will be vetoed, or abandon it. In a polarized era when override is nearly impossible (requiring significant defections from the president's own party), the mere threat of a veto gives the president enormous leverage over legislation. Systems thinking question: what happens to presidential veto leverage when the president's party holds supermajorities in Congress?
 
 ## Enumerated vs. Informal Presidential Powers
@@ -244,7 +244,7 @@ Type: MicroSim
 - **Signing Statements**: Presidential interpretations at bill-signing; controversial mechanism for shaping implementation.
 
 !!! mascot-celebration "Lex Celebrates Chapter 5!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     The presidency is the branch that most Americans pay the most attention to — and now you understand why it is both more and less powerful than it appears. More powerful because informal powers (executive orders, executive agreements, commander in chief discretion, veto threats) have expanded enormously beyond what Article II says. Less powerful because every major action faces checks from Congress, the courts, and the states. That tension — between presidential ambition and constitutional constraint — is the heartbeat of American constitutional government. The law belongs to all of us!
 
 [See Annotated References](./references.md)

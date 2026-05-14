@@ -40,7 +40,7 @@ This is the first chapter. It assumes only the general background listed in the 
 ---
 
 !!! mascot-welcome "Hi! I'm Lex — Your Guide Through American Government."
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves hello">
+    ![Lex the Bald Eagle waves hello](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Welcome to *US Government*! I'm **Lex**, a bald eagle who has spent a lot of time perched in law libraries — and I'll be your companion through every chapter of this textbook. I show up in exactly **seven poses**, each one doing a specific job, so you'll always know why I'm here. Here is my full job description:
 
     1. **Welcome you** at the start of every chapter — that's what I'm doing right now.
@@ -118,7 +118,7 @@ This is not merely a historical curiosity. The social contract idea underlies mo
 **Popular sovereignty** — the principle that government derives its just powers from the consent of the governed — is the political expression of social contract theory. In practice, popular sovereignty means that governments must be accountable to the people through mechanisms like elections, free speech, and the right to petition. **Limited government** is the companion principle: because governments are created by the people for specific purposes, their power is not unlimited. There are things a legitimate government simply may not do, no matter what the majority wants.
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     Here is a question worth sitting with: If a majority of citizens vote to take away the rights of a minority group, is that democracy? Locke and the framers would say no — popular sovereignty and limited government are *both* necessary. Majority rule without rights protection is just mob rule with an election attached. The AP exam frequently tests this tension. Be prepared to explain why the Constitution is designed to protect minority rights even in a majority-rule system.
 
 ## The Declaration of Independence as Political Argument
@@ -189,7 +189,7 @@ In the fall of 1786 and winter of 1787, a group of debt-ridden Massachusetts far
 The rebellion terrified the American political class. If the national government could not put down a small armed uprising in one state, how could it maintain order? If states could not coordinate even a basic response to domestic unrest, what would happen when a foreign power threatened? Shays' Rebellion gave urgency to calls for a constitutional convention that had previously stalled. Leaders like George Washington, Alexander Hamilton, and James Madison argued that the nation faced a genuine crisis of governance, and that patching the Articles was not enough — the whole structure needed to be rebuilt.
 
 !!! mascot-tip "Exam Tip from Lex"
-    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Lex the Bald Eagle shares a tip">
+    ![Lex the Bald Eagle shares a tip](../../img/mascot/tip.png){ class="mascot-admonition-img"}
     The AP exam sometimes asks why the Articles of Confederation failed and what led to the Constitutional Convention. The most effective answers name *specific* weaknesses of the Articles — particularly the inability to tax, the lack of a national currency, and the requirement for unanimous amendment — and then connect Shays' Rebellion as the immediate political catalyst that convinced skeptical states to send delegates to Philadelphia. Vague answers about "too weak government" earn partial credit at best.
 
 ## The Constitutional Convention of 1787
@@ -250,7 +250,7 @@ The result was the **Three-Fifths Compromise**: enslaved persons would be counte
 The Three-Fifths Compromise is not merely a historical curiosity. It illustrates a foundational tension in the Constitution: the document simultaneously articulates principles of liberty and equality while institutionalizing racial slavery. This tension was not resolved at the founding — it was deferred, at enormous cost, to the Civil War and its amendments.
 
 !!! mascot-warning "Lex Flags a Common Mistake"
-    <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks cautionary">
+    ![Lex the Bald Eagle looks cautionary](../../img/mascot/warning.png){ class="mascot-admonition-img"}
     Students sometimes write that the Three-Fifths Compromise treated enslaved people as "three-fifths of a person" in a moral or human sense. That misreads the history. Enslaved people were *fully* human — the compromise was about political *representation*, not personhood. The clause was a political bargain that benefited slave-owning states by boosting their congressional power. The distinction matters for AP essay scoring: describe it accurately as a mechanism for apportioning political representation, not as a statement about human worth.
 
 ## Federalists and Antifederalists: The Ratification Debate
@@ -290,8 +290,28 @@ Consider a few questions this chapter alone raises:
 There are no simple answers to these questions. AP free-response questions frequently ask you to argue *for* or *against* a position using constitutional evidence. The ability to construct a well-reasoned argument — rather than just recite facts — is what distinguishes a 4 or 5 on the AP exam from a 2 or 3.
 
 !!! mascot-encourage "Lex Encourages You"
-    <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks encouraging">
+    ![Lex the Bald Eagle looks encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img"}
     This chapter covers a lot of intellectual terrain — Enlightenment philosophy, colonial crisis, constitutional design, ratification politics. If some of it feels abstract, that is completely normal at first. Keep coming back to the central question: *Why did the founders design the government the way they did?* Once you can answer that question for each major feature — the bicameral legislature, the Senate's equal representation, the separation of powers — the rest of the course will start to click into place. Knowledge is the cornerstone of democracy!
+
+#### Diagram: Forces Acting on Trust In Government — Full Causal Loop Diagram
+
+Democracy's foundation is not just parchment and procedure. It is the **trust** citizens place in their government. The Framers knew this, which is why they built structural protections (a free press, the right to assemble, separation of powers) directly into the Constitution. The diagram below shows the modern system of forces acting on that trust: two *reinforcing* loops pushing it down, and two *balancing* loops pushing it back up.
+
+!!! mascot-tip "New to causal loop diagrams?"
+    ![Lex giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img"}
+    This diagram has 12 nodes and 4 loops — it can feel overwhelming the first time. Before diving in, read **[Appendix: Reading a Causal Loop Diagram](../../appendix/reading-a-causal-loop-diagram.md)** for a gentle, step-by-step walk-through with two simple examples. You'll be back here in 5 minutes ready to tackle the full system.
+
+<iframe src="/us-government/sims/cld-viewer/main.html?file=trust-in-government-full-cld" width="100%" height="720" scrolling="no"></iframe>
+
+[Open Full System Fullscreen](../../sims/cld-viewer/main.html?file=trust-in-government-full-cld&menu=true){ .md-button .md-button--primary }
+[Explore the Four Loops Individually](../../sims/causes-of-political-corruption/index.md){ .md-button }
+
+Each of the four loops — Gerrymandering Arms Race (R1), Disinformation Spiral (R2), Civic Reform Pressure (B1), and Free Press Accountability (B2) — is examined in detail in the [Causes of Political Corruption MicroSim](../../sims/causes-of-political-corruption/index.md). The individual loops also appear in the chapters where they are most relevant: R1 in Chapter 4 (Congress), R2 in Chapter 9 (Media), B1 in Chapter 10 (Voting and Participation), and B2 in Chapter 8 (Civil Liberties).
+
+If you have never studied systems thinking an causal loop diagrams, this figure may
+seem confusing at first.  For those readers new to systems thinking and causal loop
+diagrams we encourage you to read the [Reading a Causal Loop Diagram](../../appendix/reading-a-causal-loop-diagram.md) in our appendices.  In future chapters we
+will cover different components of these diagrams.
 
 ## Key Takeaways
 
@@ -315,7 +335,7 @@ Before moving on to Chapter 2 (The Constitution and the Bill of Rights), make su
 - **Critical Thinking in Civics**: Asking not just what the rules are, but why they exist, who they serve, and whether they are working.
 
 !!! mascot-celebration "Lex Celebrates!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     You have just completed Chapter 1 — and that means you have mastered the intellectual foundation of the entire course. Every debate in American politics, from Senate filibuster reform to AI surveillance and the Fourth Amendment, is ultimately a debate about the ideas you just studied: What rights do people have? What can government legitimately do? Who should have political power? You will see these questions come up again and again. The law belongs to all of us — and now you know where it came from!
 
 [See Annotated References](./references.md)

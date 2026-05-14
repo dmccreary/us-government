@@ -18,7 +18,7 @@ The diagram below puts **Trust In Government** at the center as a *stock* — a 
 Whether trust recovers or collapses depends on which set of loops is stronger at any given moment.
 
 !!! mascot-welcome "Welcome, future leaders!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex waving welcome">
+    ![Lex waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     *"The law belongs to all of us!"* Today we'll examine the system of forces shaping trust in government. Drag the nodes around — feel how everything is connected to everything else.
 
 ## How to read a causal loop diagram
@@ -64,6 +64,23 @@ When official sources lose credibility, citizens seek alternatives. Many of thos
 
 ---
 
+## R3 — Money in Politics
+
+When trust falls, fewer ordinary citizens vote — but lobbyists and major donors still show up. Policy starts to reflect donor priorities more than voter priorities, which deepens cynicism and pushes turnout still lower. The legal landscape of this loop has shifted dramatically since *Citizens United v. FEC* (2010).
+
+<div class="cld-inline"
+     data-src="../../sims/cld-viewer/examples/money-in-politics-cld.json"
+     data-cld="money-in-politics-cld"
+     style="height:520px"></div>
+
+[Open R3 Fullscreen](../cld-viewer/main.html?file=money-in-politics-cld&menu=true){ .md-button }
+
+**Trace the loop:** Low trust → Voter turnout ↓ → Special interest influence ↑ → Policy capture ↑ → Trust falls further. Two negative edges → reinforcing.
+
+This loop is the trickiest to classify by inspection — the first edge (Trust → Turnout) is *positive* (they move together), but the second edge (Turnout → Special Interest Influence) is *negative*. Count carefully: 2 negatives = even = reinforcing.
+
+---
+
 ## B1 — Civic Reform Pressure
 
 Falling trust is not only destructive. It also mobilizes voters, activists, and reform candidates. After Watergate, sustained public pressure produced the *Ethics in Government Act of 1978*. After the 2008 financial crisis, *Dodd-Frank*. Real reforms reduce corruption and slowly rebuild trust.
@@ -93,8 +110,25 @@ The First Amendment makes this loop possible. A free press can investigate witho
 **Trace the loop:** Low trust → Investigative journalism ↑ → Officials held accountable ↑ → Political corruption ↓ → Trust recovers. Three negative edges → balancing.
 
 !!! mascot-thinking "Key Concept"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex thinking">
-    The two balancing loops both work by **reducing political corruption** — that's why they share a node in the full system view. The Framers deliberately built B2 into the Constitution.
+    ![Lex thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
+    The balancing loops all work by **reducing political corruption** — that's why they share a node. The Framers deliberately built B2 (free press) and B3 (judicial prosecution) into the Constitution.
+
+---
+
+## B3 — Judicial Oversight
+
+The third constitutional check. When the Department of Justice prosecutes corrupt officials and federal courts convict them, the credible threat of prison deters future misconduct. This loop's strength depends critically on **prosecutorial independence** from the executive branch — when presidents can fire the prosecutors investigating them, the loop weakens dramatically.
+
+<div class="cld-inline"
+     data-src="../../sims/cld-viewer/examples/judicial-oversight-cld.json"
+     data-cld="judicial-oversight-cld"
+     style="height:520px"></div>
+
+[Open B3 Fullscreen](../cld-viewer/main.html?file=judicial-oversight-cld&menu=true){ .md-button }
+
+**Trace the loop:** Low trust → Federal indictments ↑ → Convictions ↑ → Political corruption ↓ → Trust recovers. Three negative edges → balancing.
+
+**How does B3 connect to B2?** Investigative journalism (B2) often supplies the evidence that prosecutors (B3) use to indict. The two loops are sequential — exposure feeds prosecution. They share the same political corruption node.
 
 ---
 
@@ -104,14 +138,18 @@ The First Amendment makes this loop possible. A free press can investigate witho
 |------|------|--------------|---------|
 | R1 — Gerrymandering Arms Race | Reinforcing | **Strong, escalating** | Both parties draw aggressive maps after every census. |
 | R2 — Disinformation Spiral | Reinforcing | **Very strong** | Social media has dramatically amplified the loop's speed. |
+| R3 — Money in Politics | Reinforcing | **Strong, structural** | *Citizens United* (2010) widened the loop; voter turnout remains low in midterms. |
 | B1 — Civic Reform Pressure | Balancing | **Weakening** | Congressional gridlock makes major reform bills harder to pass. |
 | B2 — Free Press Accountability | Balancing | **Strong but contested** | The legal protection holds, but newsroom budgets have shrunk. |
+| B3 — Judicial Oversight | Balancing | **Contested** | Strong in theory; depends entirely on prosecutorial independence in practice. |
 
 ---
 
 ## Putting It All Together
 
-The full system places **Trust In Government** at the hub, with all four loops radiating outward. The two reinforcing loops (R1, R2) sit on top; the two balancing loops (B1, B2) sit at the bottom, both flowing through a shared **Political Corruption** node.
+The full system below places **Trust In Government** at the hub, with the four "core" loops radiating outward. R1 and R2 (reinforcing) sit on top; B1 and B2 (balancing) sit at the bottom, both flowing through a shared **Political Corruption** node.
+
+R3 (Money in Politics) and B3 (Judicial Oversight) are powerful loops in their own right but are kept out of the full-system diagram to preserve clarity. Explore each as a standalone above, or click the buttons in the chapter discussions.
 
 <div class="cld-inline"
      data-src="../../sims/cld-viewer/examples/trust-in-government-full-cld.json"
@@ -124,35 +162,23 @@ The full system places **Trust In Government** at the hub, with all four loops r
 
 ---
 
-## Future Loops to Explore (Student Labs)
+## Design Your Own Loop (Student Lab)
 
-The four loops above are a starting point, not the whole picture. The following loops were considered for this diagram but left out to keep complexity manageable. Each one would make a good **student project**: design the JSON, justify the polarities, and add it to the full system.
+The six loops above are not the whole picture. Pick a force you think is missing — social media algorithms, foreign election interference, gerontocracy, partisan primaries, public education quality, lobbying revolving door — and draw it as a loop that passes through **Trust In Government**. Defend your polarity choices in class.
 
-### Lab idea 1 — Judicial Oversight (Balancing)
+Once you have it on paper, you can turn it into a live diagram:
 
-> Political Corruption ↑ → Federal Indictments ↑ → Convictions and Sentences ↑ → Political Corruption ↓ → Trust Recovers ↑
+1. Copy any JSON file in [`docs/sims/cld-viewer/examples/`](../cld-viewer/index.md) as a starting template
+2. Rename the file and the `metadata.id` to match (e.g., `my-loop-cld.json`)
+3. Edit the `nodes`, `edges`, and `loops` arrays
+4. Add your file's id to the `examples` list in `cld-viewer.js`
+5. Load the page and click your new button
 
-The judicial branch is the third constitutional check. When the DOJ prosecutes corrupt officials and courts convict them, the credible threat of jail time deters future misconduct. The strength of this loop depends on prosecutorial independence — which is itself a debated topic.
+**Investigation questions to defend in class:**
 
-**Investigation questions:**
-
-- How is this loop different from B2 (Free Press)? Where do they connect?
-- What happens to this loop when the executive branch can fire prosecutors?
-
-### Lab idea 2 — Money in Politics (Reinforcing)
-
-> Low Trust → Low Voter Turnout ↑ → Influence of Special Interests ↑ → Policy Capture ↑ → Low Trust
-
-When trust falls, fewer ordinary citizens vote — but lobbyists and donors still show up. Policy starts to reflect donor priorities more than voter priorities, which deepens cynicism and pushes turnout still lower.
-
-**Investigation questions:**
-
-- Which campaign finance reforms (BCRA 2002, Citizens United 2010) would shift this loop, and in which direction?
-- Is this loop reinforcing or balancing? Count the negative edges carefully.
-
-### Lab idea 3 — Design your own
-
-Pick a force you think is missing — social media algorithms, foreign election interference, gerontocracy, partisan primaries, public education quality — and draw it as a loop that passes through **Trust In Government**. Defend your polarity choices in class.
+- How many negative edges does your loop have? Does the parity match your declared loop type?
+- Does your loop share a node with any of the six existing loops? Where do they connect?
+- What real-world event in the past five years would make your loop visible?
 
 ---
 
@@ -171,7 +197,7 @@ Three concrete, observable indicators that tell you which side of the system is 
 Trust in government is not a fixed quantity — it is a *stock* that flows up and down based on the balance of feedback forces. The Framers built B2 (free press) into the Constitution and left room for B1 (civic reform) through the amendment process. But the U.S. has no constitutional defense against R1 (gerrymandering) or R2 (disinformation) — those have to be held in check by the balancing loops, by political will, and by an informed citizenry.
 
 !!! mascot-celebration "You finished the chapter!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex celebrating">
+    ![Lex celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     You've just learned to think in *systems* — to see how forces connect into loops rather than acting in straight lines. This is one of the most powerful tools in political analysis. *Knowledge is the cornerstone of democracy!*
 
 ---

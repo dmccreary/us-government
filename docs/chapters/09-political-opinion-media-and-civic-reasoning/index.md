@@ -50,7 +50,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 9, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Democracy depends on an informed citizenry — but what does "informed" mean in an era of AI-generated content, partisan media ecosystems, and social media algorithms designed to maximize emotional engagement? This chapter is about the science and practice of political reasoning: how opinions form, how media shapes them, and what tools citizens need to think clearly in a polluted information environment. Let's examine the evidence!
 
 ---
@@ -102,7 +102,7 @@ Neither liberalism nor conservatism is a monolithic ideology, and both contain s
 | Progressive | Major redistribution; structural reform | Strong equality protections | Large, transformative |
 
 !!! mascot-tip "Exam Tip from Lex"
-    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Lex the Bald Eagle shares a tip">
+    ![Lex the Bald Eagle shares a tip](../../img/mascot/tip.png){ class="mascot-admonition-img"}
     AP exam questions on political ideology often present poll data and ask: "Based on these results, which group is most ideologically consistent with which party?" The key is knowing that Democrats tend to favor active government on economic issues AND protection of civil rights and liberties; Republicans tend to favor limited government on economic issues AND traditional values/religious liberty. Libertarians break the pattern by opposing government on both economic AND social issues.
 
 ## Going Public: The Presidency and Public Opinion
@@ -291,8 +291,19 @@ AI-specific detection strategies include:
 - Recognizing that claims that arrive with high emotional intensity and pressure to share immediately are disproportionately likely to be false
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     Here is a systems thinking question about misinformation: If social media platforms profit from engagement, and false emotional content generates more engagement than accurate neutral content, what incentive does a platform have to invest heavily in removing misinformation? The platform's financial interests are in tension with its stated commitment to accuracy. This is a structural problem — not a problem of individual bad actors — and it illustrates why systems thinking is essential for understanding why misinformation persists despite broad condemnation of it.
+
+#### Diagram: Disinformation Spiral (R2) — Causal Loop Diagram
+
+Lex's question above is exactly the kind of question a *causal loop diagram* answers. The loop below shows how falling trust in mainstream institutions pushes citizens toward alternative media, where weaker fact-checking lets disinformation spread, fueling conspiracy beliefs — which in turn make government look even less trustworthy.
+
+<iframe src="/us-government/sims/cld-viewer/main.html?file=disinformation-spiral-cld" width="100%" height="500" scrolling="no"></iframe>
+
+[Open R2 Fullscreen](../../sims/cld-viewer/main.html?file=disinformation-spiral-cld&menu=true){ .md-button }
+[See Full System (4 Loops)](../../sims/causes-of-political-corruption/index.md){ .md-button }
+
+This is **R2**, a *reinforcing* loop — each turn pushes the system further from a shared information commons. To see how it interacts with three other loops shaping trust in government, visit the [Causes of Political Corruption MicroSim](../../sims/causes-of-political-corruption/index.md).
 
 ## Key Takeaways
 
@@ -319,7 +330,7 @@ AI-specific detection strategies include:
 - **Fact-Checking Methods**: Verify primary sources, consult established fact-checkers, apply SIFT, check what's missing.
 
 !!! mascot-celebration "Lex Celebrates Chapter 9!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     You have just completed the chapter that ties together the entire purpose of this textbook. The four cross-cutting skills — critical thinking, systems thinking, bias awareness, and misinformation detection — are not add-ons to civics education. They are the point. An informed citizenry that cannot reason clearly about political information is not actually informed — it is just confidently misinformed. You now have the tools. Use them. The law belongs to all of us!
 
 [See Annotated References](./references.md)

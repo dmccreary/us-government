@@ -23,11 +23,24 @@ async function loadExamplesList() {
     // You can add more examples by adding more JSON files to the examples directory
     // and adding them to this list
     const examples = [
+        { id: 'campaign-momentum-cld', title: 'Teaching: Campaign Momentum (R)' },
+        { id: 'approval-self-correction-cld', title: 'Teaching: Approval Self-Correction (B)' },
         { id: 'gerrymandering-arms-race-cld', title: 'R1: Gerrymandering Arms Race' },
         { id: 'disinformation-spiral-cld', title: 'R2: Disinformation Spiral' },
+        { id: 'money-in-politics-cld', title: 'R3: Money in Politics' },
         { id: 'civic-reform-pressure-cld', title: 'B1: Civic Reform Pressure' },
         { id: 'free-press-accountability-cld', title: 'B2: Free Press Accountability' },
-        { id: 'trust-in-government-full-cld', title: 'Full System: Trust In Government' }
+        { id: 'judicial-oversight-cld', title: 'B3: Judicial Oversight' },
+        { id: 'iron-triangle-cld', title: 'Iron Triangle / Regulatory Capture' },
+        { id: 'checks-and-balances-cld', title: 'Checks and Balances Cycle' },
+        { id: 'trust-in-government-full-cld', title: 'Full System: Trust In Government' },
+        { id: 'citizens-united-r1-cld', title: 'CU Appendix R1: Money and Trust Erosion' },
+        { id: 'citizens-united-r2-cld', title: 'CU Appendix R2: Polarization and Trust' },
+        { id: 'citizens-united-r3-cld', title: 'CU Appendix R3: Media Amplification' },
+        { id: 'citizens-united-r4-cld', title: 'CU Appendix R4: Economic Inequality' },
+        { id: 'citizens-united-b1-cld', title: 'CU Appendix B1: Transparency Reform' },
+        { id: 'citizens-united-b2-cld', title: 'CU Appendix B2: Grassroots Engagement' },
+        { id: 'citizens-united-cld', title: 'CU Appendix Full System (6 loops)' }
     ];
     return examples;
 }

@@ -50,7 +50,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome to Chapter 7, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     The federal judiciary is the most unusual branch of American government. Federal judges are not elected — they are appointed for life, or "during good behavior." The Supreme Court is not mentioned in the AP curriculum's list of the most powerful institutions in the world, yet nine unelected justices can strike down laws passed by Congress and signed by the president, protect the rights of unpopular minorities against majority will, and reshape American society — sometimes in a single afternoon. How does this happen? And is it democratic? Let's examine the evidence!
 
 ---
@@ -127,7 +127,7 @@ The case arose from a political dispute left over from the Adams administration.
 Marshall's genius was to *assert* enormous institutional power (judicial review) while simultaneously giving the immediate case to the Jefferson administration — avoiding a confrontation the young Supreme Court might have lost. The Court did not strike down another federal law for fifty-four years after *Marbury*, but the precedent was established.
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     If the Constitution doesn't explicitly give courts the power of judicial review, is that power legitimate? Originalists argue Marshall found it in the Constitution's structure and logic. Critics argue that allowing courts to strike down the people's laws gives unelected judges too much power. This debate — over the democratic legitimacy of judicial review — is not settled, and it shapes every major Supreme Court controversy from *Roe v. Wade* to *Citizens United* to today's AI surveillance cases.
 
 ## Constitutional Interpretation: Originalism vs. Living Constitution
@@ -255,8 +255,21 @@ Two terms describe contrasting approaches to the judicial role:
 **Judicial activism** is the philosophy that courts should actively enforce constitutional rights even when doing so overturns legislative or executive action. Judges practicing activism are more willing to strike down laws and use the courts to resolve social conflicts. The term is often used pejoratively, but defenders argue the Court *should* be activist when constitutional rights are at stake.
 
 !!! mascot-warning "Lex Flags a Common Mistake"
-    <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks cautionary">
+    ![Lex the Bald Eagle looks cautionary](../../img/mascot/warning.png){ class="mascot-admonition-img"}
     Students sometimes assume "judicial activism" means "liberal" and "judicial restraint" means "conservative." This is historically inaccurate. The Warren Court's liberal activism (1950s–60s) expanded civil rights; the current Court's originalist conservative majority has been "activist" in overturning precedents like *Roe v. Wade*. Both liberal and conservative justices practice judicial activism when they think the Constitution requires it. Use the terms accurately: restraint = deference to elected branches; activism = willingness to strike down government action to enforce constitutional values.
+
+#### Diagram: Judicial Oversight (B3) — Causal Loop Diagram
+
+The judiciary is the third constitutional check on corruption. When the Department of Justice prosecutes corrupt officials and federal courts convict them, the credible threat of prison deters future misconduct. The diagram below shows this loop — known as **B3 Judicial Oversight** in the systems-thinking analysis of trust in government.
+
+<iframe src="/us-government/sims/cld-viewer/main.html?file=judicial-oversight-cld" width="100%" height="500" scrolling="no"></iframe>
+
+[Open B3 Fullscreen](../../sims/cld-viewer/main.html?file=judicial-oversight-cld&menu=true){ .md-button }
+[See All Six Loops](../../sims/causes-of-political-corruption/index.md){ .md-button }
+
+The strength of this loop depends entirely on **prosecutorial independence**. When the executive branch can fire prosecutors who investigate the administration, the loop weakens — and the deterrent effect collapses. This is why career protections for federal prosecutors and the independence of inspectors general are constitutional questions, not just bureaucratic ones.
+
+New to causal loop diagrams? See the **[Appendix: Reading a Causal Loop Diagram](../../appendix/reading-a-causal-loop-diagram.md)** for a step-by-step walkthrough.
 
 ## Key Takeaways
 
@@ -282,7 +295,7 @@ Two terms describe contrasting approaches to the judicial role:
 - **Judicial Restraint vs. Activism**: Restraint defers to elected branches; activism enforces constitutional rights even against majority will.
 
 !!! mascot-celebration "Lex Celebrates Chapter 7!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     The federal judiciary is the branch with no army and no budget — yet it has the final word on what the Constitution means. You now understand how that enormous power is structured, justified, limited, and exercised: from the three-tier court hierarchy to the *Marbury* claim of judicial review, from originalism versus living constitutionalism to the political theater of Supreme Court confirmation. Chapter 8 puts the courts' civil liberties and civil rights jurisprudence into full focus. The law belongs to all of us!
 
 [See Annotated References](./references.md)

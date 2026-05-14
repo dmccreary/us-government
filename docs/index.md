@@ -66,5 +66,5 @@ Use the navigation sidebar to explore:
 Start with [Chapter 1: Foundations of American Democracy](chapters/01-foundations-of-democracy/index.md) to begin your journey — or jump directly to any topic using the sidebar.
 
 !!! mascot-welcome "Welcome, Future Citizen!"
-    <img src="./img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waving welcome">
+    ![Lex the Bald Eagle waving welcome](./img/mascot/welcome.png){ class="mascot-admonition-img"}
     I'm **Lex**, your guide through the laws and institutions that shape American democracy. "The law belongs to all of us!" — so let's explore it together, citizens!

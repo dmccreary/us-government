@@ -42,7 +42,7 @@ This chapter builds on concepts from:
 ---
 
 !!! mascot-welcome "Welcome Back, Citizens!"
-    <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Lex the Bald Eagle waves welcome">
+    ![Lex the Bald Eagle waves welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img"}
     Chapter 2 puts the document itself under the microscope. The Constitution is only 4,543 words in its original form — shorter than many high school essays — yet it has governed the most powerful nation in history for over two centuries. How? By combining precise structural rules with deliberately general language that each generation must interpret anew. Let's examine the evidence!
 
 ---
@@ -175,7 +175,7 @@ The framers made the Constitution deliberately difficult to amend. They had watc
 Three-fourths of fifty states is thirty-eight states. This is an extremely high bar. Since 1791, over 11,000 amendments have been proposed in Congress; only seventeen have been ratified (in addition to the original ten that form the Bill of Rights). The supermajority requirement means that constitutional change requires broad national consensus — a bare majority, or even a comfortable majority, is not enough.
 
 !!! mascot-tip "Exam Tip from Lex"
-    <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Lex the Bald Eagle shares a tip">
+    ![Lex the Bald Eagle shares a tip](../../img/mascot/tip.png){ class="mascot-admonition-img"}
     AP exam questions on the amendment process frequently ask students to apply the rules to a scenario: "Could Congress pass this constitutional amendment with a simple majority?" (No — two-thirds required.) "If 35 states ratify, is the amendment in effect?" (No — 38 of 50 required.) Memorize the exact numbers: **two-thirds to propose, three-fourths to ratify**.
 
 ## The Bill of Rights: First Ten Amendments
@@ -296,7 +296,7 @@ The formal amendment process is not the only way the Constitution changes. **Inf
 This interplay between the fixed constitutional text and the evolving interpretation of that text is what makes constitutional law both fascinating and contested. Originalists argue that the Constitution should be interpreted according to the original public meaning of its text at ratification. Living constitutionalists argue that the document's general principles must be applied to circumstances the framers could not have anticipated. This debate — which you will encounter throughout this course — ultimately comes down to a question of democratic legitimacy: who has the authority to say what the Constitution means?
 
 !!! mascot-thinking "Lex Pauses to Think"
-    <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Lex the Bald Eagle looks thoughtful">
+    ![Lex the Bald Eagle looks thoughtful](../../img/mascot/thinking.png){ class="mascot-admonition-img"}
     The amendment process requires thirty-eight state legislatures to agree. The Supreme Court's constitutional interpretation requires only five justices. Which path to constitutional change is more democratic? There is no obvious answer — the amendment process requires broad consensus but is nearly impossible to use; judicial interpretation is more flexible but places enormous power in the hands of nine unelected judges. This tension is one of the defining features of American constitutional democracy.
 
 ## Key Takeaways
@@ -313,7 +313,7 @@ This interplay between the fixed constitutional text and the evolving interpreta
 - **Twenty-Sixth Amendment**: Voting age lowered to eighteen (1971).
 
 !!! mascot-celebration "Lex Celebrates Chapter 2!"
-    <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
+    ![Lex the Bald Eagle celebrates with wings raised](../../img/mascot/celebration.png){ class="mascot-admonition-img"}
     You have now mapped the constitutional architecture that every future chapter will build on. The separation of powers, the checks and balances, the Bill of Rights, the great Civil War amendments — these are the load-bearing walls of American government. Every major debate in the chapters ahead — from congressional power to judicial review, from First Amendment free speech to AI surveillance and the Fourth Amendment — rests on the foundation you just built. The law belongs to all of us!
 
 [See Annotated References](./references.md)
