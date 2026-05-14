@@ -225,3 +225,5 @@ The federal bureaucracy wields enormous power — writing rules that bind busine
 !!! mascot-celebration "Lex Celebrates Chapter 6!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     Most civics education focuses on elected officials — but the people who actually run government day-to-day are the two million civil servants in the federal bureaucracy. You now understand how that apparatus is organized, how it gained independence from pure partisan control, and how it is held accountable. Next up: the federal judiciary — the branch with no army, no budget, and no election, yet the ultimate interpreter of the Constitution. The law belongs to all of us!
+
+[See Annotated References](./references.md)

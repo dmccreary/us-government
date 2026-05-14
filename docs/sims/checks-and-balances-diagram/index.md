@@ -8,6 +8,10 @@ bloom_level: Understand
 
 # Checks and Balances Among the Three Branches
 
+<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *identify* (Bloom L1 — Remember) each constitutional check and *explain* (Bloom L2 — Understand) how it prevents any one branch from becoming too powerful.
@@ -15,12 +19,6 @@ Students will *identify* (Bloom L1 — Remember) each constitutional check and *
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Identify, Explain
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

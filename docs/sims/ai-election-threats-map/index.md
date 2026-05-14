@@ -7,6 +7,9 @@ bloom_level: Evaluate
 ---
 
 # AI Threat Taxonomy for Elections — Interactive Risk Map
+<iframe src="main.html" width="100%" height="702" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Learning Objective
 
@@ -15,12 +18,6 @@ Students will *classify* (Bloom L2 — Understand) different types of AI-enabled
 - **Bloom Level:** Evaluate (L5)
 - **Bloom Verb:** Classify, Evaluate
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="702" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

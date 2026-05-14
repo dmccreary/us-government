@@ -200,3 +200,5 @@ Initiatives have been used to enact (or repeal) marijuana legalization, minimum 
 !!! mascot-celebration "Lex Celebrates Chapter 11!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     You now understand the ecosystem of organized interests, money, and elections that connects (and sometimes disconnects) citizens from their government. One chapter remains — and it is the newest, the most rapidly changing, and in many ways the most consequential for the future of everything you have just learned. Chapter 12 asks: what happens to all these institutions — Congress, the presidency, the courts, elections, civil liberties — when artificial intelligence enters the picture? The law belongs to all of us!
+
+[See Annotated References](./references.md)

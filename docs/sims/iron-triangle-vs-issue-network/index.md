@@ -8,6 +8,10 @@ bloom_level: Analyze
 
 # Iron Triangle vs. Issue Network — Structural Comparison
 
+<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *compare and contrast* (Bloom L4 — Analyze) the iron triangle and issue network models of policy influence, and *apply* (Bloom L3 — Apply) each model to a contemporary policy domain.
@@ -15,12 +19,6 @@ Students will *compare and contrast* (Bloom L4 — Analyze) the iron triangle an
 - **Bloom Level:** Analyze (L4)
 - **Bloom Verb:** Compare, Apply
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

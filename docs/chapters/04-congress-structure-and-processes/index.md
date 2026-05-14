@@ -282,3 +282,5 @@ The Supreme Court has held that racial gerrymandering violates the Equal Protect
 !!! mascot-celebration "Lex Celebrates Chapter 4!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     Congress is enormously complex — two chambers, hundreds of committees, baroque procedural rules, a budget process that takes all year, and a filibuster that can stop majority will in its tracks. But you now have the map. You understand why most bills die in committee, why 60 votes matters more than 51, and why the party that controls the state legislature after the census controls the congressional map for a decade. That is real civic power. Knowledge is the cornerstone of democracy!
+
+[See Annotated References](./references.md)

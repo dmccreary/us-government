@@ -8,6 +8,10 @@ bloom_level: Evaluate
 
 # The Grants Spectrum — Categorical to Block
 
+<iframe src="main.html" width="100%" height="502" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *compare and contrast* (Bloom L4 — Analyze) categorical grants and block grants, and *evaluate* (Bloom L5 — Evaluate) the trade-offs between federal accountability and state flexibility.
@@ -15,12 +19,6 @@ Students will *compare and contrast* (Bloom L4 — Analyze) categorical grants a
 - **Bloom Level:** Evaluate (L5)
 - **Bloom Verb:** Compare, Evaluate
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="502" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

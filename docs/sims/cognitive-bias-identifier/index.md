@@ -8,6 +8,10 @@ bloom_level: Apply
 
 # Cognitive Bias in Political Reasoning — Interactive Scenario Explorer
 
+<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *classify* (Bloom L2 — Understand) examples of biased political reasoning as confirmation bias, motivated reasoning, availability heuristic, in-group favoritism, or anchoring, and *apply* (Bloom L3 — Apply) this knowledge to evaluate political arguments they encounter.
@@ -15,12 +19,6 @@ Students will *classify* (Bloom L2 — Understand) examples of biased political 
 - **Bloom Level:** Apply (L3)
 - **Bloom Verb:** Classify, Apply
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

@@ -8,6 +8,10 @@ bloom_level: Analyze
 
 # Powers Comparison — Articles vs. Constitution
 
+<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *compare and contrast* (Bloom L4 — Analyze) the powers granted to the national government under the Articles of Confederation versus the Constitution.
@@ -15,12 +19,6 @@ Students will *compare and contrast* (Bloom L4 — Analyze) the powers granted t
 - **Bloom Level:** Analyze (L4)
 - **Bloom Verb:** Compare and contrast
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

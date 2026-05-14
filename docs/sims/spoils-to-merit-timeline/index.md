@@ -8,6 +8,10 @@ bloom_level: Understand
 
 # Spoils System vs. Merit System — Comparing Federal Employment Eras
 
+<iframe src="main.html" width="100%" height="602" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *compare* (Bloom L2 — Understand) the spoils and merit systems and *explain* (Bloom L2 — Understand) why the transition occurred and what problems it solved.
@@ -15,12 +19,6 @@ Students will *compare* (Bloom L2 — Understand) the spoils and merit systems a
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Compare, Explain
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="602" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

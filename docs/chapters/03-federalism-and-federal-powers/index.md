@@ -244,3 +244,5 @@ Type: timeline
 !!! mascot-celebration "Lex Celebrates Chapter 3!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     Federalism is the vertical axis of American government — Chapter 2 gave you the horizontal structure (three branches), and Chapter 3 gives you the depth (national versus state). Together these two chapters provide the constitutional scaffolding that everything else in this course hangs from. Coming up: Congress, the branch closest to the people and the one the Constitution's framers treated as the most powerful. The law belongs to all of us!
+
+[See Annotated References](./references.md)

@@ -220,3 +220,5 @@ Sorting produces polarization in institutions even if individual voters have not
 !!! mascot-celebration "Lex Celebrates Chapter 10!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     You now understand how Americans engage with democracy — from the mechanics of voter registration and the Electoral College, to the psychology of party identification and the structural forces that maintain the two-party system, to the dynamics of polarization and sorting that shape our current political moment. Two chapters remain, and they connect the formal institutions to the organized interests and emerging technologies that are reshaping American politics right now. The law belongs to all of us!
+
+[See Annotated References](./references.md)

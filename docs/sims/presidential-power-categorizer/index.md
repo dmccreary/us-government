@@ -8,6 +8,10 @@ bloom_level: Apply
 
 # Presidential Power — Formal vs. Informal Sources
 
+<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *classify* (Bloom L2 — Understand) presidential powers as enumerated (constitutional) or informal (practice-based), and *apply* (Bloom L3 — Apply) this distinction to novel scenarios.
@@ -15,12 +19,6 @@ Students will *classify* (Bloom L2 — Understand) presidential powers as enumer
 - **Bloom Level:** Apply (L3)
 - **Bloom Verb:** Classify, Apply
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

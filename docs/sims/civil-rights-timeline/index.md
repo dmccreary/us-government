@@ -8,6 +8,10 @@ bloom_level: Understand
 
 # Civil Rights Milestones — Legal and Legislative Timeline
 
+<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *recall* (Bloom L1 — Remember) the sequence of major civil rights milestones and *explain* (Bloom L2 — Understand) how legal decisions and legislation built on each other.
@@ -15,12 +19,6 @@ Students will *recall* (Bloom L1 — Remember) the sequence of major civil right
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Recall, Explain
 - **Library:** vis-timeline
-
-## Preview
-
-<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

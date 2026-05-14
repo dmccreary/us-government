@@ -8,6 +8,10 @@ bloom_level: Understand
 
 # Constitutional Amendment Timeline
 
+<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *identify* (Bloom L1 — Remember) the amendments covered in this course and *explain* (Bloom L2 — Understand) the historical context that drove each amendment's ratification.
@@ -15,12 +19,6 @@ Students will *identify* (Bloom L1 — Remember) the amendments covered in this 
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Identify, Explain
 - **Library:** vis-timeline
-
-## Preview
-
-<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

@@ -8,6 +8,10 @@ bloom_level: Understand
 
 # Enlightenment Ideas to American Institutions
 
+<iframe src="main.html" width="100%" height="532" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *identify* (Bloom L1 — Remember) the key Enlightenment thinkers and *explain* (Bloom L2 — Understand) how each thinker's ideas appeared in specific founding documents or constitutional structures.
@@ -15,12 +19,6 @@ Students will *identify* (Bloom L1 — Remember) the key Enlightenment thinkers 
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Identify, Explain
 - **Library:** vis-timeline
-
-## Preview
-
-<iframe src="main.html" width="100%" height="532" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

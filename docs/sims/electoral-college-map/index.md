@@ -8,6 +8,10 @@ bloom_level: Analyze
 
 # Electoral College — Interactive Map
 
+<iframe src="main.html" width="100%" height="722" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *explain* (Bloom L2 — Understand) how the Electoral College works and *analyze* (Bloom L4 — Analyze) how winner-take-all creates strategic incentives that concentrate campaign attention in swing states.
@@ -15,12 +19,6 @@ Students will *explain* (Bloom L2 — Understand) how the Electoral College work
 - **Bloom Level:** Analyze (L4)
 - **Bloom Verb:** Explain, Analyze
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="722" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

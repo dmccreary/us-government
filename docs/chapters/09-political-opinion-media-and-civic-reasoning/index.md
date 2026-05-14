@@ -321,3 +321,5 @@ AI-specific detection strategies include:
 !!! mascot-celebration "Lex Celebrates Chapter 9!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     You have just completed the chapter that ties together the entire purpose of this textbook. The four cross-cutting skills — critical thinking, systems thinking, bias awareness, and misinformation detection — are not add-ons to civics education. They are the point. An informed citizenry that cannot reason clearly about political information is not actually informed — it is just confidently misinformed. You now have the tools. Use them. The law belongs to all of us!
+
+[See Annotated References](./references.md)

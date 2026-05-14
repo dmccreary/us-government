@@ -246,3 +246,5 @@ Type: MicroSim
 !!! mascot-celebration "Lex Celebrates Chapter 5!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     The presidency is the branch that most Americans pay the most attention to — and now you understand why it is both more and less powerful than it appears. More powerful because informal powers (executive orders, executive agreements, commander in chief discretion, veto threats) have expanded enormously beyond what Article II says. Less powerful because every major action faces checks from Congress, the courts, and the states. That tension — between presidential ambition and constitutional constraint — is the heartbeat of American constitutional government. The law belongs to all of us!
+
+[See Annotated References](./references.md)

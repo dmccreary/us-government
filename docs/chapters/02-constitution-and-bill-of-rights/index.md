@@ -315,3 +315,5 @@ This interplay between the fixed constitutional text and the evolving interpreta
 !!! mascot-celebration "Lex Celebrates Chapter 2!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     You have now mapped the constitutional architecture that every future chapter will build on. The separation of powers, the checks and balances, the Bill of Rights, the great Civil War amendments — these are the load-bearing walls of American government. Every major debate in the chapters ahead — from congressional power to judicial review, from First Amendment free speech to AI surveillance and the Fourth Amendment — rests on the foundation you just built. The law belongs to all of us!
+
+[See Annotated References](./references.md)

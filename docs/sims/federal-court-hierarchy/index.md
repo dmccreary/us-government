@@ -8,6 +8,10 @@ bloom_level: Understand
 
 # Three-Tier Federal Court Hierarchy
 
+<iframe src="main.html" width="100%" height="622" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *identify* (Bloom L1 — Remember) the three tiers of the federal court system and *explain* (Bloom L2 — Understand) what kind of jurisdiction each tier exercises and how cases move between levels.
@@ -15,12 +19,6 @@ Students will *identify* (Bloom L1 — Remember) the three tiers of the federal 
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Identify, Explain
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="622" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

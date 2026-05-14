@@ -284,3 +284,5 @@ Two terms describe contrasting approaches to the judicial role:
 !!! mascot-celebration "Lex Celebrates Chapter 7!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     The federal judiciary is the branch with no army and no budget — yet it has the final word on what the Constitution means. You now understand how that enormous power is structured, justified, limited, and exercised: from the three-tier court hierarchy to the *Marbury* claim of judicial review, from originalism versus living constitutionalism to the political theater of Supreme Court confirmation. Chapter 8 puts the courts' civil liberties and civil rights jurisprudence into full focus. The law belongs to all of us!
+
+[See Annotated References](./references.md)

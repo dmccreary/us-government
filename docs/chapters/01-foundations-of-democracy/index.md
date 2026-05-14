@@ -317,3 +317,5 @@ Before moving on to Chapter 2 (The Constitution and the Bill of Rights), make su
 !!! mascot-celebration "Lex Celebrates!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     You have just completed Chapter 1 — and that means you have mastered the intellectual foundation of the entire course. Every debate in American politics, from Senate filibuster reform to AI surveillance and the Fourth Amendment, is ultimately a debate about the ideas you just studied: What rights do people have? What can government legitimately do? Who should have political power? You will see these questions come up again and again. The law belongs to all of us — and now you know where it came from!
+
+[See Annotated References](./references.md)

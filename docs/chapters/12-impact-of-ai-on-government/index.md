@@ -266,3 +266,5 @@ And yet constitutional democracy also has resources for responding to AI challen
 !!! mascot-celebration "Lex Celebrates — And So Should You!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     You have reached the end of this textbook — and what a journey it has been! From Enlightenment philosophy to artificial intelligence, from the Constitutional Convention to *Citizens United*, from *Marbury v. Madison* to the EU AI Act. You have studied 200 concepts across 12 chapters, and you have done it with the four cross-cutting skills that matter most: critical thinking, systems thinking, bias awareness, and misinformation detection. The Constitution belongs to all of us — and now you know how to defend it, question it, and improve it. That is what a citizen of a constitutional democracy does. The law belongs to all of us!
+
+[See Annotated References](./references.md)

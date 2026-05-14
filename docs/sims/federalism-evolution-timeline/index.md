@@ -8,6 +8,10 @@ bloom_level: Analyze
 
 # Federalism Evolution — From Dual to Cooperative to New
 
+<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *explain* (Bloom L2 — Understand) how the balance of power between national and state governments has shifted across historical eras, and *analyze* (Bloom L4 — Analyze) what drove those shifts.
@@ -15,12 +19,6 @@ Students will *explain* (Bloom L2 — Understand) how the balance of power betwe
 - **Bloom Level:** Analyze (L4)
 - **Bloom Verb:** Explain, Analyze
 - **Library:** vis-timeline
-
-## Preview
-
-<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

@@ -8,6 +8,10 @@ bloom_level: Understand
 
 # Great Compromise — The Two-Chamber Solution
 
+<iframe src="main.html" width="100%" height="622" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *explain* (Bloom L2 — Understand) how the Great Compromise resolved the conflict between large-state and small-state interests by creating a bicameral legislature.
@@ -15,12 +19,6 @@ Students will *explain* (Bloom L2 — Understand) how the Great Compromise resol
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Explain
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="622" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 

@@ -294,3 +294,5 @@ The ADA is an example of Congress using its Commerce Clause authority to extend 
 !!! mascot-celebration "Lex Celebrates Chapter 8!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Lex the Bald Eagle celebrates with wings raised">
     Civil liberties and civil rights represent the heart of what it means to live in a constitutional democracy — the promise that each person has dignity the government must respect, and that no one may be discriminated against simply for who they are. The distance between that promise and reality has been the central drama of American political history. You now have the legal vocabulary and historical knowledge to participate in that ongoing argument as an informed citizen. The law belongs to all of us!
+
+[See Annotated References](./references.md)

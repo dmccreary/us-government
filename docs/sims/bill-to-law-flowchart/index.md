@@ -8,6 +8,10 @@ bloom_level: Apply
 
 # How a Bill Becomes a Law
 
+<iframe src="main.html" width="100%" height="802" scrolling="no"></iframe>
+
+[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+
 ## Learning Objective
 
 Students will *recall* (Bloom L1 — Remember) the sequence of steps in the legislative process and *apply* (Bloom L3 — Apply) this knowledge to determine at what stage a hypothetical bill was defeated.
@@ -15,12 +19,6 @@ Students will *recall* (Bloom L1 — Remember) the sequence of steps in the legi
 - **Bloom Level:** Apply (L3)
 - **Bloom Verb:** Recall, Apply
 - **Library:** p5.js
-
-## Preview
-
-<iframe src="main.html" width="100%" height="802" scrolling="no"></iframe>
-
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
 ## Specification
 
