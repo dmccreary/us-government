@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Civil Rights Milestones — Legal and Legislative Timeline</title>
+    <link href="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.css" rel="stylesheet" />
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8f9fa; color: #212529; }
+        #wrap { max-width: 1100px; margin: 0 auto; padding: 8px 12px 12px; }
+        h1 { font-size: 18px; margin: 0 0 6px; color: #1a3a6c; }
+        #controls { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; align-items: center; }
+        button { background: #1a3a6c; color: #fff; border: 0; border-radius: 4px; padding: 5px 10px; font-size: 12px; cursor: pointer; }
+        button:hover { background: #122a4f; }
+        button.toggle.on { background: #c62828; }
+        select { padding: 5px 8px; font-size: 12px; border-radius: 4px; border: 1px solid #ced4da; }
+        #timeline { border: 1px solid #ced4da; border-radius: 6px; background: #fff; padding: 10px; min-height: 320px; }
+        #info { margin-top: 8px; padding: 10px 12px; background: #fff; border: 1px solid #ced4da; border-radius: 6px; font-size: 13px; min-height: 70px; }
+        #info h3 { margin: 0 0 4px; font-size: 14px; color: #1a3a6c; }
+        #info .meta { color: #6c757d; font-size: 11px; margin-bottom: 4px; }
+        #info .conn { margin-top: 4px; font-style: italic; color: #495057; }
+        .legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: 11px; color: #495057; margin-top: 6px; }
+        .legend span { display: inline-flex; align-items: center; gap: 4px; }
+        .legend .sw { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+        .vis-item.case { background: #ce93d8; border-color: #6a1b9a; color: #1a0033; }
+        .vis-item.legislation { background: #a5d6a7; border-color: #1b5e20; color: #002200; }
+        .vis-item.event { background: #ffcc80; border-color: #ef6c00; color: #2a1500; }
+        .vis-item.executive { background: #90caf9; border-color: #0d47a1; color: #001233; }
+        .vis-item.ap { box-shadow: 0 0 0 2px #ffd700 inset; font-weight: 700; }
+        .vis-item.dim { opacity: 0.25; }
+        .vis-item.vis-box .vis-item-content,
+        .vis-item.vis-range .vis-item-content,
+        .vis-item .vis-item-content {
+            white-space: normal !important;
+            overflow-wrap: break-word !important;
+            word-wrap: break-word !important;
+            max-width: 140px !important;
+            line-height: 1.2 !important;
+            padding: 4px 6px !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <h1>Civil Rights Milestones — Legal and Legislative Timeline</h1>
+        <div id="controls">
+            <button id="fitBtn">Fit All</button>
+            <button id="apBtn" class="toggle">Show AP Required Cases Only</button>
+            <select id="catFilter">
+                <option value="all">All Categories</option>
+                <option value="case">Court Decisions</option>
+                <option value="legislation">Legislation</option>
+                <option value="event">Protest Events</option>
+                <option value="executive">Executive Action</option>
+            </select>
+            <span class="legend">
+                <span><span class="sw" style="background:#ce93d8"></span>Court Case</span>
+                <span><span class="sw" style="background:#a5d6a7"></span>Legislation</span>
+                <span><span class="sw" style="background:#ffcc80"></span>Protest Event</span>
+                <span><span class="sw" style="background:#90caf9"></span>Executive Action</span>
+                <span><span class="sw" style="background:#ffd700;border:1px solid #b8860b"></span>AP Required</span>
+            </span>
+        </div>
+        <div id="timeline"></div>
+        <div id="info">Click any item on the timeline to see details.</div>
+    </div>
+    <script src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <script src="civil-rights-timeline.js"></script>
+</body>
+</html>

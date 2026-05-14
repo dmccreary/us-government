@@ -1,0 +1,21 @@
+{
+  "title": "Spoils System vs. Merit System — Comparing Federal Employment Eras",
+  "description": "Students will *compare* (Bloom L2 — Understand) the spoils and merit systems and *explain* (Bloom L2 — Understand) why the transition occurred and what problems it solved.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "spoils-to-merit-timeline",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 6,
+  "chapter_title": "\"Chapter 6: The Federal Bureaucracy\"",
+  "chapter_dir": "06-the-federal-bureaucracy"
+}

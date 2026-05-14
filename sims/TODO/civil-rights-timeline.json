@@ -1,0 +1,14 @@
+{
+  "sim_id": "civil-rights-timeline",
+  "diagram_name": "Civil Rights Milestones — Legal and Legislative Timeline",
+  "chapter_number": 8,
+  "chapter_title": "\"Chapter 8: Civil Liberties and Civil Rights\"",
+  "chapter_dir": "08-civil-liberties-and-civil-rights",
+  "library": "vis-timeline",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *recall* (Bloom L1 — Remember) the sequence of major civil rights milestones and *explain* (Bloom L2 — Understand) how legal decisions and legislation built on each other.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: timeline\n**sim-id:** civil-rights-timeline<br/>\n**Library:** vis-timeline<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *recall* (Bloom L1 — Remember) the sequence of major civil rights milestones and *explain* (Bloom L2 — Understand) how legal decisions and legislation built on each other.\n\n**Design:**\n- Horizontal timeline from 1896 (*Plessy*) to 2024\n- Items grouped in two parallel tracks: \"Court Decisions\" (top band) and \"Legislation/Events\" (bottom band)\n- Each item is a clickable dot that opens an infobox: event name, date, key players, one-sentence significance, and connection to other timeline events (\"this overturned...\" or \"this led to...\")\n- Color coding: Supreme Court cases (purple), legislation (green), protest events (orange), executive action (blue)\n- A \"Show AP Required Cases\" filter highlights the cases in the College Board's AP curriculum\n- Responsive: vertical on mobile\n\n**Key items:**\nCourt decisions: *Plessy* (1896), *Brown* (1954), *Heart of Atlanta* (1964), *Loving v. Virginia* (1967), *Regents of UC v. Bakke* (1978), *Grutter v. Bollinger* (2003), *Shelby County v. Holder* (2013), *Obergefell v. Hodges* (2015), *Bostock v. Clayton County* (2020), *Students for Fair Admissions v. Harvard* (2023)\nLegislation: Civil Rights Act 1964, Voting Rights Act 1965, Fair Housing Act 1968, ADA 1990\nEvents: Montgomery Bus Boycott (1955-56), Greensboro sit-ins (1960), March on Washington (1963), Selma marches (1965)"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "constitutional-amendments-timeline",
+  "diagram_name": "Constitutional Amendment Timeline",
+  "chapter_number": 2,
+  "chapter_title": "\"Chapter 2: The Constitution and Bill of Rights\"",
+  "chapter_dir": "02-constitution-and-bill-of-rights",
+  "library": "vis-timeline",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *identify* (Bloom L1 — Remember) the amendments covered in this course and *explain* (Bloom L2 — Understand) the historical context that drove each amendment's ratification.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: timeline\n**sim-id:** constitutional-amendments-timeline<br/>\n**Library:** vis-timeline<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *identify* (Bloom L1 — Remember) the amendments covered in this course and *explain* (Bloom L2 — Understand) the historical context that drove each amendment's ratification.\n\n**Design:**\n- Horizontal timeline spanning 1791 to present\n- Each of the 27 amendments is a clickable dot; clicking reveals: amendment number, ratification year, one-sentence summary, and a \"historical driver\" field explaining the crisis or political movement that produced it\n- Color-coded by era: Bill of Rights (blue), Civil War amendments (red), Progressive Era (green), 20th-century expansions (orange), other (gray)\n- The amendments covered in this chapter (1st, 2nd, 4th, 5th, 6th, 8th, 14th, 15th, 19th, 26th) are highlighted with a star icon\n- A \"Filter by Era\" dropdown lets students view only amendments from a selected historical period\n- Responsive: collapses to vertical scrolling list on mobile\n\n**Key era groupings:**\n- 1791: Bill of Rights (amendments 1–10)\n- 1865–1870: Civil War amendments (13th, 14th, 15th)\n- 1913–1919: Progressive Era (16th income tax, 17th direct election of senators, 18th Prohibition, 19th women's suffrage)\n- 1933–1971: New Deal / Civil Rights Era (20th, 21st repeal of Prohibition, 22nd presidential term limits, 24th poll tax abolished, 25th presidential succession, 26th voting age 18)\n- 1992: 27th (congressional pay raises, originally proposed 1789)"
+}

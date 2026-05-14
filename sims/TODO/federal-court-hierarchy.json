@@ -1,0 +1,14 @@
+{
+  "sim_id": "federal-court-hierarchy",
+  "diagram_name": "Three-Tier Federal Court Hierarchy",
+  "chapter_number": 7,
+  "chapter_title": "\"Chapter 7: The Federal Judiciary\"",
+  "chapter_dir": "07-the-federal-judiciary",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *identify* (Bloom L1 — Remember) the three tiers of the federal court system and *explain* (Bloom L2 — Understand) what kind of jurisdiction each tier exercises and how cases move between levels.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** federal-court-hierarchy<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *identify* (Bloom L1 — Remember) the three tiers of the federal court system and *explain* (Bloom L2 — Understand) what kind of jurisdiction each tier exercises and how cases move between levels.\n\n**Design:**\n- Three horizontal bands (top = Supreme Court, middle = 13 Circuits, bottom = 94 District Courts), arranged like a pyramid\n- Each band is clickable: clicking opens an infobox with facts about that level (number of courts, jurisdiction type, who decides)\n- Upward arrows labeled \"Appeal\" connect district courts → circuit courts → Supreme Court\n- A side panel shows \"State Court System\" with dotted arrows showing that state supreme court decisions on federal/constitutional questions can also reach the U.S. Supreme Court\n- A \"trace a case\" feature lets students click through the path of a hypothetical case from district court complaint to Supreme Court ruling\n- The 13 circuit boundaries shown as a small clickable map; clicking a circuit highlights the states it covers\n- Canvas: 100% width × 500px; responsive"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "grants-spectrum-slider",
+  "diagram_name": "The Grants Spectrum — Categorical to Block",
+  "chapter_number": 3,
+  "chapter_title": "\"Chapter 3: Federalism and Federal Powers\"",
+  "chapter_dir": "03-federalism-and-federal-powers",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *compare and contrast* (Bloom L4 — Analyze) categorical grants and block grants, and *evaluate* (Bloom L5 — Evaluate) the trade-offs between federal accountability and state flexibility.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** grants-spectrum-slider<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *compare and contrast* (Bloom L4 — Analyze) categorical grants and block grants, and *evaluate* (Bloom L5 — Evaluate) the trade-offs between federal accountability and state flexibility.\n\n**Design:**\n- A horizontal slider labeled \"Federal Control ←→ State Flexibility\"\n- Left anchor: \"Categorical Grant\" (high federal control, low state flexibility)\n- Right anchor: \"Block Grant\" (low federal control, high state flexibility)\n- As the user moves the slider, two panels update simultaneously:\n  - Left panel: \"Federal Government Perspective\" — describes what changes (more/less accountability, more/less ability to ensure national standards)\n  - Right panel: \"State Government Perspective\" — describes what changes (more/less freedom to innovate, more/less administrative burden)\n- Three preset examples appear as clickable buttons above the slider: \"Medicaid\" (near categorical), \"TANF\" (block), \"Highway Funds\" (conditional categorical — move slider to that position when clicked)\n- Below the slider: \"Key AP Fact: Congress determines grant type when it appropriates funds. Presidents can advocate for a shift, but Congress must pass the legislation.\"\n- Canvas: 100% width × 400px; responsive"
+}

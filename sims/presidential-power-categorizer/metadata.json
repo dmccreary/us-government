@@ -1,0 +1,21 @@
+{
+  "title": "Presidential Power — Formal vs. Informal Sources",
+  "description": "Students will *classify* (Bloom L2 — Understand) presidential powers as enumerated (constitutional) or informal (practice-based), and *apply* (Bloom L3 — Apply) this distinction to novel scenarios.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "presidential-power-categorizer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 5,
+  "chapter_title": "\"Chapter 5: The Presidency\"",
+  "chapter_dir": "05-the-presidency"
+}

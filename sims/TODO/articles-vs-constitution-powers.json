@@ -1,0 +1,14 @@
+{
+  "sim_id": "articles-vs-constitution-powers",
+  "diagram_name": "Powers Comparison — Articles vs. Constitution",
+  "chapter_number": 1,
+  "chapter_title": "\"Chapter 1: Foundations of American Democracy\"",
+  "chapter_dir": "01-foundations-of-democracy",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *compare and contrast* (Bloom L4 — Analyze) the powers granted to the national government under the Articles of Confederation versus the Constitution.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** articles-vs-constitution-powers<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *compare and contrast* (Bloom L4 — Analyze) the powers granted to the national government under the Articles of Confederation versus the Constitution.\n\n**Design:**\n- Two-column layout: \"Articles of Confederation\" (left, faded red/warning color) vs. \"U.S. Constitution\" (right, green/success color)\n- Each column lists 8–10 powers/limitations as clickable cards\n- Clicking a card flips it to reveal the real-world consequence of having (or lacking) that power\n- Examples: \"Levy taxes directly\" — Articles: ❌ → consequence card: \"Government couldn't pay soldiers or war debts\"; Constitution: ✓ → consequence card: \"Congress funds national programs through income tax, tariffs, and excise taxes\"\n- A \"Why it Matters\" toggle at the bottom shows a one-sentence connection to a contemporary issue\n- Canvas: 100% width, responsive; two columns collapse to stacked on mobile\n\n**Powers to include:**\n- Tax citizens directly\n- Regulate interstate commerce\n- Maintain a standing army\n- Enforce federal law on individuals\n- Coin national currency\n- Make and enforce treaties\n- Create federal courts\n- Amend the governing document"
+}

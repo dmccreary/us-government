@@ -1,0 +1,14 @@
+{
+  "sim_id": "great-compromise-representation",
+  "diagram_name": "Great Compromise — The Two-Chamber Solution",
+  "chapter_number": 1,
+  "chapter_title": "\"Chapter 1: Foundations of American Democracy\"",
+  "chapter_dir": "01-foundations-of-democracy",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *explain* (Bloom L2 — Understand) how the Great Compromise resolved the conflict between large-state and small-state interests by creating a bicameral legislature.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** great-compromise-representation<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *explain* (Bloom L2 — Understand) how the Great Compromise resolved the conflict between large-state and small-state interests by creating a bicameral legislature.\n\n**Design:**\n- Two side-by-side panels: House of Representatives (left) and Senate (right)\n- House panel: Shows a bar chart of representative counts for 10 selected states (California, Texas, Florida, New York, Wyoming, Vermont, Alaska, South Dakota, North Dakota, Rhode Island). Bars proportional to population. Clicking a bar shows the state's current seat count and population.\n- Senate panel: Shows all 50 states as equal-sized circles (two per state). Clicking a circle opens an infobox: \"Every state sends exactly 2 senators — from California (39M people) to Wyoming (576K people).\"\n- Below both panels, a slider lets students select a hypothetical state population (100K to 40M) and see what their House seat count would be.\n- A \"Why This Still Matters\" toggle at the bottom shows: \"A senator from Wyoming represents ~288K people. A senator from California represents ~19.5 million. Is this fair? AP FRQ 4 often asks students to evaluate this trade-off.\"\n- Color scheme: House = warm orange tones; Senate = cool blue tones; matching the two chambers' traditional representations\n- Responsive: stacks vertically on narrow screens"
+}

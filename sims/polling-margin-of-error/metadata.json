@@ -1,0 +1,21 @@
+{
+  "title": "Understanding Polling — Margin of Error MicroSim",
+  "description": "Students will *interpret* (Bloom L2 — Understand) polling data including margin of error and *apply* (Bloom L3 — Apply) this understanding to distinguish between statistically significant differences and statistical ties.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "polling-margin-of-error",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 9,
+  "chapter_title": "\"Chapter 9: Political Opinion, Media, and Civic Reasoning\"",
+  "chapter_dir": "09-political-opinion-media-and-civic-reasoning"
+}

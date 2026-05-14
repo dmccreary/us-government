@@ -1,0 +1,14 @@
+{
+  "sim_id": "spoils-to-merit-timeline",
+  "diagram_name": "Spoils System vs. Merit System — Comparing Federal Employment Eras",
+  "chapter_number": 6,
+  "chapter_title": "\"Chapter 6: The Federal Bureaucracy\"",
+  "chapter_dir": "06-the-federal-bureaucracy",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *compare* (Bloom L2 — Understand) the spoils and merit systems and *explain* (Bloom L2 — Understand) why the transition occurred and what problems it solved.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** spoils-to-merit-timeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *compare* (Bloom L2 — Understand) the spoils and merit systems and *explain* (Bloom L2 — Understand) why the transition occurred and what problems it solved.\n\n**Design:**\n- A split-screen timeline: left half shows \"Spoils Era (1828–1883)\" with red warning icons; right half shows \"Merit Era (1883–present)\" with green check icons\n- Key events are clickable cards:\n  - Spoils: Jackson's \"rotation in office\" policy (1829), number of patronage jobs under Grant administration, Garfield assassination by Guiteau (1881)\n  - Merit: Pendleton Act (1883), extension of merit system (1900s), Hatch Act (1939, restricts political activity by federal employees), Civil Service Reform Act (1978)\n- Each card opens an infobox with the event's name, date, description, and a \"Why it matters\" line connecting it to the current civil service system\n- Clickable comparison table below: rows are criteria (hiring basis, job protection, dismissal grounds, political activity allowed), columns are spoils vs. merit\n- Canvas: 100% width × 400px; responsive"
+}
