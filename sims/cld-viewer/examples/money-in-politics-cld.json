@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "id": "money-in-politics-cld",
+    "title": "R3: Money in Politics",
+    "archetype": "success-to-the-successful",
+    "description": "When trust falls, fewer ordinary citizens bother to vote — but lobbyists and major donors still show up. Policy starts to reflect donor priorities more than voter priorities, which deepens cynicism and pushes turnout still lower. This is the loop most directly shaped by campaign finance law (BCRA 2002, Citizens United 2010).",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["trust-in-government", "campaign-finance", "voter-turnout", "reinforcing-loop"]
+  },
+  "nodes": [
+    {
+      "id": "trust_in_government",
+      "label": "Trust In Government",
+      "position": {"x": 300, "y": 150},
+      "type": "stock",
+      "description": "The percentage of citizens who say they trust the federal government to do what is right most or all of the time."
+    },
+    {
+      "id": "voter_turnout",
+      "label": "Voter Turnout",
+      "position": {"x": 500, "y": 320},
+      "type": "variable",
+      "description": "The percentage of eligible Americans who actually cast a ballot. Includes presidential, midterm, primary, and local elections."
+    },
+    {
+      "id": "special_interest_influence",
+      "label": "Special Interest Influence",
+      "position": {"x": 300, "y": 490},
+      "type": "variable",
+      "description": "The relative weight of lobbyists, PACs, super PACs, trade associations, and major donors in shaping policy outcomes. Rises whenever ordinary-voter weight falls."
+    },
+    {
+      "id": "policy_capture",
+      "label": "Policy Capture",
+      "position": {"x": 100, "y": 320},
+      "type": "variable",
+      "description": "The degree to which legislation, regulation, and federal spending reflect the priorities of organized donors rather than the priorities of the median voter."
+    }
+  ],
+  "edges": [
+    {
+      "id": "trust_to_turnout",
+      "source": "trust_in_government",
+      "target": "voter_turnout",
+      "polarity": "positive",
+      "description": "Citizens who trust the system are more likely to vote. When trust falls, turnout falls — especially among less-engaged voters who are easiest to discourage.",
+      "strength": "moderate"
+    },
+    {
+      "id": "turnout_to_special_interests",
+      "source": "voter_turnout",
+      "target": "special_interest_influence",
+      "polarity": "negative",
+      "description": "Lobbyists and donors always show up. When ordinary voters do not, the relative weight of special interests rises.",
+      "strength": "strong"
+    },
+    {
+      "id": "special_interests_to_capture",
+      "source": "special_interest_influence",
+      "target": "policy_capture",
+      "polarity": "positive",
+      "description": "More influence translates directly into more policy outcomes that favor donor priorities — tax breaks, regulatory exemptions, targeted appropriations.",
+      "strength": "strong"
+    },
+    {
+      "id": "capture_to_trust",
+      "source": "policy_capture",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "When citizens watch policy serve donors rather than the public, cynicism deepens — and trust falls further.",
+      "strength": "strong"
+    }
+  ],
+  "loops": [
+    {
+      "id": "R3",
+      "type": "reinforcing",
+      "label": "R3: Money in Politics",
+      "description": "A vicious cycle of disengagement: distrust → withdrawal → capture → more distrust. Each turn locks ordinary voters further out of the system.",
+      "path": ["trust_in_government", "voter_turnout", "special_interest_influence", "policy_capture", "trust_in_government"],
+      "behavior_pattern": "Slow drift over decades. Voter turnout below 50% in midterm elections; policy outputs increasingly correlated with donor preferences.",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ],
+  "educational_content": {
+    "key_insights": [
+      "Counting negative edges: trust→turnout is positive (+); turnout→SI influence is negative (−); SI influence→capture is positive (+); capture→trust is negative (−). Two negatives → even → reinforcing.",
+      "Major campaign finance reforms reshape this loop. BCRA (2002) tried to reduce soft money, weakening special-interest influence. Citizens United (2010) lifted limits on independent expenditures, strengthening it.",
+      "The loop is hardest to break at the turnout node — that's the leverage point where individual citizens can directly act."
+    ],
+    "discussion_questions": [
+      "Which campaign finance reforms (BCRA 2002, Citizens United 2010) would shift this loop, and in which direction?",
+      "Is this loop reinforcing or balancing? Count the negative edges carefully.",
+      "Why is voter turnout in the U.S. lower than in most other wealthy democracies? Use this loop to explain."
+    ]
+  }
+}

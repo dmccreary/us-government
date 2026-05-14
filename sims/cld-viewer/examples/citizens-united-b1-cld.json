@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "id": "citizens-united-b1-cld",
+    "title": "B1: Transparency Reform",
+    "archetype": "balancing-process",
+    "description": "The Watergate-era reform pattern. Perceived corruption mobilizes reform movements, which pass disclosure laws, which produce visibility, which produces accountability, which rebuilds trust — closing the balancing loop.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["citizens-united", "appendix-stage-5", "transparency", "balancing-loop"]
+  },
+  "nodes": [
+    {"id": "public_perception_of_corruption", "label": "Public Perception of Corruption", "position": {"x": 300, "y": 100}, "type": "variable", "description": "Citizens' belief that officials trade favors for money. The trigger that starts the loop."},
+    {"id": "demand_for_reform", "label": "Demand for Reform", "position": {"x": 520, "y": 220}, "type": "variable", "description": "Sustained public pressure — petitions, protests, reform candidates — calling for ethics laws."},
+    {"id": "transparency_laws", "label": "Transparency Laws", "position": {"x": 520, "y": 420}, "type": "variable", "description": "FECA, FOIA, BCRA, HONEST Leadership Act — statutes requiring disclosure of money and meetings."},
+    {"id": "visibility_of_political_funding", "label": "Visibility of Political Funding", "position": {"x": 300, "y": 540}, "type": "variable", "description": "How easy it is to find out who is paying for political messages and advocacy."},
+    {"id": "institutional_accountability", "label": "Institutional Accountability", "position": {"x": 80, "y": 420}, "type": "variable", "description": "Visible consequences — resignations, prosecutions, electoral defeats — when officials betray public trust."},
+    {"id": "trust_in_government", "label": "Trust In Government", "position": {"x": 80, "y": 220}, "type": "stock", "description": "The percentage of citizens who say they trust the federal government to do what is right."}
+  ],
+  "edges": [
+    {"id": "corruption_to_reform", "source": "public_perception_of_corruption", "target": "demand_for_reform", "polarity": "positive", "description": "Perceived corruption mobilizes reform movements."},
+    {"id": "reform_to_transparency", "source": "demand_for_reform", "target": "transparency_laws", "polarity": "positive", "description": "Sustained reform pressure passes disclosure and ethics legislation."},
+    {"id": "transparency_to_visibility", "source": "transparency_laws", "target": "visibility_of_political_funding", "polarity": "positive", "description": "Disclosure laws let journalists and watchdogs see the money."},
+    {"id": "visibility_to_accountability", "source": "visibility_of_political_funding", "target": "institutional_accountability", "polarity": "positive", "description": "Visible misconduct produces resignations, prosecutions, electoral defeats."},
+    {"id": "accountability_to_trust", "source": "institutional_accountability", "target": "trust_in_government", "polarity": "positive", "description": "Visible accountability rebuilds trust."},
+    {"id": "trust_to_corruption", "source": "trust_in_government", "target": "public_perception_of_corruption", "polarity": "negative", "description": "Restored trust reduces perceived corruption — closing the balancing loop."}
+  ],
+  "loops": [
+    {"id": "B1", "type": "balancing", "label": "B1: Transparency Reform", "description": "The Watergate-era reform pattern (1972–1978 produced the Ethics in Government Act).", "path": ["public_perception_of_corruption", "demand_for_reform", "transparency_laws", "visibility_of_political_funding", "institutional_accountability", "trust_in_government", "public_perception_of_corruption"], "position": {"x": 300, "y": 320}, "is_primary": true}
+  ]
+}

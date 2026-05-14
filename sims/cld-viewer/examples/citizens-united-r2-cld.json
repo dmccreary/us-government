@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "id": "citizens-united-r2-cld",
+    "title": "R2: Polarization and Trust",
+    "archetype": "escalation",
+    "description": "Super PAC money disproportionately funds negative ads, which harden polarization, which produces institutional conflict, public frustration, falling trust, and tribal voting — which deepens polarization further.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["citizens-united", "appendix-stage-2", "polarization", "reinforcing-loop"]
+  },
+  "nodes": [
+    {"id": "political_polarization", "label": "Political Polarization", "position": {"x": 300, "y": 120}, "type": "stock", "description": "The ideological and emotional distance between the two major parties and their voters."},
+    {"id": "institutional_conflict", "label": "Institutional Conflict", "position": {"x": 510, "y": 280}, "type": "variable", "description": "Government shutdowns, debt-ceiling brinkmanship, blocked confirmations — visible breakdowns in inter-branch cooperation."},
+    {"id": "public_frustration", "label": "Public Frustration", "position": {"x": 430, "y": 490}, "type": "variable", "description": "Citizens' sense of being unheard, exhausted, or alarmed by political dysfunction."},
+    {"id": "trust_in_government", "label": "Trust In Government", "position": {"x": 170, "y": 490}, "type": "stock", "description": "The percentage of citizens who say they trust the federal government to do what is right."},
+    {"id": "cynicism_and_tribal_voting", "label": "Cynicism and Tribal Voting", "position": {"x": 90, "y": 280}, "type": "variable", "description": "Voting against the other team rather than for one's own. Both parties seen as compromised."}
+  ],
+  "edges": [
+    {"id": "polarization_to_conflict", "source": "political_polarization", "target": "institutional_conflict", "polarity": "positive", "description": "Polarized politicians refuse to cooperate, producing gridlock and shutdowns."},
+    {"id": "conflict_to_frustration", "source": "institutional_conflict", "target": "public_frustration", "polarity": "positive", "description": "Visible government dysfunction exhausts and alarms citizens."},
+    {"id": "frustration_to_trust", "source": "public_frustration", "target": "trust_in_government", "polarity": "negative", "description": "Frustration and anxiety pull trust down."},
+    {"id": "trust_to_cynicism", "source": "trust_in_government", "target": "cynicism_and_tribal_voting", "polarity": "negative", "description": "When trust collapses, voters fall back on team loyalty — voting against the other side rather than for any positive vision."},
+    {"id": "cynicism_to_polarization", "source": "cynicism_and_tribal_voting", "target": "political_polarization", "polarity": "positive", "description": "Tribal voting reinforces the parties' polarized self-images."}
+  ],
+  "loops": [
+    {"id": "R2", "type": "reinforcing", "label": "R2: Polarization and Trust", "description": "A self-feeding cycle where each turn hardens partisan hostility.", "path": ["political_polarization", "institutional_conflict", "public_frustration", "trust_in_government", "cynicism_and_tribal_voting", "political_polarization"], "position": {"x": 300, "y": 320}, "is_primary": true}
+  ]
+}

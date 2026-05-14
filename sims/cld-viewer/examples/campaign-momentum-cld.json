@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "id": "campaign-momentum-cld",
+    "title": "Campaign Momentum (Reinforcing Example)",
+    "archetype": "success-to-the-successful",
+    "description": "A simple 3-node reinforcing loop used in the appendix to teach how to read a causal loop diagram. Strong polls attract donations, donations pay for ads, ads boost the polls — and the cycle accelerates.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["teaching-example", "reinforcing-loop", "campaign-finance", "bandwagon-effect"]
+  },
+  "nodes": [
+    {
+      "id": "poll_numbers",
+      "label": "Poll Numbers",
+      "position": {"x": 300, "y": 120},
+      "type": "stock",
+      "description": "The candidate's current standing in public opinion polls."
+    },
+    {
+      "id": "campaign_donations",
+      "label": "Campaign Donations",
+      "position": {"x": 500, "y": 420},
+      "type": "variable",
+      "description": "Money flowing into the campaign from individual donors, PACs, and super PACs."
+    },
+    {
+      "id": "ad_spending",
+      "label": "Ad Spending",
+      "position": {"x": 100, "y": 420},
+      "type": "variable",
+      "description": "Dollars spent on television, digital, and radio advertising to reach voters."
+    }
+  ],
+  "edges": [
+    {
+      "id": "polls_to_donations",
+      "source": "poll_numbers",
+      "target": "campaign_donations",
+      "polarity": "positive",
+      "description": "Donors prefer to back winners. Higher poll numbers attract more donations.",
+      "strength": "strong"
+    },
+    {
+      "id": "donations_to_ads",
+      "source": "campaign_donations",
+      "target": "ad_spending",
+      "polarity": "positive",
+      "description": "More money in the bank means more dollars available to spend on advertising.",
+      "strength": "strong"
+    },
+    {
+      "id": "ads_to_polls",
+      "source": "ad_spending",
+      "target": "poll_numbers",
+      "polarity": "positive",
+      "description": "Advertising increases name recognition and persuades undecided voters.",
+      "strength": "moderate"
+    }
+  ],
+  "loops": [
+    {
+      "id": "R1",
+      "type": "reinforcing",
+      "label": "R1: Campaign Momentum",
+      "description": "A self-feeding cycle where every turn amplifies the candidate's lead. Sometimes called the 'bandwagon effect.'",
+      "path": ["poll_numbers", "campaign_donations", "ad_spending", "poll_numbers"],
+      "behavior_pattern": "Exponential growth — until something outside the loop (a scandal, debate gaffe, primary loss) breaks it.",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "id": "citizens-united-r1-cld",
+    "title": "R1: Money and Trust Erosion",
+    "archetype": "success-to-the-successful",
+    "description": "The primary post-Citizens United loop. Lifting limits on independent expenditures elevated donor influence, raised perceived corruption, drained trust, depressed participation, weakened broad accountability — and made independent spending even more decisive.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["citizens-united", "appendix-stage-1", "campaign-finance", "reinforcing-loop"]
+  },
+  "nodes": [
+    {"id": "citizens_united_decision", "label": "Citizens United Decision (2010)", "position": {"x": -50, "y": 50}, "type": "variable", "description": "The 5-4 Supreme Court ruling that lifted limits on independent political spending. Treated as a one-time structural trigger that opens the loop — not a variable that goes up and down."},
+    {"id": "independent_political_spending", "label": "Independent Political Spending", "position": {"x": 300, "y": 100}, "type": "stock", "description": "Total dollars spent on political ads by super PACs, dark-money groups, corporations, and unions."},
+    {"id": "large_donor_influence", "label": "Large Donor Influence", "position": {"x": 520, "y": 240}, "type": "variable", "description": "The weight of wealthy individuals and major PACs in shaping candidates, messages, and policy."},
+    {"id": "public_perception_of_corruption", "label": "Public Perception of Corruption", "position": {"x": 520, "y": 440}, "type": "variable", "description": "Citizens' belief that officials trade favors for money. Perception alone — not just actual corruption — is enough to erode trust."},
+    {"id": "trust_in_government", "label": "Trust In Government", "position": {"x": 300, "y": 540}, "type": "stock", "description": "The percentage of citizens who say they trust the federal government to do what is right."},
+    {"id": "civic_participation", "label": "Civic Participation", "position": {"x": 80, "y": 440}, "type": "variable", "description": "Voting, organizing, contacting officials — the breadth of ordinary citizens involved in democracy."},
+    {"id": "broad_democratic_accountability", "label": "Broad Democratic Accountability", "position": {"x": 80, "y": 240}, "type": "variable", "description": "The degree to which officials must answer to a wide swath of constituents rather than a narrow donor class."}
+  ],
+  "edges": [
+    {"id": "cu_to_spending", "source": "citizens_united_decision", "target": "independent_political_spending", "polarity": "positive", "description": "The decision lifted limits on independent expenditures, opening the channel."},
+    {"id": "spending_to_donors", "source": "independent_political_spending", "target": "large_donor_influence", "polarity": "positive", "description": "More independent dollars means more donor leverage over campaigns."},
+    {"id": "donors_to_corruption", "source": "large_donor_influence", "target": "public_perception_of_corruption", "polarity": "positive", "description": "Visible donor influence — even when legal — raises citizens' suspicion that money is buying outcomes."},
+    {"id": "corruption_to_trust", "source": "public_perception_of_corruption", "target": "trust_in_government", "polarity": "negative", "description": "Believing the system is corrupt drives trust down."},
+    {"id": "trust_to_civic", "source": "trust_in_government", "target": "civic_participation", "polarity": "positive", "description": "People who trust the system show up to participate in it."},
+    {"id": "civic_to_accountability", "source": "civic_participation", "target": "broad_democratic_accountability", "polarity": "positive", "description": "A broad participating public holds officials to account."},
+    {"id": "accountability_to_spending", "source": "broad_democratic_accountability", "target": "independent_political_spending", "polarity": "negative", "description": "When the broad public is engaged, the relative leverage of independent expenditures falls."}
+  ],
+  "loops": [
+    {"id": "R1", "type": "reinforcing", "label": "R1: Money and Trust Erosion", "description": "The primary post-Citizens United loop.", "path": ["independent_political_spending", "large_donor_influence", "public_perception_of_corruption", "trust_in_government", "civic_participation", "broad_democratic_accountability", "independent_political_spending"], "position": {"x": 300, "y": 340}, "is_primary": true}
+  ]
+}

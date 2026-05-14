@@ -1,0 +1,1499 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A step-by-step guide to reading the causal loop diagrams (CLDs) used throughout this textbook. Walks through one simple reinforcing loop and one simple balancing loop, explaining every component along the way.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/us-government/appendix/reading-a-causal-loop-diagram/">
+      
+      
+        <link rel="prev" href="../../sims/polling-margin-of-error/">
+      
+      
+        <link rel="next" href="../citizens-united-cld/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Appendix: Reading a Causal Loop Diagram - US Government</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta property="og:type" content="website">
+      
+        <meta property="og:title" content="Appendix: Reading a Causal Loop Diagram - US Government">
+      
+        <meta property="og:description" content="A step-by-step guide to reading the causal loop diagrams (CLDs) used throughout this textbook. Walks through one simple reinforcing loop and one simple balancing loop, explaining every component along the way.">
+      
+        <meta property="og:image" content="https://dmccreary.github.io/us-government/assets/images/social/appendix/reading-a-causal-loop-diagram.png">
+      
+        <meta property="og:image:type" content="image/png">
+      
+        <meta property="og:image:width" content="1200">
+      
+        <meta property="og:image:height" content="630">
+      
+        <meta property="og:url" content="https://dmccreary.github.io/us-government/appendix/reading-a-causal-loop-diagram/">
+      
+        <meta name="twitter:card" content="summary_large_image">
+      
+        <meta name="twitter:title" content="Appendix: Reading a Causal Loop Diagram - US Government">
+      
+        <meta name="twitter:description" content="A step-by-step guide to reading the causal loop diagrams (CLDs) used throughout this textbook. Walks through one simple reinforcing loop and one simple balancing loop, explaining every component along the way.">
+      
+        <meta name="twitter:image" content="https://dmccreary.github.io/us-government/assets/images/social/appendix/reading-a-causal-loop-diagram.png">
+      
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#appendix-reading-a-causal-loop-diagram" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="US Government" class="md-header__button md-logo" aria-label="US Government" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            US Government
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Appendix: Reading a Causal Loop Diagram
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/us-government" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="US Government" class="md-nav__button md-logo" aria-label="US Government" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    US Government
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/us-government" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Appendix
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Appendix
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Reading a Causal Loop Diagram
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Reading a Causal Loop Diagram
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-four-building-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Four Building Blocks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-1-a-reinforcing-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 1: A Reinforcing Loop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example 1: A Reinforcing Loop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-read-each-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Read each node
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-read-each-arrow-edge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Read each arrow (edge)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-trace-the-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Trace the loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-confirm-with-the-negative-edge-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Confirm with the negative-edge count
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-2-a-balancing-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 2: A Balancing Loop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example 2: A Balancing Loop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-read-each-node_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Read each node
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-read-each-arrow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Read each arrow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-trace-the-loop_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Trace the loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-confirm-with-the-negative-edge-count_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Confirm with the negative-edge count
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reinforcing-vs-balancing-side-by-side" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reinforcing vs. Balancing: Side by Side
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-the-count-negatives-trick-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the "Count Negatives" Trick Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practice Questions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-to-go-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where to Go Next
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../citizens-united-cld/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Citizens United CLD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-key-concepts-via-cld/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10 Key Concepts via CLD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-four-building-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Four Building Blocks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-1-a-reinforcing-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 1: A Reinforcing Loop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example 1: A Reinforcing Loop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-read-each-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Read each node
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-read-each-arrow-edge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Read each arrow (edge)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-trace-the-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Trace the loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-confirm-with-the-negative-edge-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Confirm with the negative-edge count
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-2-a-balancing-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 2: A Balancing Loop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example 2: A Balancing Loop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-read-each-node_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Read each node
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-read-each-arrow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Read each arrow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-trace-the-loop_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Trace the loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-confirm-with-the-negative-edge-count_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Confirm with the negative-edge count
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reinforcing-vs-balancing-side-by-side" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reinforcing vs. Balancing: Side by Side
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-the-count-negatives-trick-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why the "Count Negatives" Trick Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practice Questions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-to-go-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where to Go Next
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/us-government/blob/main/docs/appendix/reading-a-causal-loop-diagram.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="appendix-reading-a-causal-loop-diagram">Appendix: Reading a Causal Loop Diagram<a class="headerlink" href="#appendix-reading-a-causal-loop-diagram" title="Permanent link">¶</a></h1>
+<p>Several chapters of this textbook include <strong>causal loop diagrams</strong> (CLDs) — interactive pictures of how forces in government push on each other over time. The most complex one is the four-loop "Forces Acting on Trust In Government" diagram in <a href="../../chapters/01-foundations-of-democracy/">Chapter 1</a>. Before you tackle that, work through this appendix. It uses two <strong>simple 3-node examples</strong> to teach you every part of a CLD.</p>
+<p>By the end of this page you will be able to:</p>
+<ol>
+<li>Identify the four visual elements of a CLD (<strong>nodes</strong>, <strong>edges</strong>, <strong>polarity markers</strong>, <strong>loop markers</strong>)</li>
+<li>Trace a loop and determine whether it is <strong>reinforcing</strong> or <strong>balancing</strong></li>
+<li>Predict what behavior the loop will produce <em>over time</em></li>
+</ol>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Welcome, future leaders!</p>
+<p><img alt="Lex waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png">
+<em>"The law belongs to all of us!"</em> A causal loop diagram is a special kind of picture that political scientists, economists, and engineers all use. Once you can read one, you can read <em>all</em> of them. Take it slow — we'll build up one piece at a time.</p>
+</div>
+<hr>
+<h2 id="the-four-building-blocks">The Four Building Blocks<a class="headerlink" href="#the-four-building-blocks" title="Permanent link">¶</a></h2>
+<p>Every CLD in this textbook is built from just four things:</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>What it looks like</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Node</strong></td>
+<td>A rectangle with a label</td>
+<td>A <em>variable</em> — something that can go up or down (e.g., "Poll Numbers", "Approval Rating")</td>
+</tr>
+<tr>
+<td><strong>Edge</strong></td>
+<td>An arrow from one node to another</td>
+<td>A <em>causal link</em> — "this thing affects that thing"</td>
+</tr>
+<tr>
+<td><strong>Polarity marker</strong></td>
+<td>A green <strong>+</strong> or red <strong>−</strong> on the arrow</td>
+<td>The <em>direction</em> of the effect — same direction (+) or opposite direction (−)</td>
+</tr>
+<tr>
+<td><strong>Loop marker</strong></td>
+<td>A circle with <strong>R</strong> (red) or <strong>B</strong> (green) at the center</td>
+<td>A label for the whole loop — <strong>R</strong>einforcing or <strong>B</strong>alancing</td>
+</tr>
+</tbody>
+</table>
+<p>That's it. No other symbols, no hidden rules. Once you know these four, you can read every CLD in this book.</p>
+<hr>
+<h2 id="example-1-a-reinforcing-loop">Example 1: A Reinforcing Loop<a class="headerlink" href="#example-1-a-reinforcing-loop" title="Permanent link">¶</a></h2>
+<p>Let's start with a simple political example: how a candidate gains <em>momentum</em> during a campaign. People sometimes call this the "bandwagon effect" — success breeds more success.</p>
+<p>The diagram below shows the loop. Try <strong>hovering</strong> over a node, an edge or the "Reinforcing" (R) circle
+to display the details. You can also drag the items around the screen and pan the diagram
+by dragging the background.</p>
+<iframe src="/us-government/sims/cld-viewer/main.html?file=campaign-momentum-cld" width="100%" height="500" scrolling="no"></iframe>
+
+<p><a class="md-button" href="../../sims/cld-viewer/main.html?file=campaign-momentum-cld&amp;menu=true">Open Fullscreen with Details Panel</a></p>
+<h3 id="step-1-read-each-node">Step 1: Read each node<a class="headerlink" href="#step-1-read-each-node" title="Permanent link">¶</a></h3>
+<p>There are three nodes in this loop:</p>
+<ul>
+<li><strong>Poll Numbers</strong> — the candidate's standing in opinion polls</li>
+<li><strong>Campaign Donations</strong> — money flowing into the campaign</li>
+<li><strong>Ad Spending</strong> — money the campaign spends on TV and digital ads</li>
+</ul>
+<h3 id="step-2-read-each-arrow-edge">Step 2: Read each arrow (edge)<a class="headerlink" href="#step-2-read-each-arrow-edge" title="Permanent link">¶</a></h3>
+<p>There are three arrows, and <strong>all three are green with a + sign</strong>. A green <strong>+</strong> means <em>the two variables move in the same direction</em>:</p>
+<ul>
+<li><strong>Poll Numbers → Campaign Donations (+):</strong> When poll numbers go up, donations go up. (Donors like to back winners.)</li>
+<li><strong>Campaign Donations → Ad Spending (+):</strong> When donations go up, ad spending goes up. (More money = more ads.)</li>
+<li><strong>Ad Spending → Poll Numbers (+):</strong> When ad spending goes up, poll numbers go up. (Ads persuade voters.)</li>
+</ul>
+<h3 id="step-3-trace-the-loop">Step 3: Trace the loop<a class="headerlink" href="#step-3-trace-the-loop" title="Permanent link">¶</a></h3>
+<p>Now follow the arrows around the circle. Pick any node — let's start with <strong>Poll Numbers</strong> — and imagine it goes <em>up</em> a little:</p>
+<ol>
+<li>Poll Numbers ↑ → (because of the +) Campaign Donations ↑</li>
+<li>Campaign Donations ↑ → (because of the +) Ad Spending ↑</li>
+<li>Ad Spending ↑ → (because of the +) Poll Numbers ↑↑</li>
+</ol>
+<p>We came back to where we started — but Poll Numbers is now even <em>higher</em>. The loop <strong>amplified</strong> the change. Run it again and Poll Numbers grows even more. This is a <strong>runaway</strong> behavior — that is what the (R) symbol for "reinforcing" means.</p>
+<p>In the example above each of the edges is green with a "+" sign which means that
+it increases the quantity or store of an item it points to.  However, some edges
+will be red and and a (-) symbol.  This means they lower the amount of what they point to.</p>
+<h3 id="step-4-confirm-with-the-negative-edge-count">Step 4: Confirm with the negative-edge count<a class="headerlink" href="#step-4-confirm-with-the-negative-edge-count" title="Permanent link">¶</a></h3>
+<p>Here is a useful shortcut to tell reinforcing from balancing without tracing the whole loop:</p>
+<blockquote>
+<p><strong>Count the negative (red) edges. Even number → Reinforcing. Odd number → Balancing.</strong></p>
+</blockquote>
+<p>Campaign Momentum has <strong>zero</strong> negative edges. Zero is even, so the loop is <strong>reinforcing</strong>. The red <strong>R</strong> marker at the center of the loop confirms this.</p>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Lex's Tip</p>
+<p><img alt="Lex giving a helpful tip" class="mascot-admonition-img" src="../../img/mascot/tip.png">
+A reinforcing loop is not always <em>good</em>. The same shape can produce a virtuous cycle (success breeds success) <em>or</em> a vicious cycle (decline breeds more decline). The <em>math</em> is the same; only the direction of change is different. That is why R1 (Gerrymandering Arms Race) and R2 (Disinformation Spiral) in the Trust in Government diagram are also reinforcing — but they make things <em>worse</em>, not better.</p>
+</div>
+<hr>
+<h2 id="example-2-a-balancing-loop">Example 2: A Balancing Loop<a class="headerlink" href="#example-2-a-balancing-loop" title="Permanent link">¶</a></h2>
+<p>Now let's look at the <em>opposite</em> kind of loop: one that <em>resists</em> change rather than amplifying it.</p>
+<p>Consider what happens to a president's approval rating over a four-year term. New presidents often start with high approval — call this the "honeymoon period." A president with high approval feels confident enough to take political risks (controversial vetoes, ambitious legislation, executive orders). Those risks anger some voters. The backlash drives approval back down. Then, with low approval, the president becomes more cautious — and approval often recovers somewhat. The whole system <em>oscillates</em> around an average.</p>
+<iframe src="/us-government/sims/cld-viewer/main.html?file=approval-self-correction-cld" width="100%" height="500" scrolling="no"></iframe>
+
+<p><a class="md-button" href="../../sims/cld-viewer/main.html?file=approval-self-correction-cld&amp;menu=true">Open Fullscreen with Details Panel</a></p>
+<h3 id="step-1-read-each-node_1">Step 1: Read each node<a class="headerlink" href="#step-1-read-each-node_1" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>Approval Rating</strong> — the percentage of Americans who approve of the president's job performance</li>
+<li><strong>Risky Policy Choices</strong> — controversial moves that use up political capital</li>
+<li><strong>Voter Backlash</strong> — public anger, protest, and negative media coverage</li>
+</ul>
+<h3 id="step-2-read-each-arrow">Step 2: Read each arrow<a class="headerlink" href="#step-2-read-each-arrow" title="Permanent link">¶</a></h3>
+<p>Look carefully — <strong>one of the arrows is red with a − sign</strong>:</p>
+<ul>
+<li><strong>Approval Rating → Risky Policy Choices (+):</strong> High approval emboldens the president to take risks.</li>
+<li><strong>Risky Policy Choices → Voter Backlash (+):</strong> Risky choices anger some voters.</li>
+<li><strong>Voter Backlash → Approval Rating (−):</strong> Backlash pulls approval <em>down</em>. <strong>This is the negative edge</strong> — the variables move in <em>opposite</em> directions.</li>
+</ul>
+<h3 id="step-3-trace-the-loop_1">Step 3: Trace the loop<a class="headerlink" href="#step-3-trace-the-loop_1" title="Permanent link">¶</a></h3>
+<p>Start with Approval Rating going <em>up</em> a little:</p>
+<ol>
+<li>Approval Rating ↑ → (+) Risky Policy Choices ↑</li>
+<li>Risky Policy Choices ↑ → (+) Voter Backlash ↑</li>
+<li>Voter Backlash ↑ → (<strong>−</strong>) Approval Rating ↓</li>
+</ol>
+<p>We came back to Approval Rating — but it went <strong>down</strong>, not up. The loop <em>fought back</em> against the original change. That is what "balancing" means: the loop pushes the system toward a stable equilibrium.</p>
+<h3 id="step-4-confirm-with-the-negative-edge-count_1">Step 4: Confirm with the negative-edge count<a class="headerlink" href="#step-4-confirm-with-the-negative-edge-count_1" title="Permanent link">¶</a></h3>
+<p>Approval Self-Correction has <strong>one</strong> negative edge. One is odd, so the loop is <strong>balancing</strong>. The green <strong>B</strong> marker at the center of the loop confirms this.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Key Concept</p>
+<p><img alt="Lex thinking carefully" class="mascot-admonition-img" src="../../img/mascot/thinking.png">
+Most stabilizing forces in democracy are balancing loops. Elections, term limits, checks and balances, judicial review, public protest — all of them work by <em>pushing back</em> when one branch or one party gains too much power. The Framers' entire constitutional design is built on balancing loops.</p>
+</div>
+<hr>
+<h2 id="reinforcing-vs-balancing-side-by-side">Reinforcing vs. Balancing: Side by Side<a class="headerlink" href="#reinforcing-vs-balancing-side-by-side" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Reinforcing (R)</th>
+<th>Balancing (B)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Marker color</strong></td>
+<td>Red</td>
+<td>Green</td>
+</tr>
+<tr>
+<td><strong>Negative edges</strong></td>
+<td>Even number (0, 2, 4...)</td>
+<td>Odd number (1, 3, 5...)</td>
+</tr>
+<tr>
+<td><strong>Behavior over time</strong></td>
+<td>Amplifies — exponential growth or decay</td>
+<td>Resists — oscillates around an equilibrium</td>
+</tr>
+<tr>
+<td><strong>Common metaphor</strong></td>
+<td>"Snowball rolling downhill"</td>
+<td>"Thermostat"</td>
+</tr>
+<tr>
+<td><strong>Political examples in this textbook</strong></td>
+<td>R1 Gerrymandering Arms Race, R2 Disinformation Spiral</td>
+<td>B1 Civic Reform Pressure, B2 Free Press Accountability</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="why-the-count-negatives-trick-works">Why the "Count Negatives" Trick Works<a class="headerlink" href="#why-the-count-negatives-trick-works" title="Permanent link">¶</a></h2>
+<p>Here is the intuition. A positive (+) edge says "same direction." A negative (−) edge says "flip the direction."</p>
+<p>If a perturbation goes around the loop and gets flipped an <em>even</em> number of times (0, 2, 4...), it comes back the <em>same direction</em> as it started — and the next pass amplifies it again. That's reinforcing.</p>
+<p>If it gets flipped an <em>odd</em> number of times (1, 3, 5...), it comes back in the <em>opposite</em> direction — and the next pass undoes it. That's balancing.</p>
+<p>You can verify this on any CLD in this textbook. Try it on the four-loop diagram in <a href="../../chapters/01-foundations-of-democracy/">Chapter 1</a>:</p>
+<ul>
+<li>R1 Gerrymandering Arms Race: 2 negative edges → even → reinforcing ✓</li>
+<li>R2 Disinformation Spiral: 2 negative edges → even → reinforcing ✓</li>
+<li>B1 Civic Reform Pressure: 3 negative edges → odd → balancing ✓</li>
+<li>B2 Free Press Accountability: 3 negative edges → odd → balancing ✓</li>
+</ul>
+<hr>
+<h2 id="practice-questions">Practice Questions<a class="headerlink" href="#practice-questions" title="Permanent link">¶</a></h2>
+<p>Test your understanding before moving on:</p>
+<ol>
+<li>A CLD has 5 edges. Three of them are negative. Is the loop reinforcing or balancing? <em>(Three is odd → balancing.)</em></li>
+<li>A CLD has 4 edges, all positive. Reinforcing or balancing? <em>(Zero negatives is even → reinforcing.)</em></li>
+<li>If you start with a node at value 10 and a reinforcing loop runs once, will the value come back closer to 10 or further from 10? <em>(Further from 10 — amplification.)</em></li>
+<li>If you start with a node at value 10 and a balancing loop runs once, will the value come back closer to 10 or further? <em>(Closer to 10 — resistance.)</em></li>
+<li>In the four-loop Trust in Government diagram, two reinforcing loops push trust <em>down</em> and two balancing loops push trust <em>up</em>. What does this tell you about the long-term behavior of trust in government? <em>(It depends on which set of loops is stronger at any given moment — the system is a tug-of-war.)</em></li>
+</ol>
+<hr>
+<h2 id="where-to-go-next">Where to Go Next<a class="headerlink" href="#where-to-go-next" title="Permanent link">¶</a></h2>
+<p>Now that you can read a CLD:</p>
+<ul>
+<li>Return to <strong><a href="../../chapters/01-foundations-of-democracy/">Chapter 1: Foundations of Democracy</a></strong> and look at the full Trust in Government system with fresh eyes</li>
+<li>Visit the <strong><a href="../../sims/causes-of-political-corruption/">Causes of Political Corruption MicroSim</a></strong> to explore each of the four loops one at a time</li>
+<li>Open the <strong><a href="../../sims/cld-viewer/">CLD Viewer</a></strong> to load any diagram, drag nodes around, and explore details by clicking</li>
+</ul>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">You did it!</p>
+<p><img alt="Lex celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png">
+You can now read a causal loop diagram — a skill used by political scientists, policy analysts, and economists every day. <em>Knowledge is the cornerstone of democracy!</em></p>
+</div>
+<style>
+  .cld-inline {
+    position: relative;
+    width: 100%;
+    background: aliceblue;
+    border: 2px solid blue;
+    margin-bottom: 1em;
+    overflow: hidden;
+  }
+  .cld-inline-title {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font: 24px Arial, Helvetica, sans-serif;
+    color: black;
+    pointer-events: none;
+    z-index: 10;
+  }
+</style>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../../sims/polling-margin-of-error/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Understanding Polling — Margin of Error MicroSim">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Understanding Polling — Margin of Error MicroSim
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../citizens-united-cld/" class="md-footer__link md-footer__link--next" aria-label="Next: Citizens United CLD">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Citizens United CLD
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

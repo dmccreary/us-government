@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "id": "civic-reform-pressure-cld",
+    "title": "B1: Civic Reform Pressure",
+    "archetype": "balancing-process",
+    "description": "When trust falls far enough, citizens mobilize. Watergate produced the Ethics in Government Act of 1978. The 2008 financial crisis produced Dodd-Frank. Distrust, when channeled into civic activism, can pass reforms that reduce corruption and slowly rebuild trust.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["trust-in-government", "civic-engagement", "reform", "balancing-loop"]
+  },
+  "nodes": [
+    {
+      "id": "trust_in_government",
+      "label": "Trust In Government",
+      "position": {"x": 300, "y": 150},
+      "type": "stock",
+      "description": "The percentage of citizens who say they trust the federal government to do what is right most or all of the time."
+    },
+    {
+      "id": "civic_activism",
+      "label": "Civic Activism",
+      "position": {"x": 500, "y": 320},
+      "type": "variable",
+      "description": "Voter turnout, protest movements, grassroots organizing, and demand for reform candidates."
+    },
+    {
+      "id": "anticorruption_reforms",
+      "label": "Anti-Corruption Reforms",
+      "position": {"x": 300, "y": 490},
+      "type": "variable",
+      "description": "Laws like the Ethics in Government Act (1978), Inspector General reforms, campaign finance disclosure rules, and lobbying restrictions."
+    },
+    {
+      "id": "political_corruption",
+      "label": "Political Corruption",
+      "position": {"x": 100, "y": 320},
+      "type": "variable",
+      "description": "Bribery, self-dealing, abuse of office, and other betrayals of the public trust."
+    }
+  ],
+  "edges": [
+    {
+      "id": "trust_to_activism",
+      "source": "trust_in_government",
+      "target": "civic_activism",
+      "polarity": "negative",
+      "description": "Falling trust mobilizes citizens — protest, organizing, and reform candidacies grow when people feel the system has gone wrong.",
+      "strength": "moderate"
+    },
+    {
+      "id": "activism_to_reforms",
+      "source": "civic_activism",
+      "target": "anticorruption_reforms",
+      "polarity": "positive",
+      "description": "Sustained civic pressure forces Congress to pass anti-corruption legislation.",
+      "strength": "moderate",
+      "delay": {
+        "present": true,
+        "duration": "years",
+        "description": "Major reforms typically arrive 2–5 years after the scandal that prompted them."
+      }
+    },
+    {
+      "id": "reforms_to_corruption",
+      "source": "anticorruption_reforms",
+      "target": "political_corruption",
+      "polarity": "negative",
+      "description": "Disclosure rules, inspectors general, and ethics enforcement make corruption costlier and harder to hide.",
+      "strength": "moderate"
+    },
+    {
+      "id": "corruption_to_trust",
+      "source": "political_corruption",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "Visible corruption — and the news coverage of it — drives trust down. Reducing corruption lets trust recover.",
+      "strength": "strong"
+    }
+  ],
+  "loops": [
+    {
+      "id": "B1",
+      "type": "balancing",
+      "label": "B1: Civic Reform Pressure",
+      "description": "A self-correcting force: deep distrust eventually triggers the political will to reform — slowly restoring trust.",
+      "path": ["trust_in_government", "civic_activism", "anticorruption_reforms", "political_corruption", "trust_in_government"],
+      "behavior_pattern": "Slow-acting brake. Works on a decade-long timescale and requires sustained activism.",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ]
+}

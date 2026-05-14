@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "id": "citizens-united-b2-cld",
+    "title": "B2: Grassroots Engagement",
+    "archetype": "balancing-process",
+    "description": "The democratic-renewal loop. Falling trust mobilizes citizen organizing. Small-dollar platforms (ActBlue, WinRed) make candidates viable without big donors. Competition forces responsiveness. The post-2008 small-donor revolution is the contemporary example.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["citizens-united", "appendix-stage-6", "grassroots", "small-donor", "balancing-loop"]
+  },
+  "nodes": [
+    {"id": "trust_in_government", "label": "Trust In Government", "position": {"x": 300, "y": 120}, "type": "stock", "description": "The percentage of citizens who say they trust the federal government to do what is right."},
+    {"id": "grassroots_activism", "label": "Grassroots Activism", "position": {"x": 510, "y": 280}, "type": "variable", "description": "Citizen-led organizing — door-knocking, voter registration drives, advocacy networks — that builds political power from below."},
+    {"id": "small_donor_participation", "label": "Small-Donor Participation", "position": {"x": 430, "y": 490}, "type": "variable", "description": "Campaign fundraising from contributions under $200. ActBlue and WinRed have made this competitive at scale."},
+    {"id": "competitive_elections", "label": "Competitive Elections", "position": {"x": 170, "y": 490}, "type": "variable", "description": "Races where the outcome is not predetermined — multiple viable candidates, real debate, voters whose choices matter."},
+    {"id": "perceived_responsiveness", "label": "Perceived Responsiveness", "position": {"x": 90, "y": 280}, "type": "variable", "description": "Citizens' sense that elected officials actually hear and act on their concerns."}
+  ],
+  "edges": [
+    {"id": "trust_to_grassroots", "source": "trust_in_government", "target": "grassroots_activism", "polarity": "negative", "description": "Falling trust mobilizes citizen organizing — people show up when they feel the system has failed."},
+    {"id": "grassroots_to_smalldonor", "source": "grassroots_activism", "target": "small_donor_participation", "polarity": "positive", "description": "Activists give small donations and recruit others to do the same."},
+    {"id": "smalldonor_to_competitive", "source": "small_donor_participation", "target": "competitive_elections", "polarity": "positive", "description": "Small-dollar funded candidates can compete without depending on major donors."},
+    {"id": "competitive_to_responsive", "source": "competitive_elections", "target": "perceived_responsiveness", "polarity": "positive", "description": "Competition forces incumbents to actually listen to constituents."},
+    {"id": "responsive_to_trust", "source": "perceived_responsiveness", "target": "trust_in_government", "polarity": "positive", "description": "When citizens see officials responding to their concerns, trust rises."}
+  ],
+  "loops": [
+    {"id": "B2", "type": "balancing", "label": "B2: Grassroots Engagement", "description": "The most hopeful loop in the diagram — the democratic-renewal counter to R1–R4.", "path": ["trust_in_government", "grassroots_activism", "small_donor_participation", "competitive_elections", "perceived_responsiveness", "trust_in_government"], "position": {"x": 300, "y": 320}, "is_primary": true}
+  ]
+}

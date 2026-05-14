@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "id": "checks-and-balances-cld",
+    "title": "Checks and Balances Cycle",
+    "archetype": "balancing-process",
+    "description": "The foundational balancing system the Framers designed. When the executive branch concentrates power beyond its constitutional role, two parallel restoring forces activate: public pressure mobilizes congressional oversight, and lawsuits trigger judicial review. Both restore constitutional equilibrium by constraining executive action — and both must function for the system to work.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["checks-and-balances", "separation-of-powers", "constitutional-design", "balancing-loop"]
+  },
+  "nodes": [
+    {
+      "id": "executive_overreach",
+      "label": "Executive Power Concentration",
+      "position": {"x": 300, "y": 100},
+      "type": "stock",
+      "description": "The degree to which the executive branch acts beyond its enumerated constitutional powers — through executive orders, signing statements, unilateral war-making, or refusal to enforce duly-enacted law."
+    },
+    {
+      "id": "public_pressure",
+      "label": "Public Pressure on Congress",
+      "position": {"x": 520, "y": 220},
+      "type": "variable",
+      "description": "Citizen awareness of executive overreach translating into pressure on Congress — town halls, contacting representatives, mobilizing voters, supporting candidates who promise oversight."
+    },
+    {
+      "id": "congressional_oversight",
+      "label": "Congressional Oversight Activity",
+      "position": {"x": 520, "y": 440},
+      "type": "variable",
+      "description": "Hearings, subpoenas, refusal of appropriations, threats of impeachment, and legislation explicitly limiting executive action. Article I powers Congress holds over the executive."
+    },
+    {
+      "id": "judicial_review",
+      "label": "Judicial Review Activity",
+      "position": {"x": 80, "y": 320},
+      "type": "variable",
+      "description": "Federal lawsuits filed against executive action — by states, Congress, civil society, and affected parties — leading to court rulings that interpret the constitutional limits of executive authority."
+    },
+    {
+      "id": "constitutional_equilibrium",
+      "label": "Constraints on Executive",
+      "position": {"x": 300, "y": 540},
+      "type": "variable",
+      "description": "The actual binding limits placed on executive action — through legislation, court orders, denied appropriations, and successful impeachments. The outcome that pulls executive power back toward its constitutional baseline."
+    }
+  ],
+  "edges": [
+    {
+      "id": "overreach_to_pressure",
+      "source": "executive_overreach",
+      "target": "public_pressure",
+      "polarity": "positive",
+      "description": "Visible overreach mobilizes citizens to contact their representatives and support candidates who promise oversight.",
+      "strength": "moderate"
+    },
+    {
+      "id": "pressure_to_oversight",
+      "source": "public_pressure",
+      "target": "congressional_oversight",
+      "polarity": "positive",
+      "description": "Sustained public pressure makes congressional inaction politically costly — even members of the president's party act when constituents demand it.",
+      "strength": "moderate"
+    },
+    {
+      "id": "oversight_to_constraints",
+      "source": "congressional_oversight",
+      "target": "constitutional_equilibrium",
+      "polarity": "positive",
+      "description": "Hearings, subpoenas, and limiting legislation translate political pressure into binding constraints on executive action.",
+      "strength": "strong"
+    },
+    {
+      "id": "overreach_to_judicial",
+      "source": "executive_overreach",
+      "target": "judicial_review",
+      "polarity": "positive",
+      "description": "Executive overreach generates lawsuits — from states, Congress, affected parties, and civil-society organizations.",
+      "strength": "strong"
+    },
+    {
+      "id": "judicial_to_constraints",
+      "source": "judicial_review",
+      "target": "constitutional_equilibrium",
+      "polarity": "positive",
+      "description": "Court rulings — like *Youngstown Sheet & Tube v. Sawyer* (1952) and *United States v. Nixon* (1974) — directly translate into constraints on executive action.",
+      "strength": "strong"
+    },
+    {
+      "id": "constraints_to_overreach",
+      "source": "constitutional_equilibrium",
+      "target": "executive_overreach",
+      "polarity": "negative",
+      "description": "Real constraints reduce executive power concentration. This single negative edge is what makes the system *balancing* — it pulls the executive back toward its constitutional baseline.",
+      "strength": "strong"
+    }
+  ],
+  "loops": [
+    {
+      "id": "B1",
+      "type": "balancing",
+      "label": "B1: Legislative Check",
+      "description": "The Article I path. Executive overreach → public pressure → congressional oversight → constraints → reduced overreach. The slower of the two checks; depends on political will and electoral pressure.",
+      "path": ["executive_overreach", "public_pressure", "congressional_oversight", "constitutional_equilibrium", "executive_overreach"],
+      "behavior_pattern": "Slow, episodic. Works when public attention is sustained and congressional majorities are willing to constrain a sitting president.",
+      "position": {"x": 440, "y": 330},
+      "is_primary": false
+    },
+    {
+      "id": "B2",
+      "type": "balancing",
+      "label": "B2: Judicial Check",
+      "description": "The Article III path. Executive overreach → lawsuits → court rulings → constraints → reduced overreach. Faster and more rule-bound than B1 — judges with life tenure can act without electoral worry.",
+      "path": ["executive_overreach", "judicial_review", "constitutional_equilibrium", "executive_overreach"],
+      "behavior_pattern": "Faster than B1. Bounded by standing doctrine, political question doctrine, and the courts' inability to enforce their own rulings.",
+      "position": {"x": 170, "y": 380},
+      "is_primary": false
+    }
+  ],
+  "educational_content": {
+    "key_insights": [
+      "Two parallel balancing loops both pass through 'Constraints on Executive' — this is redundancy by design. Either path alone can constrain a single instance of overreach.",
+      "The system has a built-in failure mode: when one party controls all three branches, B1 weakens dramatically because Congress is reluctant to check a same-party president. B2 weakens more slowly because judges have life tenure.",
+      "Historical cases that illustrate the loops: *Youngstown Sheet & Tube v. Sawyer* (1952) is pure B2; the Watergate hearings and *United States v. Nixon* (1974) used both B1 and B2; the post-2001 War Powers debates show B1 weakening under crisis conditions."
+    ],
+    "discussion_questions": [
+      "Why did the Framers build two parallel checks instead of just one? What does redundancy do for a system?",
+      "Identify a specific historical event where B2 (judicial) constrained the executive but B1 (legislative) did not. What does this tell you about each loop's strengths?",
+      "What would happen to this system if Congress and the presidency were always controlled by the same party? Which loop weakens, and which does not?"
+    ]
+  }
+}

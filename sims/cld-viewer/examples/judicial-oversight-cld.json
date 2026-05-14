@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "id": "judicial-oversight-cld",
+    "title": "B3: Judicial Oversight",
+    "archetype": "balancing-process",
+    "description": "The third constitutional check on corruption. When trust falls, the Department of Justice faces pressure to prosecute corrupt officials. Indictments lead to convictions, the credible threat of jail time deters future misconduct, and trust slowly recovers. The strength of this loop depends on prosecutorial independence from political interference.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["trust-in-government", "judiciary", "prosecution", "balancing-loop"]
+  },
+  "nodes": [
+    {
+      "id": "trust_in_government",
+      "label": "Trust In Government",
+      "position": {"x": 300, "y": 150},
+      "type": "stock",
+      "description": "The percentage of citizens who say they trust the federal government to do what is right most or all of the time."
+    },
+    {
+      "id": "federal_indictments",
+      "label": "Federal Indictments",
+      "position": {"x": 500, "y": 320},
+      "type": "variable",
+      "description": "Formal criminal charges brought by federal prosecutors (DOJ, U.S. Attorneys, Special Counsels) against public officials for corruption, bribery, fraud, or abuse of office."
+    },
+    {
+      "id": "convictions_and_sentences",
+      "label": "Convictions and Sentences",
+      "position": {"x": 300, "y": 490},
+      "type": "variable",
+      "description": "Guilty verdicts and prison sentences that follow successful prosecutions. The credible threat of jail time — not just a fine — is what creates deterrence."
+    },
+    {
+      "id": "political_corruption",
+      "label": "Political Corruption",
+      "position": {"x": 100, "y": 320},
+      "type": "variable",
+      "description": "Bribery, self-dealing, abuse of office, and other betrayals of the public trust by elected and appointed officials."
+    }
+  ],
+  "edges": [
+    {
+      "id": "trust_to_indictments",
+      "source": "trust_in_government",
+      "target": "federal_indictments",
+      "polarity": "negative",
+      "description": "Falling trust creates political and public pressure on prosecutors to bring charges against corrupt officials. The DOJ does not act in a vacuum.",
+      "strength": "moderate"
+    },
+    {
+      "id": "indictments_to_convictions",
+      "source": "federal_indictments",
+      "target": "convictions_and_sentences",
+      "polarity": "positive",
+      "description": "More cases brought means more convictions secured — federal prosecutors win the majority of trials they bring.",
+      "strength": "strong"
+    },
+    {
+      "id": "convictions_to_corruption",
+      "source": "convictions_and_sentences",
+      "target": "political_corruption",
+      "polarity": "negative",
+      "description": "Visible prison sentences deter future misconduct. Officials who see colleagues serving time reconsider their own risk calculus.",
+      "strength": "strong",
+      "delay": {
+        "present": true,
+        "duration": "months to years",
+        "description": "Deterrent effect builds gradually as cases are decided and sentences are handed down."
+      }
+    },
+    {
+      "id": "corruption_to_trust",
+      "source": "political_corruption",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "Less visible corruption — and the public spectacle of accountability — lets trust recover.",
+      "strength": "strong"
+    }
+  ],
+  "loops": [
+    {
+      "id": "B3",
+      "type": "balancing",
+      "label": "B3: Judicial Oversight",
+      "description": "The third constitutional check. The judiciary disciplines the executive and legislative branches through criminal prosecution of individual wrongdoers.",
+      "path": ["trust_in_government", "federal_indictments", "convictions_and_sentences", "political_corruption", "trust_in_government"],
+      "behavior_pattern": "Slow but credible. Major prosecutions take 2–5 years from indictment to sentencing.",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ],
+  "educational_content": {
+    "key_insights": [
+      "B3 shares the 'political corruption' node with B1 (Civic Reform) and B2 (Free Press) — all three balancing loops attack the same variable from different angles.",
+      "B3's strength depends on prosecutorial independence. When the executive branch can fire prosecutors who investigate the administration, the loop weakens dramatically.",
+      "Investigative journalism (B2) and judicial oversight (B3) often work together: journalists expose, prosecutors charge."
+    ],
+    "discussion_questions": [
+      "How is B3 different from B2 (Free Press Accountability)? Where do the two loops connect?",
+      "What happens to B3 when the executive branch can fire prosecutors who investigate it? Trace the consequences.",
+      "Name a recent federal prosecution of a public official. Where does it sit in this loop?"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "id": "citizens-united-r3-cld",
+    "title": "R3: Media Amplification",
+    "archetype": "escalation",
+    "description": "Modern media business models reward content that wins attention. Emotional content wins more attention than careful analysis. As trust falls, audiences demand more outrage — and producers supply it.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["citizens-united", "appendix-stage-3", "media", "reinforcing-loop"]
+  },
+  "nodes": [
+    {"id": "emotionally_charged_media", "label": "Emotionally Charged Media", "position": {"x": 300, "y": 100}, "type": "stock", "description": "News and social-media content selected to provoke strong reactions — outrage, fear, validation."},
+    {"id": "audience_attention_competition", "label": "Audience Attention Competition", "position": {"x": 520, "y": 220}, "type": "variable", "description": "Market pressure among outlets to win finite human attention."},
+    {"id": "sensationalism", "label": "Sensationalism", "position": {"x": 520, "y": 420}, "type": "variable", "description": "The choice to amplify dramatic framings over careful analysis — a competitive outcome of the attention market."},
+    {"id": "public_frustration", "label": "Public Frustration", "position": {"x": 300, "y": 540}, "type": "variable", "description": "Citizens' sense of being unheard, exhausted, or alarmed — the same node that connects R2 and R3 in the full system."},
+    {"id": "trust_in_government", "label": "Trust In Government", "position": {"x": 80, "y": 420}, "type": "stock", "description": "The percentage of citizens who say they trust the federal government to do what is right."},
+    {"id": "demand_for_outrage_media", "label": "Demand for Outrage Media", "position": {"x": 80, "y": 220}, "type": "variable", "description": "Audience appetite for content that confirms the worst about the other side. Rises when trust falls."}
+  ],
+  "edges": [
+    {"id": "charged_to_attention", "source": "emotionally_charged_media", "target": "audience_attention_competition", "polarity": "positive", "description": "Emotional content wins attention; competitors must match it or lose audience."},
+    {"id": "attention_to_sensationalism", "source": "audience_attention_competition", "target": "sensationalism", "polarity": "positive", "description": "Sustained attention competition rewards the most provocative framings."},
+    {"id": "sensationalism_to_frustration", "source": "sensationalism", "target": "public_frustration", "polarity": "positive", "description": "A sensational news environment leaves citizens anxious and unable to distinguish signal from noise."},
+    {"id": "frustration_to_trust", "source": "public_frustration", "target": "trust_in_government", "polarity": "negative", "description": "Frustration and anxiety pull trust down."},
+    {"id": "trust_to_outrage", "source": "trust_in_government", "target": "demand_for_outrage_media", "polarity": "negative", "description": "When trust in mainstream institutions falls, audiences seek content that confirms their worst suspicions."},
+    {"id": "outrage_to_charged", "source": "demand_for_outrage_media", "target": "emotionally_charged_media", "polarity": "positive", "description": "Audience demand for outrage content shapes what producers make more of."}
+  ],
+  "loops": [
+    {"id": "R3", "type": "reinforcing", "label": "R3: Media Amplification", "description": "The attention market reinforces distrust because outrage drives engagement.", "path": ["emotionally_charged_media", "audience_attention_competition", "sensationalism", "public_frustration", "trust_in_government", "demand_for_outrage_media", "emotionally_charged_media"], "position": {"x": 300, "y": 320}, "is_primary": true}
+  ]
+}

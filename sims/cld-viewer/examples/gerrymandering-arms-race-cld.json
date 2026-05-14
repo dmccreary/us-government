@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "id": "gerrymandering-arms-race-cld",
+    "title": "R1: Gerrymandering Arms Race",
+    "archetype": "escalation",
+    "description": "When trust in government falls, partisan hostility rises. Each party feels morally justified in redrawing district lines to lock in safe seats. Those uncompetitive districts produce less accountable representatives, which further erodes trust — driving the next round of gerrymandering.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["trust-in-government", "gerrymandering", "polarization", "reinforcing-loop"]
+  },
+  "nodes": [
+    {
+      "id": "trust_in_government",
+      "label": "Trust In Government",
+      "position": {"x": 300, "y": 150},
+      "type": "stock",
+      "description": "The percentage of citizens who say they trust the federal government to do what is right most or all of the time. The central stock of this entire system."
+    },
+    {
+      "id": "partisan_hostility",
+      "label": "Partisan Hostility",
+      "position": {"x": 500, "y": 320},
+      "type": "variable",
+      "description": "How strongly members of one party view the other as not just wrong, but illegitimate or dangerous to the country."
+    },
+    {
+      "id": "partisan_gerrymandering",
+      "label": "Partisan Gerrymandering",
+      "position": {"x": 300, "y": 490},
+      "type": "variable",
+      "description": "The drawing of legislative district lines to favor one party. When one state party gerrymanders, the opposing party in other states often retaliates with maps of their own."
+    },
+    {
+      "id": "uncompetitive_elections",
+      "label": "Uncompetitive Elections",
+      "position": {"x": 100, "y": 320},
+      "type": "variable",
+      "description": "Elections where the outcome is essentially decided by the district map, not by voters. Safe seats reduce accountability and reward partisan extremes."
+    }
+  ],
+  "edges": [
+    {
+      "id": "trust_to_hostility",
+      "source": "trust_in_government",
+      "target": "partisan_hostility",
+      "polarity": "negative",
+      "description": "When trust in shared institutions falls, citizens are more likely to see the opposing party as the threat.",
+      "strength": "strong"
+    },
+    {
+      "id": "hostility_to_gerrymander",
+      "source": "partisan_hostility",
+      "target": "partisan_gerrymandering",
+      "polarity": "positive",
+      "description": "If you believe the other side is a threat, locking them out of power feels justified — and gerrymandering becomes the tool.",
+      "strength": "strong"
+    },
+    {
+      "id": "gerrymander_to_uncompetitive",
+      "source": "partisan_gerrymandering",
+      "target": "uncompetitive_elections",
+      "polarity": "positive",
+      "description": "Aggressive maps produce safe seats — the general election outcome is set before voters cast a ballot.",
+      "strength": "strong"
+    },
+    {
+      "id": "uncompetitive_to_trust",
+      "source": "uncompetitive_elections",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "When elections feel rigged by map-drawing, citizens lose faith that their vote matters — and trust falls.",
+      "strength": "strong"
+    }
+  ],
+  "loops": [
+    {
+      "id": "R1",
+      "type": "reinforcing",
+      "label": "R1: Gerrymandering Arms Race",
+      "description": "A self-feeding spiral: distrust fuels hostility, hostility fuels gerrymandering, gerrymandering fuels distrust.",
+      "path": ["trust_in_government", "partisan_hostility", "partisan_gerrymandering", "uncompetitive_elections", "trust_in_government"],
+      "behavior_pattern": "Escalating tit-for-tat across states, with trust drifting steadily downward over decades.",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ]
+}
