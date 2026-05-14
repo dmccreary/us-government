@@ -1,0 +1,14 @@
+{
+  "sim_id": "enlightenment-to-constitution-timeline",
+  "diagram_name": "Enlightenment Ideas to American Institutions",
+  "chapter_number": 1,
+  "chapter_title": "\"Chapter 1: Foundations of American Democracy\"",
+  "chapter_dir": "01-foundations-of-democracy",
+  "library": "vis-timeline",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *identify* (Bloom L1 — Remember) the key Enlightenment thinkers and *explain* (Bloom L2 — Understand) how each thinker's ideas appeared in specific founding documents or constitutional structures.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: timeline\n**sim-id:** enlightenment-to-constitution-timeline<br/>\n**Library:** vis-timeline<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *identify* (Bloom L1 — Remember) the key Enlightenment thinkers and *explain* (Bloom L2 — Understand) how each thinker's ideas appeared in specific founding documents or constitutional structures.\n\n**Timeline items (clickable, each opens an infobox):**\n\n| Date | Event | Infobox content |\n|------|-------|-----------------|\n| 1689 | Locke publishes *Two Treatises of Government* | Natural rights to life, liberty, property; right of revolution against tyranny |\n| 1748 | Montesquieu publishes *The Spirit of the Laws* | Separation of powers into three branches; checks and balances prevent tyranny |\n| 1762 | Rousseau publishes *The Social Contract* | Government derives authority from a foundational agreement among the people |\n| 1776 | Declaration of Independence | Locke's natural rights in Jefferson's language; right to alter or abolish government |\n| 1781 | Articles of Confederation ratified | First attempt at national government; retained Enlightenment skepticism of central power |\n| 1786–87 | Shays' Rebellion | Crisis revealing weakness of Articles; galvanized support for constitutional reform |\n| 1787 | Constitutional Convention | Applied Montesquieu's separation of powers; Rousseau's social contract in Preamble |\n| 1788 | Federalist Papers published | Madison, Hamilton, Jay articulate theory of republican government to the public |\n| 1791 | Bill of Rights ratified | Antifederalist demand fulfilled; Locke's natural rights codified as constitutional limits |\n\n**Visual design:**\n- Horizontal scrolling timeline on a parchment-colored background\n- Each item is a clickable dot/card; clicking expands an infobox below\n- Items color-coded: blue for philosophical works, red for American events, green for documents\n- Responsive: reflows to vertical list on narrow screens\n- Canvas size: 100% width × 200px (collapsed), expands on item click"
+}

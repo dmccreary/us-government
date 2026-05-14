@@ -1,0 +1,14 @@
+{
+  "sim_id": "iron-triangle-vs-issue-network",
+  "diagram_name": "Iron Triangle vs. Issue Network — Structural Comparison",
+  "chapter_number": 11,
+  "chapter_title": "\"Chapter 11: Interest Groups, Campaigns, and Elections\"",
+  "chapter_dir": "11-interest-groups-campaigns-and-elections",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *compare and contrast* (Bloom L4 — Analyze) the iron triangle and issue network models of policy influence, and *apply* (Bloom L3 — Apply) each model to a contemporary policy domain.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** iron-triangle-vs-issue-network<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *compare and contrast* (Bloom L4 — Analyze) the iron triangle and issue network models of policy influence, and *apply* (Bloom L3 — Apply) each model to a contemporary policy domain.\n\n**Design:**\n- Two panels side by side:\n  - Left: \"Iron Triangle\" — three nodes (Congressional Committee, Executive Agency, Interest Group) connected by bidirectional arrows labeled with what flows along each link (money, legislation, information, career opportunities)\n  - Right: \"Issue Network\" — many nodes (committee, multiple agencies, many interest groups, think tanks, academics, journalists, advocacy organizations) connected by a complex web of relationships\n- Clicking a node opens an infobox describing that actor's role and interest\n- Clicking an arrow opens a description of the resource or influence flowing along that link\n- A \"Case Study\" dropdown lets students apply either model to: (1) Agriculture policy, (2) Defense procurement, (3) Banking regulation, (4) Environmental regulation — loading a labeled version of the selected diagram for that domain\n- A \"Which model fits better?\" question at the bottom with explanatory text for each case study\n- Canvas: 100% width × 500px; responsive"
+}

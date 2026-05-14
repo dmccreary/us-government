@@ -1,0 +1,21 @@
+{
+  "title": "Checks and Balances Among the Three Branches",
+  "description": "Students will *identify* (Bloom L1 — Remember) each constitutional check and *explain* (Bloom L2 — Understand) how it prevents any one branch from becoming too powerful.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "checks-and-balances-diagram",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 2,
+  "chapter_title": "\"Chapter 2: The Constitution and Bill of Rights\"",
+  "chapter_dir": "02-constitution-and-bill-of-rights"
+}

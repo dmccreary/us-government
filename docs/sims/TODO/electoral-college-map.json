@@ -1,0 +1,14 @@
+{
+  "sim_id": "electoral-college-map",
+  "diagram_name": "Electoral College — Interactive Map",
+  "chapter_number": 10,
+  "chapter_title": "\"Chapter 10: Voting, Political Parties, and Participation\"",
+  "chapter_dir": "10-voting-political-parties-and-participation",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *explain* (Bloom L2 — Understand) how the Electoral College works and *analyze* (Bloom L4 — Analyze) how winner-take-all creates strategic incentives that concentrate campaign attention in swing states.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** electoral-college-map<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *explain* (Bloom L2 — Understand) how the Electoral College works and *analyze* (Bloom L4 — Analyze) how winner-take-all creates strategic incentives that concentrate campaign attention in swing states.\n\n**Design:**\n- SVG map of the United States with each state colored by electoral vote count (gradient from light = few to dark = many)\n- Each state is clickable: clicking shows a popup with the state's name, electoral vote count, and \"lean\" (safe blue/safe red/swing) based on recent election history\n- \"Build a Coalition\" mode: user clicks states to allocate them to Candidate A or Candidate B; running tally of electoral votes shown at top\n- System checks if 270 reached and displays \"Candidate A wins\" or \"Candidate B wins\"\n- A toggle shows the result under a national popular vote system for comparison (for recent elections)\n- A stats panel: \"Competitive states (swing states) in recent elections: ~10 states. Non-competitive states: ~40 states.\"\n- A reform options button: shows Electoral Vote Compact (give all electoral votes to national popular vote winner), proportional allocation (split by congressional district), and direct popular election — with pros and cons of each\n- Canvas: 100% width × 500px; responsive"
+}

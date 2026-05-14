@@ -1,0 +1,21 @@
+{
+  "title": "The Grants Spectrum — Categorical to Block",
+  "description": "Students will *compare and contrast* (Bloom L4 — Analyze) categorical grants and block grants, and *evaluate* (Bloom L5 — Evaluate) the trade-offs between federal accountability and state flexibility.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "grants-spectrum-slider",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 3,
+  "chapter_title": "\"Chapter 3: Federalism and Federal Powers\"",
+  "chapter_dir": "03-federalism-and-federal-powers"
+}

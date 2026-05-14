@@ -1,0 +1,14 @@
+{
+  "sim_id": "polling-margin-of-error",
+  "diagram_name": "Understanding Polling — Margin of Error MicroSim",
+  "chapter_number": 9,
+  "chapter_title": "\"Chapter 9: Political Opinion, Media, and Civic Reasoning\"",
+  "chapter_dir": "09-political-opinion-media-and-civic-reasoning",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *interpret* (Bloom L2 — Understand) polling data including margin of error and *apply* (Bloom L3 — Apply) this understanding to distinguish between statistically significant differences and statistical ties.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: MicroSim\n**sim-id:** polling-margin-of-error<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *interpret* (Bloom L2 — Understand) polling data including margin of error and *apply* (Bloom L3 — Apply) this understanding to distinguish between statistically significant differences and statistical ties.\n\n**Design:**\n- A horizontal bar chart showing two candidates (\"Candidate A\" and \"Candidate B\") with adjustable bars\n- Sliders on the left:\n  - \"Sample size\": 100 to 5,000 (default 1,000)\n  - \"Candidate A support\": 40% to 60%\n- As sliders adjust, the chart shows:\n  - Each bar with its percentage\n  - Error bars (±margin of error) around each bar\n  - A color-coded verdict: \"STATISTICAL TIE\" (if ranges overlap) or \"CLEAR LEAD\" (if ranges don't overlap)\n  - The formula displayed: Margin of Error = 1 / √(sample size) × 100%\n- A note at the bottom: \"Real margins of error are more complex, but this approximation captures the key relationship: larger samples → smaller margin of error → more precise estimates.\"\n- Educational callout: \"If a poll says A leads 52%-48% with ±4% margin, can you call a winner?\" → No: A's range is 48%–56%; B's range is 44%–52%. Overlapping ranges = statistical tie.\n- Canvas: 100% width × 450px; responsive"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "federalism-evolution-timeline",
+  "diagram_name": "Federalism Evolution — From Dual to Cooperative to New",
+  "chapter_number": 3,
+  "chapter_title": "\"Chapter 3: Federalism and Federal Powers\"",
+  "chapter_dir": "03-federalism-and-federal-powers",
+  "library": "vis-timeline",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *explain* (Bloom L2 — Understand) how the balance of power between national and state governments has shifted across historical eras, and *analyze* (Bloom L4 — Analyze) what drove those shifts.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: timeline\n**sim-id:** federalism-evolution-timeline<br/>\n**Library:** vis-timeline<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *explain* (Bloom L2 — Understand) how the balance of power between national and state governments has shifted across historical eras, and *analyze* (Bloom L4 — Analyze) what drove those shifts.\n\n**Design:**\n- Three horizontal bands representing the three eras (Dual Federalism 1789–1933, Cooperative Federalism 1933–1970s, New Federalism 1970s–present)\n- Each era band has a distinct background color (red fading to blue fading to purple)\n- Key events within each era are clickable markers:\n  - Dual: *McCulloch v. Maryland* (1819), *Gibbons v. Ogden* (1824), Sherman Antitrust Act (1890), *Lochner v. New York* (1905)\n  - Cooperative: New Deal programs (1933–38), Social Security Act (1935), *NLRB v. Jones & Laughlin* (1937, end of old Commerce Clause limits), Great Society programs (1965–68), Clean Air Act (1970)\n  - New Federalism: Nixon revenue sharing (1972), Reagan block grants (1981), *United States v. Lopez* (1995), Welfare Reform Act (1996), *NFIB v. Sebelius* (2012, limits on Medicaid expansion mandate)\n- Clicking a marker opens an infobox: event name, date, brief description, \"shift toward national power\" or \"shift toward state power\" indicator\n- Responsive: vertical on mobile"
+}

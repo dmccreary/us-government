@@ -1,0 +1,21 @@
+{
+  "title": "Constitutional Amendment Timeline",
+  "description": "Students will *identify* (Bloom L1 — Remember) the amendments covered in this course and *explain* (Bloom L2 — Understand) the historical context that drove each amendment's ratification.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "constitutional-amendments-timeline",
+  "library": "vis-timeline",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 2,
+  "chapter_title": "\"Chapter 2: The Constitution and Bill of Rights\"",
+  "chapter_dir": "02-constitution-and-bill-of-rights"
+}

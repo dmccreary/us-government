@@ -1,0 +1,14 @@
+{
+  "sim_id": "ai-election-threats-map",
+  "diagram_name": "AI Threat Taxonomy for Elections — Interactive Risk Map",
+  "chapter_number": 12,
+  "chapter_title": "\"Chapter 12: The Impact of AI on Government\"",
+  "chapter_dir": "12-impact-of-ai-on-government",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *classify* (Bloom L2 — Understand) different types of AI-enabled election threats and *evaluate* (Bloom L5 — Evaluate) the effectiveness of proposed countermeasures against each threat type.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** ai-election-threats-map<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *classify* (Bloom L2 — Understand) different types of AI-enabled election threats and *evaluate* (Bloom L5 — Evaluate) the effectiveness of proposed countermeasures against each threat type.\n\n**Design:**\n- A matrix with threat type on the Y-axis (deepfakes, text disinformation, micro-targeting, voter suppression via false information, infrastructure attacks) and attack vector on the X-axis (social media, email, broadcast, in-person)\n- Each cell in the matrix is clickable: clicking opens an infobox with: threat description, real example (if available), estimated difficulty to detect, proposed countermeasures\n- A toggle switches from \"Threat View\" to \"Defense View\" — highlighting which threats each defensive measure (watermarking, platform moderation, media literacy, legal penalties, technical detection) addresses\n- A \"What Works?\" panel summarizes expert consensus on most promising near-term defenses\n- Canvas: 100% width × 500px; responsive"
+}

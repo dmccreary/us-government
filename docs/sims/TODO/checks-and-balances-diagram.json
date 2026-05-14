@@ -1,0 +1,14 @@
+{
+  "sim_id": "checks-and-balances-diagram",
+  "diagram_name": "Checks and Balances Among the Three Branches",
+  "chapter_number": 2,
+  "chapter_title": "\"Chapter 2: The Constitution and Bill of Rights\"",
+  "chapter_dir": "02-constitution-and-bill-of-rights",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *identify* (Bloom L1 — Remember) each constitutional check and *explain* (Bloom L2 — Understand) how it prevents any one branch from becoming too powerful.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: interactive infographic\n**sim-id:** checks-and-balances-diagram<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *identify* (Bloom L1 — Remember) each constitutional check and *explain* (Bloom L2 — Understand) how it prevents any one branch from becoming too powerful.\n\n**Design:**\n- Three nodes arranged in a triangle: Congress (top-left), President (top-right), Judiciary (bottom-center)\n- Each node is a rounded rectangle with the branch name and its main constitutional function\n- Directed arrows between each pair of nodes, each labeled with a specific check\n- Clicking an arrow opens an infobox explaining the check in one sentence and giving a real historical example\n- Color coding: Congress = orange, President = blue, Judiciary = purple\n- Checks to include:\n\nCongress → President:\n- Override veto (2/3 both chambers)\n- Declare war (limits Commander-in-Chief)\n- Control appropriations (power of the purse)\n- Impeach and remove president\n\nPresident → Congress:\n- Veto legislation\n- Call special sessions\n- Recommend legislation (State of the Union)\n- Negotiate treaties (Senate must ratify by 2/3)\n\nCongress → Judiciary:\n- Senate confirms federal judges\n- Impeach and remove judges\n- Set jurisdiction of lower federal courts\n- Constitutional amendment can override rulings\n\nJudiciary → Congress:\n- Judicial review — can strike down statutes as unconstitutional\n\nJudiciary → President:\n- Judicial review — can strike down executive orders as unconstitutional\n\nPresident → Judiciary:\n- Nominate all federal judges (including Supreme Court)\n\n**Historical examples in infoboxes (sample):**\n- Override veto: Congress overrode President Nixon's veto of the War Powers Resolution in 1973\n- Judicial review of president: *Youngstown Sheet & Tube Co. v. Sawyer* (1952) struck down Truman's seizure of steel mills\n- Senate confirms judges: Senate rejected Bork (1987), confirmed Kagan (2010)\n\n**Interactive feature:** A \"Test Yourself\" button hides all arrow labels; student must click each arrow and type what check it represents before revealing the answer.\n\n**Canvas:** 100% width × 500px; responsive stacking on mobile."
+}

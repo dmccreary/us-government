@@ -1,0 +1,21 @@
+{
+  "title": "How a Bill Becomes a Law",
+  "description": "Students will *recall* (Bloom L1 — Remember) the sequence of steps in the legislative process and *apply* (Bloom L3 — Apply) this knowledge to determine at what stage a hypothetical bill was defeated.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "bill-to-law-flowchart",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 4,
+  "chapter_title": "\"Chapter 4: Congress: Structure and Processes\"",
+  "chapter_dir": "04-congress-structure-and-processes"
+}

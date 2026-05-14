@@ -1,0 +1,14 @@
+{
+  "sim_id": "gerrymandering-microsim",
+  "diagram_name": "Gerrymandering — Packing and Cracking Visualized",
+  "chapter_number": 4,
+  "chapter_title": "\"Chapter 4: Congress: Structure and Processes\"",
+  "chapter_dir": "04-congress-structure-and-processes",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will *demonstrate* (Bloom L3 — Apply) how district boundary drawing affects election outcomes, and *analyze* (Bloom L4 — Analyze) the difference between packing and cracking strategies.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-13",
+  "specification": "Type: MicroSim\n**sim-id:** gerrymandering-microsim<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Students will *demonstrate* (Bloom L3 — Apply) how district boundary drawing affects election outcomes, and *analyze* (Bloom L4 — Analyze) the difference between packing and cracking strategies.\n\n**Design:**\n- A grid of ~50 cells representing a hypothetical state, each cell colored red or blue (fixed voter distribution: 60% blue, 40% red)\n- Three preset district configurations selectable by buttons:\n  1. \"Fair\" — compact districts roughly proportional to voter distribution → result: ~60% blue seats, ~40% red seats\n  2. \"Pack Blue\" — blue voters packed into 2 landslide districts; red wins 5 of 7 remaining → result: red wins majority of seats despite blue voter majority\n  3. \"Crack Blue\" — blue majority split across multiple districts where blue loses narrowly → result: similar to Pack scenario\n- Each configuration shows the resulting seat distribution as a bar chart below the grid\n- Clicking on a district highlights its voters and shows: \"District X: 72% blue, 28% red — SAFE BLUE\" or \"District Y: 54% red, 46% blue — LEAN RED\"\n- A \"Draw Your Own\" mode lets the student drag district borders and see how their choices change the seat distribution in real time\n- Key stat displayed: \"Voter share vs. seat share — the gap is the gerrymander\"\n- Canvas: 700px × 500px; responsive scaling"
+}
