@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Government Trust Trend (1958–2025)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            padding: 10px;
+        }
+        #container {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 14px 16px 12px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        #chart-wrapper {
+            position: relative;
+            height: 400px;
+        }
+        #events-legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 18px;
+            margin-top: 10px;
+            justify-content: center;
+        }
+        .event-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px;
+            color: #333;
+            cursor: default;
+        }
+        .event-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        #source {
+            text-align: center;
+            font-size: 11px;
+            color: #888;
+            margin-top: 8px;
+        }
+        #source a { color: #888; }
+    </style>
+</head>
+<body>
+<main>
+    <div id="container">
+        <div id="chart-wrapper">
+            <canvas id="trustChart"></canvas>
+        </div>
+        <div id="events-legend"></div>
+        <div id="source">
+            Source: <a href="https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/" target="_blank">
+            Pew Research Center — Public Trust in Government: 1958–2025</a>
+        </div>
+    </div>
+</main>
+<script src="government-trust-trend.js"></script>
+</body>
+</html>

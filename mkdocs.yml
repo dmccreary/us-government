@@ -87,26 +87,32 @@ nav:
       - Quiz Generation Report: learning-graph/quiz-generation-report.md
 
   - MicroSims:
-      - List of MicroSims: sims/index.md
-      - Learning Graph Viewer: sims/graph-viewer/index.md
-      - AI Threats to Elections — Risk Map: sims/ai-election-threats-map/index.md
-      - Articles vs. Constitution — Powers Comparison: sims/articles-vs-constitution-powers/index.md
-      - Bill-to-Law Flowchart: sims/bill-to-law-flowchart/index.md
-      - Checks and Balances Diagram: sims/checks-and-balances-diagram/index.md
-      - Civil Rights Milestones Timeline: sims/civil-rights-timeline/index.md
-      - Cognitive Bias Identifier: sims/cognitive-bias-identifier/index.md
-      - Constitutional Amendments Timeline: sims/constitutional-amendments-timeline/index.md
-      - Electoral College — Interactive Map: sims/electoral-college-map/index.md
-      - Enlightenment to Constitution Timeline: sims/enlightenment-to-constitution-timeline/index.md
-      - Federal Court Hierarchy: sims/federal-court-hierarchy/index.md
-      - Federalism Evolution Timeline: sims/federalism-evolution-timeline/index.md
-      - Gerrymandering — Packing and Cracking: sims/gerrymandering-microsim/index.md
-      - Grants Spectrum Slider: sims/grants-spectrum-slider/index.md
-      - Great Compromise — Two-Chamber Solution: sims/great-compromise-representation/index.md
-      - Iron Triangle vs. Issue Network: sims/iron-triangle-vs-issue-network/index.md
-      - Polling — Margin of Error: sims/polling-margin-of-error/index.md
-      - Presidential Power Categorizer: sims/presidential-power-categorizer/index.md
-      - Spoils vs. Merit System: sims/spoils-to-merit-timeline/index.md
+    - List of MicroSims: sims/index.md
+    - AI Threat Taxonomy for Elections — Interactive Risk Map: sims/ai-election-threats-map/index.md
+    - Checks and Balances Among the Three Branches: sims/checks-and-balances-diagram/index.md
+    - Civil Rights Milestones — Legal and Legislative Timeline: sims/civil-rights-timeline/index.md
+    - Cognitive Bias in Political Reasoning — Interactive Scenario Explorer: sims/cognitive-bias-identifier/index.md
+    - Constitutional Amendment Timeline: sims/constitutional-amendments-timeline/index.md
+    - Corruption Perceptions Index — Western Democracies: sims/corruption-perception-rankings/index.md
+    - Electoral College — Interactive Map: sims/electoral-college-map/index.md
+    - Enlightenment Ideas to American Institutions: sims/enlightenment-to-constitution-timeline/index.md
+    - Federalism Evolution — From Dual to Cooperative to New: sims/federalism-evolution-timeline/index.md
+    - Gerrymandering — Packing and Cracking Visualized: sims/gerrymandering-microsim/index.md
+    - Government Trust Trend (1958–2025): sims/government-trust-trend/index.md
+    - Great Compromise — The Two-Chamber Solution: sims/great-compromise-representation/index.md
+    - How a Bill Becomes a Law: sims/bill-to-law-flowchart/index.md
+    - Iron Triangle vs. Issue Network — Structural Comparison: sims/iron-triangle-vs-issue-network/index.md
+    - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Powers Comparison — Articles vs. Constitution: sims/articles-vs-constitution-powers/index.md
+    - Presidential Power — Formal vs. Informal Sources: sims/presidential-power-categorizer/index.md
+    - Spoils System vs. Merit System — Comparing Federal Employment Eras: sims/spoils-to-merit-timeline/index.md
+    - The Grants Spectrum — Categorical to Block: sims/grants-spectrum-slider/index.md
+    - Three-Tier Federal Court Hierarchy: sims/federal-court-hierarchy/index.md
+    - Understanding Polling — Margin of Error MicroSim: sims/polling-margin-of-error/index.md
+
+
+
+
 
   - FAQ: faq.md
   - Glossary: glossary.md
@@ -193,6 +199,7 @@ exclude_docs: |
   **/cover-prompt.md
   **/TODO.md
   img/mascot/character-sheet.md
+  img/cover-image-prompt.md
 
 # Rebuild on changes during `mkdocs serve`
 watch:

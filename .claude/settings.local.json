@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:127.0.0.1)",
+      "Bash(curl -s http://127.0.0.1:8000/us-history/)",
+      "Bash(curl -s -o /tmp/social-index.png http://127.0.0.1:8000/us-history/assets/images/social/index.png)",
+      "Read(//tmp/**)",
+      "Bash(identify /tmp/social-index.png)",
+      "WebSearch",
+      "Bash(ls -t ~/.claude/projects/ | head -20)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs '-I{}' sh -c ' *)",
+      "Bash(xargs ls -t)",
+      "Bash(find ~/.claude/projects/ -name \"*.jsonl\" -printf \"%T@ %p\\\\n\" 2>/dev/null | sort -rn | head -50 | awk '{print $2}' > /tmp/transcript_files.txt *)",
+      "Bash(ls ~/.claude/skills/claude-skills/src/image-generation/generate-cover.sh 2>/dev/null && echo \"FOUND\" || echo \"NOT FOUND\")",
+      "Bash(find /Users/dan/Documents/ws/claude-skills -name \"generate-cover.sh\" 2>/dev/null)",
+      "Bash(/Users/dan/Documents/ws/claude-skills/src/image-generation/generate-cover.sh --local-prompt)",
+      "Bash(curl -s https://dmccreary.github.io/dmccreary/img/dan-headshot-small.png --output /Users/dan/Documents/ws/us-government/docs/img/dan-headshot-small.png)",
+      "WebFetch(domain:www.pewresearch.org)",
+      "WebFetch(domain:news.gallup.com)",
+      "WebFetch(domain:ourworldindata.org)",
+      "WebFetch(domain:csslab.uc3m.es)",
+      "WebFetch(domain:www.edwardconard.com)",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:www.transparency.org)",
+      "WebFetch(domain:en.wikipedia.org)"
+    ]
+  }
+}
