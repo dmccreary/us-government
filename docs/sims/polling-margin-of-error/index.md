@@ -1,28 +1,24 @@
 ---
 title: Understanding Polling — Margin of Error MicroSim
 description: Students will *interpret* (Bloom L2 — Understand) polling data including margin of error and *apply* (Bloom L3 — Apply) this understanding to distinguish between statistically significant differences and statistical ties.
-status: scaffold
+status: implemented
 library: p5.js
-bloom_level: TBD
+bloom_level: Apply
 ---
 
 # Understanding Polling — Margin of Error MicroSim
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
 Students will *interpret* (Bloom L2 — Understand) polling data including margin of error and *apply* (Bloom L3 — Apply) this understanding to distinguish between statistically significant differences and statistical ties.
 
-- **Bloom Level:** TBD
-- **Bloom Verb:** TBD
+- **Bloom Level:** Apply (L3)
+- **Bloom Verb:** Interpret, Apply
 - **Library:** p5.js
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="472" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

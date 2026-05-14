@@ -1,28 +1,24 @@
 ---
 title: Electoral College — Interactive Map
 description: Students will *explain* (Bloom L2 — Understand) how the Electoral College works and *analyze* (Bloom L4 — Analyze) how winner-take-all creates strategic incentives that concentrate campaign attention in swing states.
-status: scaffold
+status: implemented
 library: p5.js
-bloom_level: TBD
+bloom_level: Analyze
 ---
 
 # Electoral College — Interactive Map
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
 Students will *explain* (Bloom L2 — Understand) how the Electoral College works and *analyze* (Bloom L4 — Analyze) how winner-take-all creates strategic incentives that concentrate campaign attention in swing states.
 
-- **Bloom Level:** TBD
-- **Bloom Verb:** TBD
+- **Bloom Level:** Analyze (L4)
+- **Bloom Verb:** Explain, Analyze
 - **Library:** p5.js
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="722" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
