@@ -1,7 +1,7 @@
 ---
 title: Iron Triangle vs. Issue Network — Structural Comparison
 description: Students will *compare and contrast* (Bloom L4 — Analyze) the iron triangle and issue network models of policy influence, and *apply* (Bloom L3 — Apply) each model to a contemporary policy domain.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Analyze
 ---

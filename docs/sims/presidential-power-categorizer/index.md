@@ -1,7 +1,7 @@
 ---
 title: Presidential Power — Formal vs. Informal Sources
 description: Students will *classify* (Bloom L2 — Understand) presidential powers as enumerated (constitutional) or informal (practice-based), and *apply* (Bloom L3 — Apply) this distinction to novel scenarios.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Apply
 ---

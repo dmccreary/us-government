@@ -1,7 +1,7 @@
 ---
 title: Understanding Polling — Margin of Error MicroSim
 description: Students will *interpret* (Bloom L2 — Understand) polling data including margin of error and *apply* (Bloom L3 — Apply) this understanding to distinguish between statistically significant differences and statistical ties.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Apply
 ---

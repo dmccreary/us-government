@@ -54,7 +54,7 @@ function setup() {
 function initCards() {
     cards = POWERS.map((p, i) => ({
         ...p,
-        w: 170, h: 38,
+        w: 170, h: 36,
         dragging: false, placed: null
     }));
     layoutDeck();
@@ -70,7 +70,7 @@ function layoutDeck() {
         const col = i % 4;
         const row = Math.floor(i / 4);
         c.x = 20 + col * colW + (colW - c.w) / 2;
-        c.y = top + row * 50;
+        c.y = top + row * 44;
     });
 }
 
@@ -175,9 +175,9 @@ function drawCard(c) {
     rect(c.x, c.y, c.w, c.h, 5);
     noStroke();
     fill(33, 37, 41);
-    textAlign(LEFT, CENTER);
-    textSize(11);
-    text(c.label, c.x + 6, c.y + c.h / 2 - 1, c.w - 24, c.h);
+    textAlign(CENTER, TOP);
+    textSize(10);
+    text(c.label, c.x + 6, c.y + 4, c.w - 12, c.h - 6);
     if (mark) {
         textAlign(RIGHT, CENTER);
         textStyle(BOLD);
@@ -204,7 +204,7 @@ function placeInZone(list, z) {
     list.forEach((c, i) => {
         c.w = cardW;
         c.x = z.x + 10;
-        c.y = top + i * 42;
+        c.y = top + i * 41;
         if (c.y + c.h > z.y + z.h - 4) c.y = z.y + z.h - c.h - 4;
     });
 }

@@ -171,12 +171,12 @@ function drawIronTriangle(x, y, w, h) {
     for (const n of nodes) {
         fill(n.col);
         noStroke();
-        circle(n.x, n.y, 60);
+        circle(n.x, n.y, 86);
         fill(255);
         textAlign(CENTER, CENTER);
         textStyle(BOLD);
         textSize(10);
-        text(n.label, n.x, n.y, 100, 60);
+        text(wrapLabel(n.label), n.x - 60, n.y - 43, 120, 86);
         textStyle(NORMAL);
     }
 }
@@ -241,14 +241,18 @@ function drawIssueNetwork(x, y, w, h) {
     for (const n of nodes) {
         fill(n.col);
         noStroke();
-        circle(n.x, n.y, 44);
+        circle(n.x, n.y, 64);
         fill(255);
         textAlign(CENTER, CENTER);
         textStyle(BOLD);
         textSize(8);
-        text(n.label, n.x, n.y, 70, 44);
+        text(wrapLabel(n.label), n.x - 42, n.y - 32, 84, 64);
         textStyle(NORMAL);
     }
+}
+
+function wrapLabel(s) {
+    return s.replace(/ \/ /g, '/\n').replace(/ /g, '\n');
 }
 
 function drawArrowhead(x, y, ang) {
