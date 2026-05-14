@@ -1,0 +1,21 @@
+{
+  "title": "AI Threat Taxonomy for Elections — Interactive Risk Map",
+  "description": "Students will *classify* (Bloom L2 — Understand) different types of AI-enabled election threats and *evaluate* (Bloom L5 — Evaluate) the effectiveness of proposed countermeasures against each threat type.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "ai-election-threats-map",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 12,
+  "chapter_title": "\"Chapter 12: The Impact of AI on Government\"",
+  "chapter_dir": "12-impact-of-ai-on-government"
+}

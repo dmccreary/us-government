@@ -1,0 +1,21 @@
+{
+  "title": "Cognitive Bias in Political Reasoning — Interactive Scenario Explorer",
+  "description": "Students will *classify* (Bloom L2 — Understand) examples of biased political reasoning as confirmation bias, motivated reasoning, availability heuristic, in-group favoritism, or anchoring, and *apply* (Bloom L3 — Apply) this knowledge to evaluate political arguments they encounter.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-13",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "cognitive-bias-identifier",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 9,
+  "chapter_title": "\"Chapter 9: Political Opinion, Media, and Civic Reasoning\"",
+  "chapter_dir": "09-political-opinion-media-and-civic-reasoning"
+}

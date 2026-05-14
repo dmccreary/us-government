@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Bias in Political Reasoning — Interactive Scenario Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Cognitive Bias in Political Reasoning — Interactive Scenario Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> cognitive-bias-identifier</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will *classify* (Bloom L2 — Understand) examples of biased political reasoning as confirmation bias, motivated reasoning, availability heuristic, in-group favoritism, or anchoring, and *apply* (Bloom L3 — Apply) this knowledge to evaluate political arguments they encounter.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: MicroSim
+    **sim-id:** cognitive-bias-identifier<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    **Learning objective:** Students will *classify* (Bloom L2 — Understand) examples of biased political reasoning as confirmation bias, motivated reasoning, availability heuristic, in-group favoritism, or anchoring, and *apply* (Bloom L3 — Apply) this knowledge to evaluate political arguments they encounter.
+    
+    **Design:**
+    - A carousel of 8 short scenario cards (political reasoning vignettes, 2–3 sentences each)
+    - Example scenarios:
+      1. "When I heard the crime rate had dropped, I immediately looked for reasons the statistic might be wrong — because I believe crime is getting worse." → Confirmation bias / motivated reasoning
+      2. "I read about a recent terrorist attack and now I think terrorism is the #1 threat facing the country, even though car accidents kill far more Americans." → Availability heuristic
+      3. "I think my party's candidate's use of executive orders is normal and necessary, but the other party's candidate doing the same thing is a constitutional crisis." → In-group favoritism / motivated reasoning
+      4. "The pollster first told me the candidate was at 70%, so when they revised down to 52%, it still felt high." → Anchoring bias
+    - For each scenario, student clicks to identify the bias from a drop-down list
+    - After answering, the card flips to reveal the correct bias and a one-paragraph explanation of how it operates in political contexts
+    - Score tracked at top; final screen shows "X of 8 correct" with review option
+    - Canvas: 600px × 400px; responsive
+    -->
+</body>
+</html>
