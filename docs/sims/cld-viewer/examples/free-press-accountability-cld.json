@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "id": "free-press-accountability-cld",
+    "title": "B2: Free Press Accountability",
+    "archetype": "balancing-process",
+    "description": "The First Amendment's protection of a free press makes this loop possible. When trust falls, investigative journalists dig harder. Their reporting exposes wrongdoing, prosecutors and Congress hold officials accountable, corruption falls, and trust recovers.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["trust-in-government", "free-press", "accountability", "balancing-loop"]
+  },
+  "nodes": [
+    {
+      "id": "trust_in_government",
+      "label": "Trust In Government",
+      "position": {"x": 300, "y": 150},
+      "type": "stock",
+      "description": "The percentage of citizens who say they trust the federal government to do what is right most or all of the time."
+    },
+    {
+      "id": "investigative_journalism",
+      "label": "Investigative Journalism",
+      "position": {"x": 500, "y": 320},
+      "type": "variable",
+      "description": "Reporting that digs beyond official statements — FOIA requests, whistleblower interviews, leaked documents. Watergate is the archetype."
+    },
+    {
+      "id": "officials_held_accountable",
+      "label": "Officials Held Accountable",
+      "position": {"x": 300, "y": 490},
+      "type": "variable",
+      "description": "Resignations, indictments, congressional hearings, and electoral defeats triggered by exposed wrongdoing."
+    },
+    {
+      "id": "political_corruption",
+      "label": "Political Corruption",
+      "position": {"x": 100, "y": 320},
+      "type": "variable",
+      "description": "Bribery, self-dealing, abuse of office, and other betrayals of the public trust."
+    }
+  ],
+  "edges": [
+    {
+      "id": "trust_to_journalism",
+      "source": "trust_in_government",
+      "target": "investigative_journalism",
+      "polarity": "negative",
+      "description": "Falling trust drives reader demand for accountability reporting — and motivates reporters to dig.",
+      "strength": "moderate"
+    },
+    {
+      "id": "journalism_to_accountability",
+      "source": "investigative_journalism",
+      "target": "officials_held_accountable",
+      "polarity": "positive",
+      "description": "Exposed wrongdoing prompts prosecutors, ethics committees, and voters to act.",
+      "strength": "strong"
+    },
+    {
+      "id": "accountability_to_corruption",
+      "source": "officials_held_accountable",
+      "target": "political_corruption",
+      "polarity": "negative",
+      "description": "Real consequences for past offenders deter future ones — corruption drops.",
+      "strength": "moderate"
+    },
+    {
+      "id": "corruption_to_trust",
+      "source": "political_corruption",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "Less corruption — and the visible enforcement of consequences — lets trust recover.",
+      "strength": "strong"
+    }
+  ],
+  "loops": [
+    {
+      "id": "B2",
+      "type": "balancing",
+      "label": "B2: Free Press Accountability",
+      "description": "The constitutional check that the Framers built in: a free press that can investigate without government permission.",
+      "path": ["trust_in_government", "investigative_journalism", "officials_held_accountable", "political_corruption", "trust_in_government"],
+      "behavior_pattern": "Episodic — works in bursts around major scandals (Watergate, Iran-Contra, Abu Ghraib).",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ]
+}

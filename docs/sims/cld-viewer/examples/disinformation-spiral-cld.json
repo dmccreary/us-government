@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "id": "disinformation-spiral-cld",
+    "title": "R2: Disinformation Spiral",
+    "archetype": "escalation",
+    "description": "When trust in mainstream institutions falls, citizens seek alternative sources of news. Those sources are more likely to spread disinformation and conspiracy theories, which makes people even more suspicious of official information — driving trust still lower.",
+    "version": "1.0.0",
+    "created_date": "2026-05-14",
+    "author": "US Government Intelligent Textbook",
+    "tags": ["trust-in-government", "disinformation", "media", "reinforcing-loop"]
+  },
+  "nodes": [
+    {
+      "id": "trust_in_government",
+      "label": "Trust In Government",
+      "position": {"x": 300, "y": 150},
+      "type": "stock",
+      "description": "The percentage of citizens who say they trust the federal government to do what is right most or all of the time."
+    },
+    {
+      "id": "alternative_media_use",
+      "label": "Alternative Media Use",
+      "position": {"x": 500, "y": 320},
+      "type": "variable",
+      "description": "How much citizens rely on partisan blogs, social-media influencers, podcasts, and conspiracy forums instead of mainstream journalism."
+    },
+    {
+      "id": "disinformation_spread",
+      "label": "Disinformation Spread",
+      "position": {"x": 300, "y": 490},
+      "type": "variable",
+      "description": "The amount of false or misleading content circulating about elections, public officials, and government programs."
+    },
+    {
+      "id": "belief_in_conspiracies",
+      "label": "Belief in Conspiracies",
+      "position": {"x": 100, "y": 320},
+      "type": "variable",
+      "description": "The share of citizens who believe government is secretly controlled by hidden actors, election results are fraudulent, or core institutions are corrupt by design."
+    }
+  ],
+  "edges": [
+    {
+      "id": "trust_to_altmedia",
+      "source": "trust_in_government",
+      "target": "alternative_media_use",
+      "polarity": "negative",
+      "description": "When official sources lose credibility, citizens search elsewhere for explanations.",
+      "strength": "strong"
+    },
+    {
+      "id": "altmedia_to_disinfo",
+      "source": "alternative_media_use",
+      "target": "disinformation_spread",
+      "polarity": "positive",
+      "description": "Alternative outlets have weaker fact-checking norms, so falsehoods spread faster through them.",
+      "strength": "strong"
+    },
+    {
+      "id": "disinfo_to_conspiracies",
+      "source": "disinformation_spread",
+      "target": "belief_in_conspiracies",
+      "polarity": "positive",
+      "description": "Repeated exposure to false claims makes them feel familiar — and familiar feels true.",
+      "strength": "moderate"
+    },
+    {
+      "id": "conspiracies_to_trust",
+      "source": "belief_in_conspiracies",
+      "target": "trust_in_government",
+      "polarity": "negative",
+      "description": "If you believe the system is rigged, you cannot trust the institutions that run it.",
+      "strength": "strong"
+    }
+  ],
+  "loops": [
+    {
+      "id": "R2",
+      "type": "reinforcing",
+      "label": "R2: Disinformation Spiral",
+      "description": "Each turn of the loop pushes more citizens out of the shared information commons and into alternative realities.",
+      "path": ["trust_in_government", "alternative_media_use", "disinformation_spread", "belief_in_conspiracies", "trust_in_government"],
+      "behavior_pattern": "Accelerating fragmentation of the public's shared facts.",
+      "position": {"x": 300, "y": 320},
+      "is_primary": true
+    }
+  ]
+}

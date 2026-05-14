@@ -89,6 +89,8 @@ nav:
   - MicroSims:
     - List of MicroSims: sims/index.md
     - AI Threat Taxonomy for Elections — Interactive Risk Map: sims/ai-election-threats-map/index.md
+    - Causal Loop Diagram Viewer: sims/cld-viewer/index.md
+    - Causes of Political Corruption — Trust In Government CLD: sims/causes-of-political-corruption/index.md
     - Checks and Balances Among the Three Branches: sims/checks-and-balances-diagram/index.md
     - Civil Rights Milestones — Legal and Legislative Timeline: sims/civil-rights-timeline/index.md
     - Cognitive Bias in Political Reasoning — Interactive Scenario Explorer: sims/cognitive-bias-identifier/index.md

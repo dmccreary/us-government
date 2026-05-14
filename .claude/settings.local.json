@@ -23,7 +23,12 @@
       "WebFetch(domain:www.edwardconard.com)",
       "mcp__Claude_Preview__preview_start",
       "WebFetch(domain:www.transparency.org)",
-      "WebFetch(domain:en.wikipedia.org)"
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(ls /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/ /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/ /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/examples/ 2>/dev/null)",
+      "Bash(cp /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-inline.js /Users/dan/Documents/ws/us-government/docs/sims/cld-viewer/cld-inline.js)",
+      "Bash(cp /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/main.html /Users/dan/Documents/ws/us-government/docs/sims/cld-viewer/main.html)",
+      "Bash(cp /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/cld-viewer.js /Users/dan/Documents/ws/us-government/docs/sims/cld-viewer/cld-viewer.js)",
+      "Bash(cp /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/reinforcing-loop-cw.png /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/reinforcing-loop-ccw.png /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/balancing-loop-cw.png /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/balancing-loop-ccw.png /Users/dan/Documents/ws/us-government/docs/sims/cld-viewer/)"
     ]
   }
 }

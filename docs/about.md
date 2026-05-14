@@ -13,8 +13,6 @@ Hello, future citizens! I'm **Lex**, your bald eagle guide through the laws, ins
 
 <div style="clear: both;"></div>
 
----
-
 ## Why This Intelligent Textbook
 
 Civic knowledge is a cornerstone of self-governance — yet by nearly every measure, American students are not getting enough of it.
@@ -34,8 +32,6 @@ Civic knowledge is a cornerstone of self-governance — yet by nearly every meas
 These numbers represent millions of students — including yours — who will soon vote, serve on juries, and make policy decisions without the tools to reason critically about the institutions they inherit. This textbook exists to close that gap.
 
 This book takes a fundamentally different approach from a traditional civics textbook. It is built on a **learning graph of 200 interconnected concepts** organized across all twelve major topic areas of the AP curriculum. Concepts are introduced in the order their prerequisites are established, so understanding accumulates naturally from chapter to chapter rather than jumping arbitrarily between topics. Throughout the book you will find **20 interactive MicroSims** — browser-based simulations that let students manipulate models, explore timelines, trace the legislative process step by step, and discover constitutional principles through experimentation rather than memorization. The entire textbook is **open source and free** — no paywalls, no access codes, no expensive annual editions that make last year's copy obsolete.
-
----
 
 ## A Government in Need of Repair
 
