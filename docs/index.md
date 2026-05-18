@@ -1,9 +1,9 @@
 ---
 title: US Government
 description: An interactive intelligent textbook on the structure, function, and history of the United States government — aligned with the College Board AP US Government and Politics curriculum for high school students in grades 9–12.
-image: /us-government/img/cover.png
-og:image: /us-government/img/cover.png
-twitter:image: /us-government/img/cover.png
+image: /img/cover.png
+og:image: /img/cover.png
+twitter:image: /img/cover.png
 hide:
   - toc
 ---

@@ -1,7 +1,7 @@
 ---
 title: Spoils System vs. Merit System — Comparing Federal Employment Eras
 description: Students will *compare* (Bloom L2 — Understand) the spoils and merit systems and *explain* (Bloom L2 — Understand) why the transition occurred and what problems it solved.
-status: implemented
+status: approved
 library: p5.js
 bloom_level: Understand
 ---

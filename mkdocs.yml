@@ -90,7 +90,6 @@ nav:
     - List of MicroSims: sims/index.md
     - AI Threat Taxonomy for Elections — Interactive Risk Map: sims/ai-election-threats-map/index.md
     - Causal Loop Diagram Viewer: sims/cld-viewer/index.md
-    - Causes of Political Corruption — Trust In Government CLD: sims/causes-of-political-corruption/index.md
     - Checks and Balances Among the Three Branches: sims/checks-and-balances-diagram/index.md
     - Civil Rights Milestones — Legal and Legislative Timeline: sims/civil-rights-timeline/index.md
     - Cognitive Bias in Political Reasoning — Interactive Scenario Explorer: sims/cognitive-bias-identifier/index.md
@@ -102,21 +101,19 @@ nav:
     - Gerrymandering — Packing and Cracking Visualized: sims/gerrymandering-microsim/index.md
     - Government Trust Trend (1958–2025): sims/government-trust-trend/index.md
     - Great Compromise — The Two-Chamber Solution: sims/great-compromise-representation/index.md
+    - Grants Spectrum — Categorical to Block: sims/grants-spectrum-slider/index.md
     - How a Bill Becomes a Law: sims/bill-to-law-flowchart/index.md
     - Iron Triangle vs. Issue Network — Structural Comparison: sims/iron-triangle-vs-issue-network/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
     - Powers Comparison — Articles vs. Constitution: sims/articles-vs-constitution-powers/index.md
     - Presidential Power — Formal vs. Informal Sources: sims/presidential-power-categorizer/index.md
     - Spoils System vs. Merit System — Comparing Federal Employment Eras: sims/spoils-to-merit-timeline/index.md
-    - The Grants Spectrum — Categorical to Block: sims/grants-spectrum-slider/index.md
     - Three-Tier Federal Court Hierarchy: sims/federal-court-hierarchy/index.md
+    - Trust In Government: sims/trust-in-government/index.md
     - Understanding Polling — Margin of Error MicroSim: sims/polling-margin-of-error/index.md
 
 
-
-
-
-  - Appendix:
+  - Appendices:
     - Reading a Causal Loop Diagram: appendix/reading-a-causal-loop-diagram.md
     - Citizens United CLD: appendix/citizens-united-cld.md
     - 10 Key Concepts via CLD: appendix/10-key-concepts-via-cld.md

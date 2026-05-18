@@ -30,7 +30,9 @@
       "Bash(cp /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/cld-viewer.js /Users/dan/Documents/ws/us-government/docs/sims/cld-viewer/cld-viewer.js)",
       "Bash(cp /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/reinforcing-loop-cw.png /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/reinforcing-loop-ccw.png /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/balancing-loop-cw.png /Users/dan/.claude/skills/causal-loop-diagram-generator/assets/cld-viewer/balancing-loop-ccw.png /Users/dan/Documents/ws/us-government/docs/sims/cld-viewer/)",
       "Bash(echo \"exit=$?\")",
-      "Bash(grep -v ':0$')"
+      "Bash(grep -v ':0$')",
+      "Bash(mkdocs gh-deploy *)",
+      "Bash(ls /Users/dan/Documents/ws/claude-skills/skills/init-textbook/)"
     ]
   }
 }

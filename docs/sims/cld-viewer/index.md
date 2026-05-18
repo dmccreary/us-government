@@ -1,7 +1,7 @@
 ---
 title: Causal Loop Diagram Viewer
 description: A shared fullscreen viewer for browsing and editing the causal loop diagrams used across this textbook. Load any CLD file, drag nodes to reposition them, and save the new layout.
-status: built
+status: approved
 library: vis-network
 bloom_level: Apply
 hide:

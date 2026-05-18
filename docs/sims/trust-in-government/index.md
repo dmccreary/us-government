@@ -1,7 +1,7 @@
 ---
 title: Causes of Political Corruption — Trust In Government Causal Loop Diagram
 description: An interactive systems-thinking view of the forces that erode and restore trust in the U.S. government. Four feedback loops — two reinforcing, two balancing — centered on the stock of public trust.
-status: built
+status: approved
 library: vis-network
 bloom_level: Analyze
 ---
